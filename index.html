@@ -161,12 +161,20 @@ h1{font-size:clamp(24px,5.5vw,34px);font-weight:800;letter-spacing:-.02em;line-h
     Call 0422 105 545</a>
 </div></div>
 
-<script src="battery-finder-data.js?v=2026-07-15-3"></script>
+<script src="battery-finder-data.js?v=2026-07-15-4"></script>
 <script>
 (function(){
   const DATA = (window.BATTERY_FINDER_DATA && window.BATTERY_FINDER_DATA.fitments) || [];
   const $ = id => document.getElementById(id);
   const state = {make:null, model:null, variant:null, q:'', year:''};
+  // Cross-page handoff: home-page compact mode -> Battery Finder page (same-origin iframes share localStorage)
+  const P=new URLSearchParams(location.search);
+  const HOME=P.get('home')==='1', TARGET=P.get('target')||'';
+  if(P.get('make')) state.make=P.get('make').toUpperCase();
+  if(P.get('model')) state.model=P.get('model').toUpperCase();
+  if(!HOME){ try{ const h=JSON.parse(localStorage.getItem('bf_handoff')||'null');
+    if(h && Date.now()-h.t<60000){ state.make=h.m; state.model=h.o; }
+    localStorage.removeItem('bf_handoff'); }catch(e){} }
 
   const uniq = a => [...new Set(a)];
   const byMake = m => DATA.filter(f => f.make === m);
@@ -174,6 +182,10 @@ h1{font-size:clamp(24px,5.5vw,34px);font-weight:800;letter-spacing:-.02em;line-h
   const vlabel = f => [f.engineTrim, f.series, f.yearRange].filter(Boolean).join(' · ') || f.yearRange;
 
   function render(){
+    if(HOME && TARGET && state.make && state.model){
+      try{ localStorage.setItem('bf_handoff', JSON.stringify({m:state.make,o:state.model,t:Date.now()})); }catch(e){}
+      window.top.location.href = TARGET; return;
+    }
     renderSteps(); renderPlate(); renderOptions(); renderResults();
   }
 
