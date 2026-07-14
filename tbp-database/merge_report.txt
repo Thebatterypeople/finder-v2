@@ -1,0 +1,21 @@
+evicted from live JS: 0
+RACV2022 rows spliced: 3145
+rows with >=1 Power Crank option: 3075
+rows as Call Us: 70
+total fitments: 5187
+
+UNMAPPED RACV CODES (fill racv_parts/crossref):
+  2134: 78 uses
+  6603: 15 uses
+  4052: 2 uses
+  1020: 1 uses
+  6612: 1 uses
+
+SKUs in crossref but not in live catalog (pull details from Wix):
+  NPCMX14-AUX: 1
+
+AGM-rule blocks (EFB suppressed for AGM-required vehicle):
+  5344->EFBDIN35H: 18
+  4044->EFBDIN77H: 7
+  4036->EFBDIN66H: 6
+  3972->EFBDIN77H: 3

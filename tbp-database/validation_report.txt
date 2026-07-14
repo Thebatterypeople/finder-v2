@@ -1,0 +1,24 @@
+RACV BOOK VALIDATION — 2026-07-14 (rebuild after comma-alternate fix)
+
+[PASS] A1 embedded page-count annotations match (40 pages)
+[PASS] A2 p141 = 27 rows (hand-verified)
+[PASS] A3 batch = 1053 rows
+[PASS] A4 all 40 pages present
+[PASS] B1 book = 3104 rows
+[PASS] B2 year formats parse
+[PASS] B4 all part codes 4-digit
+[PASS] B5 pages 16-149, only p55 empty
+[PASS] B6 reg_required Yes/blank only
+[PASS] B7 only known p126 Impreza exact dupe
+[PASS] C1 p130 Suzuki band quirk
+[PASS] C2 p130 TATA present
+[PASS] C3 p123 Rolls-Royce band quirk
+[PASS] C4 p119 Renault "1,4" as printed
+[PASS] C5 5566 AGM Porsche/Renault present
+[PASS] D1 REVERIFY: 320 = 313 evicted + 7 kept(p140)
+[PASS] D4 round-trip claims<->book (incl. comma alternates)
+[PASS] D5 rerun rows byte-exact vs batch
+[PASS] F1 rerun codes = 54
+[INFO] F2 INFO: full book has 94 unique codes; 40 appear only on non-rerun pages
+
+RESULT: 19 PASS, 0 FAIL

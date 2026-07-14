@@ -1,0 +1,102 @@
+standard_code,supercharge_code,century_code,yhi_code,other_code,powercrank_sku,match_confidence,match_score,match_reason,verified
+,MF31-931,,,,31ASMF,Medium,80,dims near identical Δ3mm; CCA plausible Δ100; category compatible,NO
+,MF44,,,,DIN44SMF,Medium,80,dims near identical Δ2mm; CCA plausible Δ120; category compatible,NO
+,MF44H,,,,DIN44HSMF,Medium,80,dims near identical Δ2mm; CCA plausible Δ90; category compatible,NO
+,MF50,,,,NS50SMF,High,90,dims near identical Δ6mm; CCA close Δ25; category compatible,NO
+,MF51,,,,NS50SMF,Medium,75,dims close Δ12mm; CCA close Δ25; category compatible,NO
+,MF52,,,,NS50SMF,High,90,dims near identical Δ6mm; CCA close Δ45; category compatible,NO
+,MF53,,,,NS50SMF,High,90,dims near identical Δ6mm; CCA close Δ45; category compatible,NO
+,MF55,,,,DIN55SMF,Medium,80,dims near identical Δ3mm; CCA plausible Δ100; category compatible,NO
+,MF55B24L,,,,NS60SMF,High,90,dims near identical Δ4mm; CCA close Δ35; category compatible,NO
+,MF55B24LS,,,,NS60SMF,High,90,dims near identical Δ4mm; CCA close Δ35; category compatible,NO
+,MF55B24R,,,,NS60SMF,High,90,dims near identical Δ4mm; CCA close Δ35; category compatible,NO
+,MF55B24RS,,,,NS60SMF,High,90,dims near identical Δ4mm; CCA close Δ35; category compatible,NO
+,MF55H,,,,DIN55SMF,Medium,65,dims close Δ18mm; CCA plausible Δ100; category compatible,NO
+,MF55HSS,,,,EFBDIN55H,High,145,LN/AGM size bridge; dims near identical Δ0mm; CCA close Δ5; category compatible,NO
+,MF55R,,,,DIN55SMF,Medium,80,dims near identical Δ3mm; CCA plausible Δ100; category compatible,NO
+,MF65,,,,65DSMF,High,190,exact code; shared code K65D; dims close Δ12mm; CCA plausible Δ70; category compatible,NO
+,MF66,,,,DIN66SMF,High,90,dims near identical Δ2mm; CCA close Δ10; category compatible,NO
+,MF66EF,,,,EFBDIN66H,Medium,80,dims near identical Δ4mm; CCA plausible Δ95; category compatible,NO
+,MF66H,,,,DIN66H,High,90,dims near identical Δ3mm; CCA close Δ0; category compatible,NO
+,MF66HR,,,,DIN66H,High,90,dims near identical Δ3mm; CCA close Δ0; category compatible,NO
+,MF66HSS,,,,EFBDIN66H,High,145,LN/AGM size bridge; dims near identical Δ0mm; CCA close Δ35; category compatible,NO
+,MF66R,,,,DIN66SMF,High,90,dims near identical Δ2mm; CCA close Δ10; category compatible,NO
+,MF75D23L,,,,55D23LXSMF,High,205,exact code; shared code K55D23LX; dims near identical Δ2mm; CCA plausible Δ110; category compatible,NO
+,MF77,,,,DIN77SMF,High,90,dims near identical Δ3mm; CCA close Δ30; category compatible,NO
+,MF77H,,,,DIN77HSMF,High,90,dims near identical Δ2mm; CCA close Δ50; category compatible,NO
+,MF77HSS,,,,EFBDIN77H,High,145,LN/AGM size bridge; dims near identical Δ0mm; CCA close Δ50; category compatible,NO
+,MF78DT,,,,78DSMF,Medium,65,dims close Δ7mm; CCA plausible Δ80; category compatible,NO
+,MF88H,,,,DIN100SMF,High,90,dims near identical Δ3mm; CCA close Δ30; category compatible,NO
+,MF88HSS,,,,EFBDIN100H,High,135,LN/AGM size bridge; dims near identical Δ1mm; CCA plausible Δ100; category compatible,NO
+,MF95D31L,,,,NX120-7SMF,High,90,dims near identical Δ1mm; CCA close Δ50; category compatible,NO
+,MF95D31R,,,,NX120-7SMF,High,90,dims near identical Δ1mm; CCA close Δ50; category compatible,NO
+,MFD23EF,,,,EFB55D23L-Q85,High,215,exact code; shared code KEFB55D23L; dims near identical Δ2mm; CCA close Δ30; category compatible,NO
+,MFD31EF,,,,EFBNX120-7L-T110L,High,90,dims near identical Δ2mm; CCA close Δ50; category compatible,NO
+110D26L,,,,,EXSNS70LSMF,High,,D26 case = EXS NS70 per Jamie,NO
+110D26L HP,,,,,EXSNS70LSMF,High,,D26 = EXSNS70L,NO
+55D26L,,,,,EXSNS70LSMF,High,,D26 = EXSNS70L,NO
+110D26R,,,,,EXSNS70SMF,High,,D26 R-layout,NO
+S95 (D26 stop-start),,,,,EFBNS70L-S95,High,,direct,NO
+N55 (Corolla SS),,,,,EFBNS60L-N55,High,,direct,NO
+K42,,,,,EFBNS40ZL-K42,High,,direct,NO
+Q85 (55D23L),,,,,EFB55D23L-Q85,High,,direct,NO
+Q85R,,,,,EFB55D23R-Q85,High,,direct,NO
+55D23L,,,,,55D23LSMF,High,,direct,NO
+75D23L,,,,,55D23LSMF,Medium,,"same D23 case, check CCA",NO
+T110 (NX120-7L),,,,,EFBNX120-7L-T110L,High,,direct,NO
+N70ZZ x2,,,,,N70ZZSMF,High,,direct; EXSNX120-7 upgrade,NO
+95D31L,,,,,NX120-7LSMF,Medium,,D31 class,NO
+LN2,,,,,EFBDIN55H,High,,LN2=DIN55H EFB; DIN55H SMF if no SS,NO
+DIN55H EFB (LN2),,,,,EFBDIN55H,High,,direct,NO
+DIN55H,,,,,DIN55H,High,,direct SMF,NO
+LN2 AGM,,,,,NPCISS55H,High,,ISS AGM 55H,NO
+DIN66H EFB (LN3),,,,,EFBDIN66H,High,,direct,NO
+LN3 EFB,,,,,EFBDIN66H,High,,LN3=DIN66H,NO
+LN2/LN3,,,,,EFBDIN66H,Medium,,fit LN3 where tray allows,NO
+DIN66H (LN3),,,,,DIN66H,High,,SMF; EFB if stop-start,NO
+LN3 AGM,,,,,NPCISS66H,High,,ISS AGM 66H,NO
+LN3/LN4 AGM,,,,,NPCISS77H,Medium,,measure tray; 66H if smaller,NO
+DIN77H EFB (LN4),,,,,EFBDIN77H,High,,direct,NO
+LN4 EFB,,,,,EFBDIN77H,High,,direct,NO
+LN3/LN4 EFB,,,,,EFBDIN77H,Medium,,measure tray,NO
+DIN77H,,,,,DIN77HSMF,High,,direct,NO
+LN4 AGM,,,,,NPCISS77H,High,,ISS AGM 77H,NO
+LN5 AGM,,,,,NPCISS100H,High,,ISS AGM 100H,NO
+DIN88/DIN100,,,,,DIN88SMF,Medium,,DIN88 first; DIN100 if tray fits,NO
+DIN90/DIN100,,,,,DIN100SMF,Medium,,measure tray,NO
+DIN44H,,,,,DIN44HSMF,High,,direct,NO
+LN1,,,,,EFBDIN35H,Medium,,DIN35H 175h EFB - check tray length,NO
+NS60L,,,,,NS60LSMF,High,,direct,NO
+NS50,,,,,NS50SMF,High,,CORRECTED 2026-07-14: NS50 is 230x173x204 D23-low case per PC pricelist (was mislabelled 55B24R),NO
+55B24R,,,,,NS60SMF,Medium,,CORRECTED 2026-07-14: B24 case (237x128x221) = NS60 family; split from old NS50 row,NO
+NS60L / Q55,,,,,EFBNS60L-N55,Medium,,EFB for mild-hybrid Swift,NO
+LN3,,,,,EFBDIN66H,High,,EFB default for SS-era LN3,NO
+LN3 AGM (LC300/Prado250),,,,,NPCISS66H,Medium,,confirm OEM AGM vs EFB,NO
+51R AGM 45Ah,,,,,S46B24R-AGM,PENDING-RANGE,,BYD aux; B24 AGM fits 51R tray; source Century/Yuasa,NO
+S46B24L,,,,,S46B24L-AGM,PENDING-RANGE,,Toyota/Lexus hybrid aux; central vent AGM required,NO
+85B24LS AGM,,,,,S46B24L-AGM,PENDING-RANGE,,Tesla pre-2021 aux; verify post type on first job,NO
+LN6 AGM,,,,,NPCISS110H,High,,PC pricelist Mar-25: 392x174x189 1100CCA ISS AGM; RACV 5566 = 398x175x190 AGM,NO
+DIN110 (LN6),,,,,DIN110SMF,High,,PC pricelist Mar-25: 393x175x190 1050CCA SMF,NO
+LN6 EFB,,,,,EFBDIN110H,High,,PC pricelist Mar-25: 392x174x189 1000CCA EFB,NO
+NS40Z,,,,,NS40ZSMF,Medium,,PC pricelist Mar-25: NS40Z/ZL 193x127x220 420CCA; RACV B20 class 187x127x220 370CCA,NO
+55D23R,,,,,55D23RSMF,High,,PC pricelist Mar-25: 55D23L/R 231x172x220; R layout,NO
+NS50 D23-low,,,,,NS50SMF,Medium,,PC pricelist Mar-25: NS50 230x173x204; RACV 2501/2541/2542/5375 print 240x172x205 - verify dims,NO
+78DT,,,,,78DTSMF,High,,PC pricelist Mar-25: 260x179x204; RACV 4505 = 260x179x200,NO
+31A,,,,,31ASMF,High,,PC pricelist Mar-25: 330x172x237 1100CCA; RACV 4862 = 330x172x242,NO
+N100,,,,,N100SMF,High,,PC pricelist Mar-25: 404x172x229 900CCA; RACV 4901 = 402x171x226,NO
+N70ZZ,,,,,N70ZZSMF,High,,PC pricelist Mar-25: N70ZZ/ZZL 303x173x220; single battery (see also N70ZZ x2),NO
+D26 AGM,,,,,NPCDP12VNS70L,Medium,,PC DP AGM under-bonnet 3yr: 260x168x233 710CCA; RACV 5582 = 260x175x225 - HEIGHT +8mm VERIFY; L/R variants exist,NO
+D31 AGM,,,,,NPCDP12VNX120-7L,Medium,,PC DP AGM under-bonnet 3yr: 306x168x233 800CCA; RACV 5593/5594 = 308x174x222 - HEIGHT +11mm VERIFY; L/R variants exist,NO
+NS60A,,,,,NS60ASMF,High,,confirmed by Jamie 2026-07-14: RACV 2135,YES
+NS60AL,,,,,NS60ALSMF,High,,confirmed by Jamie 2026-07-14: RACV 2136,YES
+NS60SNL,,,,,NS60SNLSMF,High,,confirmed by Jamie 2026-07-14: RACV 2138 (hold-down ledge),YES
+NS40ZA,,,,,NS40ZASMF,High,,confirmed by Jamie 2026-07-14: RACV 2381,YES
+NS40ZAL,,,,,NS40ZALSMF,High,,confirmed by Jamie 2026-07-14: RACV 2382,YES
+NS40ZL,,,,,NS40ZLSMF,High,,confirmed by Jamie 2026-07-14: RACV 2384,YES
+EXSNX120-7,,,,,EXSNX120-7SMF,High,,confirmed by Jamie 2026-07-14: RACV 4703,YES
+EXSNX120-7L,,,,,EXSNX120-7LSMF,High,,confirmed by Jamie 2026-07-14: RACV 4704,YES
+D26 AGM R,,,,,NPCDP12VNS70,Medium,,R-layout DP AGM; polarity inferred from 4503 pattern (C assembly = non-L) - confirm,NO
+D31 AGM R,,,,,NPCDP12VNX120-7,Medium,,R-layout DP AGM; polarity inferred from 4703 pattern - confirm,NO
+NS60,,,,,NS60SMF,High,,confirmed by Jamie 2026-07-14: RACV 2137,YES
+NS50L,,,,,NS50LASMF,High,,odd=R/even=L rule from Jamie 2026-07-14: RACV 2542; NS50/NS50LA 230x173x204,YES
+MX14 AUX,,,,,NPCMX14-AUX,Medium,,Jamie 2026-07-14: RACV 8308 potentially NPCMX14-AUX (Power AGM MX series aux) - verify,NO

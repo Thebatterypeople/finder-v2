@@ -1,0 +1,1179 @@
+RACV July 2022 guide re-run — transcribed by Claude direct from Racv book 22 Drive photos (full-res, rotated)
+Session date: 2026-07-14
+Columns: make,model,variant,year,heavy_duty_part,extra_heavy_duty_part,premium_part,agm_efb_part,comments,reg_required,page
+Multiple part options within one column are space-separated.
+
+=== PAGE 142 ===
+VOLKSWAGEN,GOLF,"AU, TDI, Diesel",2013 to 2017,,,,5536,"Stop Start, must use AGM.",Yes,142
+VOLKSWAGEN,GOLF,"AU, TSI, Petrol",2013 to 2017,,,,4036,"Stop Start, must use EFB.",Yes,142
+VOLKSWAGEN,GOLF,"AU, R, GTI, Petrol",2018 onward,,,,4036,"Stop Start, must use EFB.",Yes,142
+VOLKSWAGEN,GOLF,"AU, TDI, Diesel",2018 onward,,,,4036,"Stop Start, must use EFB.",Yes,142
+VOLKSWAGEN,GOLF,"AU, TSI, Petrol",2018 onward,,,,4036,"Stop Start, must use EFB.",Yes,142
+VOLKSWAGEN,JETTA,"1K, 2.0L FSI, Petrol",2006 to 2009,,3664,,5536,,,142
+VOLKSWAGEN,JETTA,"1K, 2.0L TDI, Diesel",2006 to 2009,,3554 3664,,5526 5536,,,142
+VOLKSWAGEN,JETTA,"1K, TDI, Diesel",2009 to 2011,,3554 3664,,5526 5536,,Yes,142
+VOLKSWAGEN,JETTA,"1K, TSI, Petrol",2009 to 2011,,3554,,5526,,Yes,142
+VOLKSWAGEN,JETTA,"1K, TDI, Diesel",2011 onward,,3554 3664,,5526 5536,"Some fit 3554 only, some fit 3664 only.",Yes,142
+VOLKSWAGEN,JETTA,"1K, TSI, Petrol",2011 onward,,3554,,5526,,Yes,142
+VOLKSWAGEN,KARMANN,All variants,1960 to 1970,,3372,3552,,,,142
+VOLKSWAGEN,KOMBI,All variants,1965 to 1969,6603,,,,,,142
+VOLKSWAGEN,KOMBI,All variants,1970 to 1980,,2501 5375,2541,,,,142
+VOLKSWAGEN,KOMBI,All variants,2003 to 2009,,,3884,3888,,,142
+VOLKSWAGEN,MICRO,All variants,1970 to 1982,,,3552,,,,142
+VOLKSWAGEN,MULTIVAN,"2.5L, Diesel",2003 to 2010,,3664,3772 3884,5536 5556,,,142
+VOLKSWAGEN,MULTIVAN,"3.2L, Petrol",2003 to 2010,,3664,,5536,,,142
+VOLKSWAGEN,MULTIVAN,"2.0L, Diesel",2010 onward,,3664,3884,3888,,,142
+VOLKSWAGEN,MULTIVAN,"2.0L, Petrol",2010 onward,,3554 3664,,5526 5536,,,142
+VOLKSWAGEN,PASSAT,"B1, Diesel",1973 to 1982,,,3662,,,,142
+VOLKSWAGEN,PASSAT,"B1, Petrol",1973 to 1982,,,3552,,,,142
+VOLKSWAGEN,PASSAT,"B4, 2.0L, Petrol",1995 to 1997,,3372 5344,,,,,142
+VOLKSWAGEN,PASSAT,"B4, 2.8L V6, VR6, Petrol",1995 to 1997,,3664,,5536,,,142
+VOLKSWAGEN,PASSAT,"B5 (3B), 1.8L, Petrol",1998 to 2001,,3372 5344,,,,,142
+VOLKSWAGEN,PASSAT,"B5 (3B), 2.8L V6, VR6, Petrol",1998 to 2001,,3664,,5536,,,142
+VOLKSWAGEN,PASSAT,"B5 (3B), 2.8L V6, VR6, Petrol",2002 to 2006,,3664,,5536,,,142
+VOLKSWAGEN,PASSAT,"B5 (3B), V5, Petrol",2002 to 2006,,3554,,5526,,,142
+VOLKSWAGEN,PASSAT,"B5 (3B), W8, V8, Petrol",2002 to 2006,,,3772,5556,,,142
+VOLKSWAGEN,PASSAT,"2.0L TDI, Diesel",2006 to 2008,,3664,,5536,,,142
+--- page 142 row count: 30 (dense page, photo verified top-to-bottom) ---
+
+=== PAGE 141 ===
+VOLKSWAGEN,EOS,"1F, TDI, Diesel",2010 onward,,3554 3664,,5526 5536,,Yes,141
+VOLKSWAGEN,GOLF,Diesel,1974 to 1998,,3664,,5536,,,141
+VOLKSWAGEN,GOLF,Petrol,1974 to 1998,,3372 5344,,,,,141
+VOLKSWAGEN,GOLF,"VR6, V6, Petrol",1974 to 1998,,3554,,5526,,,141
+VOLKSWAGEN,GOLF,"1.6L, Petrol",1998 to 2004,,3554 3664,,5526 5536,,,141
+VOLKSWAGEN,GOLF,"1.8L, 2.0L, Petrol",1998 to 2004,,3554 3664,,5526 5536,,,141
+VOLKSWAGEN,GOLF,"1K, 1.6L, Petrol",2004 to 2008,,3554 3664,,5526 5536,,,141
+VOLKSWAGEN,GOLF,"1K, 2.0L FSI, Petrol",2004 to 2008,,3664,,5536,,,141
+VOLKSWAGEN,GOLF,"1K, GT, 1.4L, Petrol",2004 to 2008,,3372 5344,,,,,141
+VOLKSWAGEN,GOLF,"1K, GT, TDI, Diesel",2004 to 2008,,3664,,5536,,,141
+VOLKSWAGEN,GOLF,"1K, GTI, 2.0L, Petrol",2004 to 2008,,3664,,5536,,,141
+VOLKSWAGEN,GOLF,"1K, R32, V6, Petrol",2004 to 2008,,,3772,5556,Battery under plate in boot.,,141
+VOLKSWAGEN,GOLF,"1K, TDI, Diesel",2004 to 2008,,3664,,5536,,,141
+VOLKSWAGEN,GOLF,"1C, 2Door Cabriolet TSI, Petrol",2009 to 2013,,3554 3664,,5526 5536,Stop Start variants must use AGM.,,141
+VOLKSWAGEN,GOLF,"1K, 1.2L, 1.4L, TSI, Petrol",2009 to 2013,,3554 3664,,5526 5536,,Yes,141
+VOLKSWAGEN,GOLF,"1K, 1.6L, Petrol",2009 to 2013,,3554,,5526,,,141
+VOLKSWAGEN,GOLF,"1K, 2.0L FSI, Petrol",2009 to 2013,,3664,,5536,,,141
+VOLKSWAGEN,GOLF,"1K, Bluemotion, TDI, Diesel",2009 to 2013,,,,5536,"Stop Start, must use AGM. Variants with no current sensor do not require battery registration.",Yes,141
+VOLKSWAGEN,GOLF,"1K, GT, 1.4L, Petrol",2009 to 2013,,3372 5344,,,,,141
+VOLKSWAGEN,GOLF,"1K, GT, TDI, Diesel",2009 to 2013,,3664,,5536,,,141
+VOLKSWAGEN,GOLF,"1K, GTD, Diesel",2009 to 2013,,3554 3664,,5526 5536,Variants without current sensor do not require battery registration.,Yes,141
+VOLKSWAGEN,GOLF,"1K, R, GTI, 2.0L, Petrol",2009 to 2013,,3554 3664,,5526 5536,Variants without current sensor do not require battery registration.,Yes,141
+VOLKSWAGEN,GOLF,"1K, R32, 3.2L, V6, Petrol",2009 to 2013,,,3772,5556,Battery under plate in boot.,,141
+VOLKSWAGEN,GOLF,"1K, TDI, Diesel",2009 to 2013,,3554 3664,,5526 5536,Variants without current sensor do not require battery registration.,Yes,141
+VOLKSWAGEN,GOLF,"1K, TSI, Petrol",2009 to 2013,,3554 3664,,5526 5536,,Yes,141
+VOLKSWAGEN,GOLF,"1C, 2D Cabriolet, Petrol",2013 to 2017,,3554 3664,,5526 5536,Stop Start variants must use AGM.,Yes,141
+VOLKSWAGEN,GOLF,"AU, R, GTI, Petrol",2013 to 2017,,,,4036,"Stop Start, must use EFB.",Yes,141
+--- page 141 row count: 27 (matches hand-verified count from brief) ---
+
+=== PAGE 137 ===
+TOYOTA,LITE ACE,All variants,1980 to 1992,,,2383,,,,137
+TOYOTA,MIRAI,HCV,2014 onward,,,,5511,Must use AGM.,,137
+TOYOTA,MR2,All other variants,1987 to 2004,,,2136,,,,137
+TOYOTA,MR2,"SW20R, 2.0L",1987 to 2004,,4504,,,,,137
+TOYOTA,PASEO,All variants,1991 to 1996,,2501 5375,2541,,,,137
+TOYOTA,PORTE,"1.5L, Petrol, Grey import",2004 to 2012,,,2138,,,,137
+TOYOTA,PRIUS,"Prius, NHW11, Hybrid",2001 to 2003,,,,,Refer to OEM Dealer.,,137
+TOYOTA,PRIUS,"Prius, NHW20, i-TECH, Hybrid",2003 to 2009,,,,5511,Must use AGM. Battery in boot.,,137
+TOYOTA,PRIUS,"Prius, VW30, i-TECH, Hybrid",2009 to 2012,,,,5511,Must use AGM. Battery in boot.,,137
+TOYOTA,PRIUS,"Prius C, HP10, i-TECH, Hybrid",2012 to 2016,,,,,2341 is locally sourced.,,137
+TOYOTA,PRIUS,"Prius V, VW40, i-TECH, Hybrid",2012 to 2016,,,,5511,Must use AGM. Battery in boot.,,137
+TOYOTA,PRIUS,"Prius, VW30, i-TECH, Hybrid",2012 to 2016,,,,5511,Must use AGM. Battery in boot.,,137
+TOYOTA,PRIUS,"Prius V, VW40, i-TECH, Hybrid",2016 onward,,,,5511,Must use AGM. Battery in boot.,,137
+TOYOTA,PRIUS,"Prius, VW50, i-TECH, Hybrid",2016 onward,,5344,,,,,137
+TOYOTA,RAV4,"A10, A11",1994 to 2000,,,2135,,,,137
+TOYOTA,RAV4,"A20, A21, 2.0L, Petrol",2000 to 2003,,,2135,,,,137
+TOYOTA,RAV4,"A22, 2.4L, Petrol",2003 to 2006,,,2543,,,,137
+TOYOTA,RAV4,"A23, 2.4L, Petrol",2003 to 2006,,,2544,4032,4032 is alternate fitment option.,,137
+TOYOTA,RAV4,"A33, 4WD",2006 to 2013,,,2544,4032,4032 is alternate fitment option.,,137
+TOYOTA,RAV4,"A33, V6, Petrol",2006 to 2013,,4504,,5582,,,137
+TOYOTA,RAV4,"A38, 2.4L 4 cyl, 2WD, Petrol",2006 to 2013,,,2544,4032,4032 is alternate fitment option.,,137
+TOYOTA,RAV4,"A40 series, Diesel",2013 to 2018,,4704,,5594,,,137
+TOYOTA,RAV4,"A40 series, Petrol",2013 to 2018,,,2544,4032,4032 is alternate fitment option.,,137
+TOYOTA,RAV4,"AXAA, 2.5L, Edge, Petrol",2018 onward,,3554,,,,,137
+TOYOTA,RAV4,"AXAH, Hybrid",2018 onward,,5344,,,"5344 is Auxiliary battery. CAUTION - refer to MasterFit before Jump Starting.",,137
+--- page 137 row count: 25 (photo verified top-to-bottom) ---
+
+=== PAGE 136 ===
+TOYOTA,LANDCRUISER PRADO,"Prado, J95, 2.7L, 4 Cyl, Petrol",1996 to 2002,,,2544,4032,4032 is alternate fitment option.,,136
+TOYOTA,LANDCRUISER PRADO,"Prado, J95, 3.0L, Diesel",1996 to 2002,,4704,,5594,,,136
+TOYOTA,LANDCRUISER PRADO,"Prado, J95, 3.4L, V6, Petrol",1996 to 2002,,,2544,4032,4032 is alternate fitment option.,,136
+TOYOTA,LANDCRUISER PRADO,Prado J120 Diesel,2002 to 2009,,4704,,5594,,,136
+TOYOTA,LANDCRUISER PRADO,Prado J120 Petrol,2002 to 2009,,4504,,5582,,,136
+TOYOTA,LANDCRUISER PRADO,J150 Diesel,2009 to 2011,,4504,,5582,,,136
+TOYOTA,LANDCRUISER PRADO,J150 Kakadu Diesel,2009 to 2011,,4704,,5594,,,136
+TOYOTA,LANDCRUISER PRADO,"J155, 2 Door, Diesel",2009 to 2011,,4504,,5582,,,136
+TOYOTA,LANDCRUISER PRADO,Prado J150 Kakadu Petrol,2009 to 2011,,4504,,5582,,,136
+TOYOTA,LANDCRUISER PRADO,Prado J150 Petrol,2009 to 2011,,4504,,5582,,,136
+TOYOTA,LANDCRUISER PRADO,"J155 upgrade, 2 Door, Diesel",2011 onward,,4504,,5582,,,136
+TOYOTA,LANDCRUISER PRADO,"Prado J150 Upgrade, Diesel, 2.8L",2011 onward,,4504,,5582,,,136
+TOYOTA,LANDCRUISER PRADO,"Prado J150 Upgrade, Diesel, 3.0L",2011 onward,,4704,,5594,,,136
+TOYOTA,LANDCRUISER PRADO,"Prado J150 Upgrade, Kakadu Diesel, 3.0L",2011 onward,,4704,,5594,,,136
+TOYOTA,LANDCRUISER PRADO,"Prado J150 Upgrade, Kakadu Petrol",2011 onward,,4504,,5582,,,136
+TOYOTA,LANDCRUISER PRADO,"Prado J150 Upgrade, Petrol",2011 onward,,4504,,5582,,,136
+TOYOTA,LANDCRUISER PRADO,"Prado J150, Kakadu, Diesel, 2.8L",2011 onward,,4504,,5582,,,136
+TOYOTA,LEXCEN,All variants,1989 to 1997,,2501,2541,,,,136
+--- page 136 row count: 18 (photo verified top-to-bottom) ---
+
+=== PAGE 135 ===
+TOYOTA,LANDCRUISER,"40 Series, 3.9L Petrol",1960 to 1984,,4704,,5594,,,135
+TOYOTA,LANDCRUISER,"40 Series, 4.0L Diesel",1960 to 1984,,4704,,5594,,,135
+TOYOTA,LANDCRUISER,"40 Series, 4.2L Petrol",1960 to 1984,,4704,,5594,,,135
+TOYOTA,LANDCRUISER,"40 Series, Petrol",1960 to 1984,,4704,,5594,,,135
+TOYOTA,LANDCRUISER,"60 Series, Diesel",1985 to 1991,,4704,,5594,,,135
+TOYOTA,LANDCRUISER,"60 Series, Petrol",1985 to 1991,,4703,,5593,,,135
+TOYOTA,LANDCRUISER,70 Series 5cyl Diesel,1985 to 1991,,4703,,5593,,,135
+TOYOTA,LANDCRUISER,"70 Series, 3.4L Diesel",1985 to 1991,,4703,,5593,,,135
+TOYOTA,LANDCRUISER,"70 Series, 4.0L Diesel",1985 to 1991,,4703,,5593,,,135
+TOYOTA,LANDCRUISER,"70 Series, 4.0L Petrol",1985 to 1991,,4703,,5593,,,135
+TOYOTA,LANDCRUISER,70 Series 4.2L Diesel,1990 to 1999,,4703,,5593,,,135
+TOYOTA,LANDCRUISER,70 Series 4.5L EFI Petrol,1990 to 1999,,4703,,5593,,,135
+TOYOTA,LANDCRUISER,"80 Series, 4.0L Petrol",1990 to 1999,,4703,,5593,,,135
+TOYOTA,LANDCRUISER,"80 Series, 4.5L Petrol",1990 to 1999,,4704,,5594,,,135
+TOYOTA,LANDCRUISER,"80 Series, Diesel",1990 to 1999,,4704,,5594,,,135
+TOYOTA,LANDCRUISER,"100 Series, 4.2L, Diesel",1998 to 2007,,4703 4704,,5593 5594,Requires 2 batteries (4703 and 4704).,,135
+TOYOTA,LANDCRUISER,"100 Series, 4.7L V8 Petrol",1998 to 2007,,4504,,5582,,,135
+TOYOTA,LANDCRUISER,"105 Series, 4.2L, Diesel",1998 to 2007,,4703,,5593,,,135
+TOYOTA,LANDCRUISER,"105 Series, 4.5L 6cyl Petrol",1998 to 2007,,4503,,,,,135
+TOYOTA,LANDCRUISER,70 Series 4.2L Diesel,1998 to 2007,,4703,,5593,,,135
+TOYOTA,LANDCRUISER,70 Series 4.5L MPFI Petrol,1998 to 2007,,4703,,5593,,,135
+TOYOTA,LANDCRUISER,"200 Series, 4.6L Petrol",2007 to 2020,,4704,,5594,,,135
+TOYOTA,LANDCRUISER,"200 Series, 4.7L Petrol",2007 to 2020,,4703 4704,,5593 5594,Some variants require 2 batteries (4703 and 4704).,,135
+TOYOTA,LANDCRUISER,"200 Series, 4500 V8, Diesel",2007 to 2020,,4503 4504/4704,,,Requires 2 batteries - (4503 and 4504). 2017 onward requires 1 x 4704.,,135
+TOYOTA,LANDCRUISER,"70 Series, 4.5L V8 Diesel",2007 to 2020,,4703,,5593,,,135
+TOYOTA,LANDCRUISER,"70 Series, 4.5L V8 Diesel",2020 onward,,4703,,5593,,,135
+TOYOTA,LANDCRUISER,"J300 series, Twin Turbo, V6 Diesel",2020 onward,,,3772,,,,135
+--- page 135 row count: 27 (photo verified top-to-bottom; note p134 tail row visible above binding: LANDCRUISER 40 Series 3.0L/3.4L/3.6L Diesel 1960-1984 = 4704/5594) ---
+
+=== PAGE 134 ===
+TOYOTA,HILUX,"N80, N90, N100, N110 Series 2.8L Diesel",1988 to 1997,,4503,,,,,134
+TOYOTA,HILUX,"N140, N150, N160, N170 Series 2.0L Petrol",1997 to 2005,,,2138,,,,134
+TOYOTA,HILUX,"N140, N150, N160, N170 Series 2.7L Petrol",1997 to 2005,,,2544,4032,4032 is alternate fitment option.,,134
+TOYOTA,HILUX,"N140, N150, N160, N170 Series 3.0L Diesel",1997 to 2005,,4503,,5582,Some variants require 2 batteries.,,134
+TOYOTA,HILUX,"N140, N150, N160, N170 Series V6 Petrol",1997 to 2005,,,2544,4032,4032 is alternate fitment option.,,134
+TOYOTA,HILUX,"N10, N20 Series Diesel",2005 to 2015,,4704,,5594,,,134
+TOYOTA,HILUX,"N10, N20 Series Petrol, SR",2005 to 2015,,4504,,5582,,,134
+TOYOTA,HILUX,"N10, N20 Series Petrol, Workmate",2005 to 2015,,,2544,4032,4032 is alternate fitment option.,,134
+TOYOTA,HILUX,"N120, N130 Series Diesel",2015 to 2019,,3664,,5536,,,134
+TOYOTA,HILUX,"N120, N130 Series Petrol, SR",2015 to 2019,,3664,,5536,,,134
+TOYOTA,HILUX,"N120, N130 Series Petrol, Workmate",2015 to 2019,,3554,,5526,,,134
+TOYOTA,HILUX,"N120, N130 Facelift, SR, Diesel",2020 onward,,3664,,5536,,,134
+TOYOTA,KLUGER,MCU28R,2003 to 2007,,4504,,5582,,,134
+TOYOTA,KLUGER,GSU40R,2007 to 2014,,4504,,5582,,,134
+TOYOTA,KLUGER,GSU45R,2007 to 2014,,4504,,5582,,,134
+TOYOTA,KLUGER,"GSU50R, V6, Petrol",2014 to 2018,,4504,,5582,,,134
+TOYOTA,KLUGER,"GSU55R, V6, Petrol",2014 to 2018,,4504,,5582,,,134
+TOYOTA,KLUGER,"Hybrid, 2.5L, Petrol",2020 onward,,3554,,,,,134
+TOYOTA,KLUGER,"V6, 3.5L, Petrol",2020 onward,,,,4036,,,134
+TOYOTA,LANDCRUISER,"40 Series, 3.0L, 3.4L, 3.6L Diesel",1960 to 1984,,4704,,5594,,,134
+--- page 134 row count: 20 (photo verified top-to-bottom) ---
+
+=== PAGE 133 ===
+TOYOTA,CORONA,All variants,1984 to 1987,,,2382,,,,133
+TOYOTA,CRESSIDA,All variants,1977 to 1983,,,2134,,,,133
+TOYOTA,CRESSIDA,All variants,1983 to 1992,,,2544,4032,4032 is alternate fitment option.,,133
+TOYOTA,CROWN,All variants,1963 to 1973,,,2134,,,,133
+TOYOTA,CROWN,All variants,1974 to 1988,,2501,2541,,,,133
+TOYOTA,DYNA,Diesel,1985 to 1995,,4703,,5593,,,133
+TOYOTA,DYNA,Petrol,1985 to 1995,,,2543,,,,133
+TOYOTA,DYNA,Diesel,1995 to 2005,,4703,,5593,,,133
+TOYOTA,DYNA,Petrol,1995 to 2005,,,2543,,,,133
+TOYOTA,ECHO,All variants,1999 to 2005,,,2135,,,,133
+TOYOTA,FJ CRUISER,All variants,2011 onward,,4504,,5582,,,133
+TOYOTA,FORTUNER,"156R, Diesel",2015 onward,,3664,,5536,,,133
+TOYOTA,HIACE,All variants,1967 to 1977,,,2383,,,,133
+TOYOTA,HIACE,Diesel,1977 to 1982,,4703,,5593,,,133
+TOYOTA,HIACE,Petrol,1977 to 1982,,,2543,,,,133
+TOYOTA,HIACE,Diesel,1983 to 1989,,4703,,5593,,,133
+TOYOTA,HIACE,Petrol,1983 to 1989,,,2543,,,,133
+TOYOTA,HIACE,Diesel,1989 to 2005,,4703,,5593,,,133
+TOYOTA,HIACE,Petrol,1989 to 2005,,,2543,,,,133
+TOYOTA,HIACE,Diesel,2005 to 2019,,4503 4703,,5593,"Some fit 4503, some fit 4703.",,133
+TOYOTA,HIACE,Petrol,2005 to 2019,,,2543,,,,133
+TOYOTA,HIACE,Diesel,2019 onward,,,,4044,Stop Start. Must use EFB.,,133
+TOYOTA,HIACE,"Petrol, V6",2019 onward,,3664,,,,,133
+TOYOTA,HILUX,"N50, N60, N70 Series Diesel",1983 to 1988,,,2543,,,,133
+TOYOTA,HILUX,"N50, N60, N70 Series Petrol",1983 to 1988,,,2543,,,,133
+TOYOTA,HILUX,"N80, N90, N100, N110 Series 1.8L Petrol",1988 to 1997,,,2383,,,,133
+TOYOTA,HILUX,"N80, N90, N100, N110 Series 2.4L Petrol",1988 to 1997,,,2543,,,,133
+--- page 133 row count: 27 (photo verified top-to-bottom) ---
+
+=== PAGE 132 ===
+TOYOTA,COROLLA before 2007,KE,1966 to 1985,,,2136,,,,132
+TOYOTA,COROLLA before 2007,"AE80, AE82",1984 to 1989,,,2382,,,,132
+TOYOTA,COROLLA before 2007,"AE90, AE92, AE93, AE94, AE95",1988 to 1995,,,2134 2382,,,,132
+TOYOTA,COROLLA before 2007,"AE101, AE102",1994 to 1999,,,2134,,Top hold down bracket prevents higher battery from fitting.,,132
+TOYOTA,COROLLA before 2007,AE112R,1998 to 2001,,,2382 2384,,,,132
+TOYOTA,COROLLA before 2007,"ZZE122R, ZZE123R",2001 to 2007,,,2382,,,,132
+TOYOTA,COROLLA HATCH,"ZRE152R, Hatch",2007 to 2012,,,2136,,,,132
+TOYOTA,COROLLA HATCH,"ZRE182R, Petrol",2012 to 2017,,,2544,4032,4032 is alternate fitment option.,,132
+TOYOTA,COROLLA HATCH,"ZWE186R, Hybrid",2012 to 2017,,,,,Unique battery. Refer to OEM dealer.,,132
+TOYOTA,COROLLA HATCH,"MZEA12R, 2.0L, Petrol",2018 onward,,3554,,,,,132
+TOYOTA,COROLLA HATCH,"ZWE211R, 1.8L, Hybrid",2018 onward,,5344,,,,,132
+TOYOTA,COROLLA SEDAN,"ZRE152R, Sedan",2007 to 2014,,,2136,,,,132
+TOYOTA,COROLLA SEDAN,"ZRE153R, Ultima, Sedan",2007 to 2014,,,2136,,,,132
+TOYOTA,COROLLA SEDAN,"ZRE172R, 1.8L, Petrol",2014 to 2017,,,2136,,,,132
+TOYOTA,COROLLA SEDAN,"MZEA12R, 2.0L, Petrol",2019 onward,,3554,,,,,132
+TOYOTA,COROLLA SEDAN,"ZWE211R, 1.8L, Hybrid",2019 onward,,5344,,,,,132
+TOYOTA,CORONA,All variants,1964 to 1983,,,2134,,,,132
+--- page 132 row count: 17 (photo verified top-to-bottom) ---
+
+=== PAGE 131 ===
+TOYOTA,CAMRY,"V20, V6 engine",1986 to 1993,,,2382,,,,131
+TOYOTA,CAMRY,XV10 Wide body,1991 to 1997,,,2544,4032,4032 is alternate fitment option.,,131
+TOYOTA,CAMRY,"XV10, V6 engine",1991 to 1997,,,2544,4032,4032 is alternate fitment option.,,131
+TOYOTA,CAMRY,"XV20, 4cyl",1996 to 2002,,,2544,4032,4032 is alternate fitment option.,,131
+TOYOTA,CAMRY,"XV20, V6",1996 to 2002,,,2544,4032,4032 is alternate fitment option.,,131
+TOYOTA,CAMRY,"XV30, 4cyl",2001 to 2006,,,2544,4032,4032 is alternate fitment option.,,131
+TOYOTA,CAMRY,"XV30, V6",2001 to 2006,,,2544,4032,4032 is alternate fitment option.,,131
+TOYOTA,CAMRY,ACV40R,2006 to 2011,,,2544,4032,4032 is alternate fitment option.,,131
+TOYOTA,CAMRY,AHV40R Hybrid,2006 to 2011,,4503,,,Must use Club Assist Temperature Sensor Bracket.,,131
+TOYOTA,CAMRY,ASV50R,2011 to 2015,,,2544,4032,4032 is alternate fitment option.,,131
+TOYOTA,CAMRY,"AVV50R, Hybrid",2011 to 2015,,,2543,,Must use Club Assist Temperature Sensor Bracket.,,131
+TOYOTA,CAMRY,ASV50R,2015 to 2017,,,2544,4032,4032 is alternate fitment option.,,131
+TOYOTA,CAMRY,"AVV50R upgrade, Hybrid",2015 to 2017,,,2543,,No temperature sensor on this variant.,,131
+TOYOTA,CAMRY,"ASV70R, 4cyl, 2.5L",2017 onward,,3554,,,,,131
+TOYOTA,CAMRY,"AXVH71, HYBRID",2017 onward,,3554,,,,,131
+TOYOTA,CAMRY,"GSV70R, V6, 3.5L",2017 onward,,3554,,,,,131
+TOYOTA,CELICA,"A23, A30",1970 to 1977,,,2136,,,,131
+TOYOTA,CELICA,"A40, A50",1977 to 1981,,,2136,,,,131
+TOYOTA,CELICA,"A60, A65, A63",1981 to 1985,,,2382,,,,131
+TOYOTA,CELICA,"T160, T162",1985 to 1989,,,2544,4032,4032 is alternate fitment option.,,131
+TOYOTA,CELICA,T180,1990 to 1994,,,2544,4032,4032 is alternate fitment option.,,131
+TOYOTA,CELICA,T200,1994 to 1999,,,2544,4032,4032 is alternate fitment option.,,131
+TOYOTA,CELICA,T230,2000 to 2006,,,2136,,,,131
+TOYOTA,C-HR,All variants,2017 onward,,3554,,,,,131
+TOYOTA,COASTER,All variants,1990 onward,,4503 4504/5375,,,some fits 4503 some fits 5375.,,131
+TOYOTA,COROLLA before 2007,AE71,1966 to 1985,,,2136,,,,131
+TOYOTA,COROLLA before 2007,All variants,1966 to 1985,,,2136,,,,131
+--- page 131 row count: 27 (photo verified top-to-bottom; p130 tail row visible above binding: CAMRY V20 1986-1993 = premium 2382) ---
+
+=== PAGE 130 ===
+SUZUKI,VITARA,V6,1995 to 2000,,,2136,,Check bonnet clearance.,,130
+SUZUKI,VITARA,LY,2015 to 2018,,3372 5344,,,,,130
+SUZUKI,VITARA,"LY, Series II",2019 onward,,3372 5344,,,,,130
+SUZUKI,X-90,All variants,1996 to 1998,,,2384,,,,130
+SUZUKI,XL-7,All variants,2001 to 2006,,,2544,,,,130
+TATA,SAFARI,All variants,2000 to 2001,,4703,,5593,,,130
+TATA,TELCOLINE,All variants,1996 to 2005,,4703,,5593,,,130
+TATA,XENON,All variants,2009 onward,,4704,,5594,,,130
+TESLA,MODEL S,All variants,2014 onward,,,,,Refer to OEM Dealer.,,130
+TOYOTA,86,All variants,2012 onward,,,2543,,,,130
+TOYOTA,4 RUNNER,Diesel,1984 to 1989,,4503,,,Pickup body with cover.,,130
+TOYOTA,4 RUNNER,Petrol,1984 to 1989,,,2384,,Pickup body with cover.,,130
+TOYOTA,4 RUNNER,"2.4L, Petrol",1989 to 1996,,,2543,,Full body.,,130
+TOYOTA,4 RUNNER,"3.0L, V6, Petrol",1989 to 1996,,4503,,,Full body.,,130
+TOYOTA,4 RUNNER,Diesel,1989 to 1996,,4503,,,Full body.,,130
+TOYOTA,AURION,XV40,2006 to 2012,,,2544,4032,4032 is alternate fitment option.,,130
+TOYOTA,AURION,XV50,2012 onward,,,2544,4032,4032 is alternate fitment option.,,130
+TOYOTA,AVALON,All variants,2000 to 2006,,,2544,4032,4032 is alternate fitment option.,,130
+TOYOTA,AVENSIS,2.0L,1998 to 2003,,,2136,,,,130
+TOYOTA,AVENSIS,2.4L,2003 to 2010,,,2544,4032,4032 is alternate fitment option.,,130
+TOYOTA,BLIZZARD,All variants,1982 to 1983,,,3882,,,,130
+TOYOTA,BUNDERA,Diesel,1985 to 1991,,4703,,5593,,,130
+TOYOTA,BUNDERA,Petrol,1985 to 1991,,4503,,,,,130
+TOYOTA,CAMRY,V10,1982 to 1987,,,2134,,,,130
+TOYOTA,CAMRY,V20,1986 to 1993,,,2382,,,,130
+--- page 130 row count: 25 (photo verified; NOTE print quirk: the TATA section band is printed ABOVE the final Suzuki rows (Vitara/X-90/XL-7) — those are transcribed as SUZUKI; Tata models are Safari/Telcoline/Xenon) ---
+
+=== PAGE 129 ===
+SUZUKI,HATCH,All variants,1980 to 1985,,,2383,,,,129
+SUZUKI,IGNIS,All variants,2000 to 2005,,,2384,,,,129
+SUZUKI,IGNIS,All variants,2016 onward,,,2138,,,,129
+SUZUKI,JIMNY,"JX, JLX, Sport",1998 to 2008,,,2383,,,,129
+SUZUKI,JIMNY,Sierra,2008 to 2014,,,2383,,,,129
+SUZUKI,JIMNY,All variants,2015 to 2018,,,2383,,,,129
+SUZUKI,JIMNY,GJ,2018 onward,,,2138,,,,129
+SUZUKI,KIZASHI,All variants,2010 onward,,4504,,4032,"2544 will not fit due to ledges, 4032 has no ledges, 4504 fits tray.",,129
+SUZUKI,LIANA,All variants,2001 to 2007,,,2138,,,,129
+SUZUKI,LJ50,All variants,1974 to 1978,,,2383,,,,129
+SUZUKI,LJ80,All variants,1977 to 1981,,,2383,,,,129
+SUZUKI,LJ81K,All variants,1978 to 1981,,,2383,,,,129
+SUZUKI,MIGHTY BOY,All variants,1985 to 1988,,,2382,,,,129
+SUZUKI,R+,All variants,1997 to 1998,,,2134,,,,129
+SUZUKI,S-CROSS,JY,2014 onward,,3372,,,,,129
+SUZUKI,SIERRA,All variants,1981 to 2000,,,2383,,,,129
+SUZUKI,SK410,Truck,1985 to 1988,,,2383,,,,129
+SUZUKI,ST105,All variants,1975 to 1976,,,2383,,,,129
+SUZUKI,ST20K,All variants,1977 to 1978,,,2383,,,,129
+SUZUKI,ST80K,All variants,1978 to 1979,,,2383,,,,129
+SUZUKI,ST90V,All variants,1983 to 1985,,,2383,,,,129
+SUZUKI,SUPER,All variants,1985 to 1990,,,2383,,,,129
+SUZUKI,SWIFT,All variants,1984 to 2000,,,2383,,,,129
+SUZUKI,SWIFT,EZ,2005 to 2011,,,2137,5511,Can fit 2138 with customer agreement.,,129
+SUZUKI,SWIFT,"EZ, Sport",2005 to 2011,,,2137,5511,,,129
+SUZUKI,SWIFT,FZ,2011 to 2016,,,2138 2384,,"Some fit 2138, some fit 2384.",,129
+SUZUKI,SWIFT,"AL, AZ",2017 to 2019,,,2138,,,,129
+SUZUKI,SWIFT,AZ Series 2,2020 onward,,,2138,,,,129
+SUZUKI,SX4,GY,2007 onward,,,2137 2138,5511,,,129
+SUZUKI,VITARA,4 Cyl,1988 to 1994,,2502,2544,,Check bonnet clearance.,,129
+SUZUKI,VITARA,4 Cyl,1995 to 2000,,,2136,,Check bonnet clearance.,,129
+--- page 129 row count: 31 (photo verified top-to-bottom; p128 tail rows visible above binding: GRAND VITARA All variants 1998-2005 = 2502/2544; GRAND VITARA JT DDIS Diesel 2005 onward = 4504/5582; GRAND VITARA JT Petrol 2005 onward = 2544) ---
+
+=== PAGE 128 ===
+SUBARU,RX,All variants,1985 to 1987,,,2138,,,,128
+SUBARU,SHERPA,All variants,1982 to 1989,,,2382,,,,128
+SUBARU,SKIWAGON,All variants,1987 to 1990,,,2384,,,,128
+SUBARU,SKIWAGON,All variants,1988 to 1990,,,2384,,,,128
+SUBARU,SPORTSWAGON,All variants,1987 to 1990,,,2384,,,,128
+SUBARU,SUMMERWAGON,All variants,1989 to 1990,,,2384,,,,128
+SUBARU,SVX,All variants,1992 to 1997,,,2543,,,,128
+SUBARU,TRIBECA,3.0L,2006 to 2014,,,2544,,,,128
+SUBARU,TRIBECA,3.6L,2006 to 2014,,,2544,,,,128
+SUBARU,WRX,"STI, 2.5L",2014 onward,,,2544,4032,4032 is alternate fitment option.,,128
+SUBARU,WRX,"WRX, 2.0L",2014 onward,,,2544,4032,4032 is alternate fitment option.,,128
+SUBARU,XT,All variants,1985 to 1989,,,2384,,,,128
+SUBARU,XV,All variants,2012 to 2019,,,,4032,"Stop Start, must use EFB.",,128
+SUBARU,XV,"2.0L, Petrol",2020 onward,,,,4032,,,128
+SUBARU,XV,Hybrid,2020 onward,,,2544,,"Dual batteries. 2544 starting battery on passenger side. Connect jumpstarter to 2544. Stop start battery on driver side, refer to OEM.",,128
+SUZUKI,ALTO,All variants,1985 to 1989,,,2382,,,,128
+SUZUKI,ALTO,All variants,1996 to 1999,,,2382,,,,128
+SUZUKI,ALTO,GL,2009 onward,,,2383,,,,128
+SUZUKI,APV,GD,2006 to 2012,,,2137,,,,128
+SUZUKI,BALENO,All variants,1995 to 2001,,,2384,,,,128
+SUZUKI,BALENO,"1.0L, Turbo, Petrol",2016 onward,,,2136,,,,128
+SUZUKI,BALENO,"1.4L, Petrol",2016 onward,,,2384,,,,128
+SUZUKI,CARRY,All variants,1976 to 1985,,,2384,,,,128
+SUZUKI,CARRY,All variants,1999 to 2005,,,2384 2138,,,,128
+SUZUKI,CELERIO,All variants,2015 onward,,,2138,,,,128
+SUZUKI,GRAND VITARA,All variants,1998 to 2005,,2502,2544,,,,128
+SUZUKI,GRAND VITARA,"JT, DDIS, Diesel",2005 onward,,4504,,5582,,,128
+SUZUKI,GRAND VITARA,"JT, Petrol",2005 onward,,,2544,,,,128
+--- page 128 row count: 28 (photo verified top-to-bottom; matches tail rows seen on p129 photo) ---
+
+=== PAGE 127 ===
+SUBARU,LIBERTY,"BD, BG, BK",1994 to 1999,,,2384,,,,127
+SUBARU,LIBERTY,B4,1998 to 2003,,,2544,,,,127
+SUBARU,LIBERTY,"BE, BH, BT",1998 to 2003,,,2384,,,,127
+SUBARU,LIBERTY,"BL, BP 2.0i, R",2003 to 2009,,,2138,,,,127
+SUBARU,LIBERTY,"BL, BP, 2.5i",2003 to 2009,,,2138,,,,127
+SUBARU,LIBERTY,"BL, BP, 3.0L V6",2003 to 2009,,,2544,4032,4032 is alternate fitment option.,,127
+SUBARU,LIBERTY,"BL, BP, GT, Turbo",2003 to 2009,,,2544,4032,4032 is alternate fitment option.,,127
+SUBARU,LIBERTY,"BM, BR, 2.5i",2009 to 2010,,,2137 2383/2543,,"Some variants fit 2543, some fit 2383 or 2137.",,127
+SUBARU,LIBERTY,"BM, BR, 3.6LR, V6",2009 to 2010,,,2543,,,,127
+SUBARU,LIBERTY,"BM, BR, Exiga",2009 to 2010,,,2544,4032,"Some variants fit 2543, some fit 2544.",,127
+SUBARU,LIBERTY,"BM, BR, 2.5i",2011 to 2014,,,2543,,,,127
+SUBARU,LIBERTY,"BM, BR, 3.6LR, V6",2011 to 2014,,,2543,,,,127
+SUBARU,LIBERTY,"BM, BR, Exiga",2011 to 2014,,,2544,4032,4032 is alternate fitment option.,,127
+SUBARU,LIBERTY,2.5i,2015 onward,,,,4031,Must use EFB.,,127
+SUBARU,LIBERTY,"3.6L, 6 Cyl",2015 onward,,4503,,,,,127
+SUBARU,OUTBACK,All variants,1994 to 1998,,,2138,,,,127
+SUBARU,OUTBACK,All variants,1999 to 2003,,,2544,,,,127
+SUBARU,OUTBACK,"2.5i, Luxury, 4Cyl.",2003 to 2009,,,2384,,,,127
+SUBARU,OUTBACK,"3.0LR, H6, 6Cyl.",2003 to 2009,,,2544,,,,127
+SUBARU,OUTBACK,"2.5i, Petrol, MY 11",2009 to 2011,,,2543,,Build date from mid 2010.,,127
+SUBARU,OUTBACK,"2.5i, Petrol, MY10",2009 to 2011,,,2137 2383,,Build date before mid 2010.,,127
+SUBARU,OUTBACK,"3.6LR, Petrol",2009 to 2011,,,2543,,,,127
+SUBARU,OUTBACK,Diesel,2009 to 2011,,4503,,,,,127
+SUBARU,OUTBACK,Diesel,2011 to 2014,,4503,,,,,127
+SUBARU,OUTBACK,Petrol,2011 to 2014,,,2543,,,,127
+SUBARU,OUTBACK,"2.5L, 4 Cyl, Petrol",2014 to 2020,,,,4031,"Stop Start, must use EFB.",,127
+SUBARU,OUTBACK,"3.6L, 6 Cyl, Petrol",2014 to 2020,,4503,,,,,127
+SUBARU,OUTBACK,Diesel,2014 to 2020,,,,,"Must use EFB 4081, sourced locally, refer to MasterFit. Stop-Start is from MY18 but previous has S95 EFB.",,127
+SUBARU,OUTBACK,"6GEN, All variants",2020 onward,,,,4032,,,127
+--- page 127 row count: 29 (photo verified top-to-bottom) ---
+
+=== PAGE 126 ===
+SUBARU,1400,All variants,1973 to 1975,,,2384,,,,126
+SUBARU,BRUMBY,All variants,1978 to 1994,,5375,2384 2541,,,,126
+SUBARU,BRZ,All variants,2012 onward,,,2543,,,,126
+SUBARU,DL,All variants,1973 to 1995,,,2384,,,,126
+SUBARU,FF-1,Leone,1970 to 1971,,,2138,,,,126
+SUBARU,FIORI,All variants,1989 to 1992,,,2384,,,,126
+SUBARU,FORESTER,SF,1997 to 2002,,2508,,,,,126
+SUBARU,FORESTER,SG,2002 to 2008,,,2544,4032,4032 is alternate fitment option.,,126
+SUBARU,FORESTER,SH Diesel,2008 to 2013,,4504,,5582,,,126
+SUBARU,FORESTER,SH Petrol,2008 to 2013,,,2544,4032,4032 is alternate fitment option.,,126
+SUBARU,FORESTER,"SJ, 2.0D, Diesel",2013 to 2018,,4504,,5582,,,126
+SUBARU,FORESTER,"SJ, 2.0i, Petrol",2013 to 2018,,,,4032,"Stop Start, must use EFB.",,126
+SUBARU,FORESTER,"SJ, 2.0LXT, Petrol",2013 to 2018,,,2544,4032,4032 is alternate fitment option.,,126
+SUBARU,FORESTER,"SJ, 2.5i, Petrol",2013 to 2018,,,,4032,"Stop Start, must use EFB.",,126
+SUBARU,FORESTER,"S5, Hybrid",2019 onward,,,,,"Dual batteries. 2544 starting battery on passenger side. Connect jumpstarter to 2544. Stop start battery on driver side, refer to OEM.",,126
+SUBARU,FORESTER,"SK, 2.5i, Petrol",2019 onward,,,,4032,,,126
+SUBARU,GF,Leone,1975 to 1978,,,2138,,,,126
+SUBARU,GL,Leone,1973 to 1995,,,2138,,,,126
+SUBARU,IMPREZA,All variants,1992 to 2000,,,2384,,,,126
+SUBARU,IMPREZA,WRX,1992 to 2000,,,2544,,,,126
+SUBARU,IMPREZA,All variants,2000 to 2007,,,2384 2138,,,,126
+SUBARU,IMPREZA,WRX,2000 to 2007,,,2544,,,,126
+SUBARU,IMPREZA,"R, RS, RX",2007 to 2013,,,2544 2384,,Some vehicles use 2384.,,126
+SUBARU,IMPREZA,WRX,2007 to 2013,,,2544,4032,4032 is alternate fitment option.,,126
+SUBARU,IMPREZA,All variants,2012 to 2015,,,,4032,"Stop Start, must use EFB.",,126
+SUBARU,IMPREZA,All variants,2016 onward,,,,4032,"Stop Start, must use EFB.",,126
+SUBARU,IMPREZA,All variants,2016 onward,,,,4032,"Stop Start, must use EFB.",,126
+SUBARU,LEONE,All variants,1979 to 1990,,,2384,,,,126
+SUBARU,LEVORG,All variants,2016 onward,,,2544,4032,Stop Start variants must use EFB.,,126
+SUBARU,LIBERTY,"BC, BJ, BF",1989 to 1994,,,2384,,,,126
+--- page 126 row count: 30 (photo verified top-to-bottom; note guide prints two identical IMPREZA All variants 2016 onward rows) ---
+
+=== PAGE 125 ===
+SKODA,YETI,Petrol,2011 onward,,3554 3664,,5526 5536,,,125
+SKODA,YETI,"TDI, Diesel",2011 onward,,3554 3664,,5526 5536,,,125
+SMART,CABRIO,All variants,2003 to 2004,,3372 5344,3552,,,,125
+SMART,CITY COUPE,All variants,2003 to 2004,,3372 5344,,,,,125
+SMART,FORFOUR,All variants,2004 to 2007,,3372 5344,,,,,125
+SMART,FORTWO,All variants,2004 to 2013,,5344,,5526,Battery under passenger floor. Stop Start variant requires AGM - refer to Workshop.,,125
+SMART,FORTWO,All variants,2013 onward,,3554,,5526,Battery under passenger floor. Stop Start variant requires AGM - refer to Workshop.,,125
+SMART,ROADSTER,All variants,2003 to 2007,,5344,,,,,125
+SSANGYONG,ACTYON,All variants,2007 onward,,4703,,5593,,,125
+SSANGYONG,ACTYON SPORTS,All variants,2007 onward,,4703,,5593,,,125
+SSANGYONG,CHAIRMAN,All variants,2005 to 2007,,,3884,3888,,,125
+SSANGYONG,KORANDO,All variants,1998 to 1999,,4503,,,,,125
+SSANGYONG,KORANDO,All variants,2004 to 2018,,4703,,5593,,,125
+SSANGYONG,KORANDO,All variants,2019 onward,,3554,,,,,125
+SSANGYONG,KYRON,All variants,2006 to 2012,,4703,,5593,,,125
+SSANGYONG,MUSSO,All variants,1996 to 1998,,4703,,5593,,,125
+SSANGYONG,MUSSO,All variants,2004 to 2007,,4703,,5593,,,125
+SSANGYONG,MUSSO,Diesel,2018 onward,,4703,,5593,,,125
+SSANGYONG,REXTON,All variants,2003 to 2008,,4703,,5593,,,125
+SSANGYONG,REXTON,Y200,2008 to 2017,,4703,,5593,,,125
+SSANGYONG,REXTON,"Y400, All variants",2018 onward,,4703,,5593,,,125
+SSANGYONG,STAVIC,A100,2004 onward,,4703,,5593,,,125
+SSANGYONG,TIVOLI,"X100, Diesel",2018 onward,,4504,,,,,125
+SSANGYONG,TIVOLI,"X100, Petrol",2018 onward,,4504,,,,,125
+--- page 125 row count: 24 (photo verified top-to-bottom; p124 tail rows visible above binding: SKODA SUPERB NP Diesel 2016 onward = 5536 "Stop Start, must use AGM." Yes; SKODA SUPERB NP Petrol 2016 onward = 4036 "Stop Start, must use EFB." Yes) ---
+
+=== PAGE 124 ===
+SEAT,CORDOBA,All variants,1995 to 1999,,,3662,,,,124
+SEAT,IBIZA,"1.4L, CLX",1995 to 1999,,,3552,,,,124
+SEAT,IBIZA,"2.0L, GTi, Sport",1995 to 1999,,,3662,,,,124
+SEAT,TOLEDO,All variants,1995 to 1999,,3664,,5536,,,124
+SKODA,120,All variants,1979 to 1983,,2501,2541,,,,124
+SKODA,1000,All variants,1965 to 1969,,3372,,,,,124
+SKODA,FABIA,"Petrol, 1.2L",2011 to 2015,,5344,,,,Yes,124
+SKODA,FABIA,"RS, L.E, Petrol, 1.4L",2011 to 2015,,3554,,5526,,Yes,124
+SKODA,FABIA,All variants,2015 onward,,,,4026,Must use EFB.,Yes,124
+SKODA,KAROQ,All variants,2018 onward,,,,4036,,Yes,124
+SKODA,KODIAQ,Diesel,2017 onward,,,,5536,,Yes,124
+SKODA,KODIAQ,Petrol,2017 onward,,,,4036,,Yes,124
+SKODA,OCTAVIA,"1Z, Diesel",2007 to 2013,,3554 3664,,5526 5536,,Yes,124
+SKODA,OCTAVIA,"1Z, Petrol",2007 to 2013,,3664,,5536,,Yes,124
+SKODA,OCTAVIA,"1Z, Scout, Diesel",2007 to 2013,,3664,,5536,,Yes,124
+SKODA,OCTAVIA,"NE, Diesel",2013 onward,,,,5536,"Stop Start, must use AGM.",Yes,124
+SKODA,OCTAVIA,"NE, Petrol",2013 onward,,,,4036,"Stop Start, must use EFB.",Yes,124
+SKODA,RAPID,All variants,2014 onward,,,,4026,"Stop Start, must use EFB.",,124
+SKODA,ROOMSTER,"1.9L TDI, Diesel",2007 to 2010,,3554,,5526,,,124
+SKODA,ROOMSTER,Petrol,2007 to 2010,,3554,,5526,,,124
+SKODA,ROOMSTER,Petrol,2012 onward,,3554,,5526,,,124
+SKODA,S100,All variants,1974 to 1978,,3372,,,,,124
+SKODA,S110,All variants,1974 to 1978,,3372,,,,,124
+SKODA,SUPERB,"3T, 4 Cyl, Petrol",2009 to 2016,,3664,,5536,Some variants require AGM.,Yes,124
+SKODA,SUPERB,"3T, Diesel",2009 to 2016,,3664,,5536,Some variants require AGM.,Yes,124
+SKODA,SUPERB,"3T, V6 Petrol",2009 to 2016,,,3772,5556,Battery in boot. Some variants require AGM.,Yes,124
+SKODA,SUPERB,"NP, Diesel",2016 onward,,,,5536,"Stop Start, must use AGM.",Yes,124
+SKODA,SUPERB,"NP, Petrol",2016 onward,,,,4036,"Stop Start, must use EFB.",Yes,124
+--- page 124 row count: 28 (photo verified; Reg-Required column alignment double-checked via zoom — Yes flags start at FABIA 1.2L, not at 1000; RAPID has no Yes) ---
+
+=== PAGE 123 ===
+ROLLS-ROYCE,SILVER,All variants,1960 to 1981,,4703,,5593,,,123
+ROLLS-ROYCE,SILVER,All variants,1981 to 1995,,4503,,,,,123
+ROLLS-ROYCE,SILVER,All variants,1996 to 2002,,3664,3884,5536 3888,,,123
+ROLLS-ROYCE,WRAITH,All variants,2015 onward,,,,3888,,,123
+ROVER,75,All variants,2001 to 2005,,,3662,,,,123
+ROVER,825,All variants,1987 to 1988,,,2135,,,,123
+ROVER,827,All variants,1988 to 1991,,,2135,,,,123
+ROVER,2000,All variants,1965 to 1973,,2501,2541,,,,123
+ROVER,3500,All variants,1969 to 1987,,4503,,,,,123
+ROVER,3 LITRE,All variants,1960 to 1968,,4703,,5593,,,123
+ROVER,3.5 LITRE,All variants,1968 to 1972,,2501,2541,,,,123
+ROVER,416i,All variants,1986 to 1989,,2502,2542,,,,123
+ROVER,QUINTET,All variants,1983 to 1986,,,2135,,,,123
+SAAB,99,All variants,1971 to 1979,,,2543,,,,123
+SAAB,900,All variants,1979 to 1986,,2501,2543,,,,123
+SAAB,900,All variants,1987 to 1993,,4503,,,Check battery tray.,,123
+SAAB,900,All variants,1994 to 1998,,3554,,5526,Check battery tray.,,123
+SAAB,9000,4 Cyl,1986 to 1998,,3554,,5526,Check battery tray.,,123
+SAAB,9000,V6,1995 to 1998,,,3662,,Check battery tray.,,123
+SAAB,9-FIVE,Diesel,1997 to 2012,,,3884,3888,,,123
+SAAB,9-FIVE,Petrol,1997 to 2012,,3664,,5536,,,123
+SAAB,9-THREE,All variants,1998 to 2002,,3554,,5526,,,123
+SAAB,9-THREE,All variants,2003 to 2006,,,3662,,,,123
+SAAB,9-THREE,"Series II, Diesel",2006 to 2012,,3664,,5536,,,123
+SAAB,9-THREE,"Series II, Petrol",2006 to 2012,,3664,,5536,,,123
+SAAB,TURBO X,All variants,2008 to 2009,,,3552 3662,,Check battery tray.,,123
+--- page 123 row count: 26 (photo verified; same print quirk as p130: ROVER band printed above the final Rolls-Royce rows (Silver/Wraith) — assigned to ROLLS-ROYCE; Rover models start at 75) ---
+
+=== PAGE 122 ===
+RENAULT,MEGANE,"X95, 2D Cabriolet, Petrol",2010 to 2013,,3664,,5536,,,122
+RENAULT,MEGANE,"X95, 3D Hatch, RS Sport, Petrol, Stop Start",2010 to 2013,,,,5536,"Stop Start, must use AGM.",,122
+RENAULT,MEGANE,"95, Diesel",2013 to 2016,,3664,,5536,,,122
+RENAULT,MEGANE,"95, Petrol",2013 to 2016,,3664,,5536,,,122
+RENAULT,MEGANE,"95, Stop Start, Petrol",2013 to 2016,,,,5536,"Stop Start, must use AGM.",,122
+RENAULT,MEGANE,"1.2L, 1.6L Petrol",2016 onward,,,,4036,Must use EFB.,,122
+RENAULT,MEGANE,RS,2016 onward,,,,,LN1 AGM battery. Refer to OEM.,,122
+RENAULT,MEGANE,RS TROPHY,2016 onward,,,,,OEM battery is super cap battery. Refer to OEM.,,122
+RENAULT,R25,All variants,1985 to 1989,,2501,2541,,,,122
+RENAULT,R4,All variants,1962 to 1967,6603,,,,,,122
+RENAULT,R8,All variants,1964 to 1966,6603,,,,,,122
+RENAULT,SCENIC,Petrol,2001 to 2005,,3554,,5526,,,122
+RENAULT,SCENIC II,Diesel,2005 to 2009,,3664,,5536,,,122
+RENAULT,SCENIC II,Petrol,2005 to 2009,,,3662,,,,122
+RENAULT,TRAFIC,All variants,2004 to 2007,,3664,3884,5536 3888,,,122
+RENAULT,TRAFIC,All variants,2007 to 2015,,,3884,3888,Drive car and turn lock to lock to clear ESP code.,,122
+RENAULT,TRAFIC,"X82, Diesel",2015 onward,,,,4036 5556,"Some variants fit 4036, others fit 5556.",,122
+RENAULT,VIRAGE,All variants,1978 to 1980,,,2134,,,,122
+ROLLS-ROYCE,CAMARGUE,All variants,1975 to 1985,,4703,,5593,,,122
+ROLLS-ROYCE,CORNICHE,2D Convertible,1971 to 2003,,3664,3884,5536 3888,,,122
+ROLLS-ROYCE,CORNICHE,2D Sedan,1971 to 2003,,4703,,5593,,,122
+ROLLS-ROYCE,DAWN,All variants,2015 onward,,,,3888,,,122
+ROLLS-ROYCE,FLYING SPUR,All variants,1994 to 1995,,4503,,,,,122
+ROLLS-ROYCE,GHOST,All variants,2010 onward,,,,3888,,,122
+ROLLS-ROYCE,MULLINER,All variants,1966 to 1971,,4703,,5593,,,122
+ROLLS-ROYCE,PARK WARD,All variants,2000 to 2003,,3664,3884,5536 3888,,,122
+ROLLS-ROYCE,PHANTOM,All variants,2004 to 2015,,,3884,3888,,,122
+ROLLS-ROYCE,PHANTOM,All variants,2015 onward,,,,3888 5536,5536 is auxiliary battery.,,122
+--- page 122 row count: 28 (photo verified top-to-bottom) ---
+
+=== PAGE 121 ===
+RENAULT,GRAND SCENIC II,All variants,2007 to 2010,,,3552,,,,121
+RENAULT,KADJAR,All variants,2019 onward,,,,4036,,,121
+RENAULT,KANGOO,"Petrol, Diesel",2004 to 2010,,3554,,5526,,,121
+RENAULT,KANGOO,"X61, 1.6L, Petrol",2010 to 2014,,3554,,5526,,,121
+RENAULT,KANGOO,"X61, Diesel",2010 to 2014,,3664,,5536,,,121
+RENAULT,KANGOO,"X61 upgrade, 1.2L Petrol",2014 onward,,,,4036,,,121
+RENAULT,KANGOO,"X61 upgrade, 1.6L, Petrol",2014 onward,,3554,,5526,,,121
+RENAULT,KANGOO,"X61 upgrade, Maxi, Diesel",2014 onward,,3664,,5536,,,121
+RENAULT,KOLEOS,H45,2008 to 2015,,3664 4504,,5536 5582,"Some variants fit 3664, others fit 4504.",,121
+RENAULT,KOLEOS,"H45 upgrade, Petrol",2015 to 2016,,4504,,5582,,,121
+RENAULT,KOLEOS,"XZG, Diesel",2016 onward,,,,5536,,,121
+RENAULT,KOLEOS,"XZG, Petrol",2016 onward,,3554,,5526,"Some variants fit 3554, some fit 5526.",,121
+RENAULT,LAGUNA,All variants,1995 to 1996,,,3662,,,,121
+RENAULT,LAGUNA,All variants,2002 to 2011,,,3662,,,,121
+RENAULT,LATITUDE,2.0L Diesel,2011 to 2016,,,3772,,,,121
+RENAULT,LATITUDE,"All other variants, Petrol",2011 to 2016,,,,4036 5536,"4036, 5536 required to meet CCA requirement.",,121
+RENAULT,LATITUDE,"Luxe variant (with sunroof), Petrol",2011 to 2016,,,3884,,"Battery in the boot, RH side.",,121
+RENAULT,MASTER,All variants,2004 onward,,,3884,3888 5566,"Multiple fitment options. Battery located under passenger seat. Some vehicles take LN5 EFB, use 3888 or refer to dealer.",,121
+RENAULT,MEGANE,2D Cabriolet,2001 to 2003,,3372,3552,,,,121
+RENAULT,MEGANE,2D Cabriolet,2003 to 2006,,3372,3552,,,,121
+RENAULT,MEGANE,"Cabriolet, Sedan",2003 to 2006,,3372,3552,,,,121
+RENAULT,MEGANE,"X84, Hatch, Petrol",2003 to 2006,,3372,3552,,,,121
+RENAULT,MEGANE,"X84, Sedan, Petrol",2003 to 2006,,,3662,,,,121
+RENAULT,MEGANE,2D Cabriolet,2006 to 2010,,3372,3552,,,,121
+RENAULT,MEGANE,"X84, Diesel, Sedan, Hatch",2006 to 2010,,3664,,5536,Battery is a tight fit.,,121
+RENAULT,MEGANE,"X84, Petrol, Hatch",2006 to 2010,,3372,3552,,,,121
+RENAULT,MEGANE,"X84, Sedan, Petrol",2006 to 2010,,,3662,,,,121
+RENAULT,MEGANE,"X32, 5D Hatch, Diesel",2010 to 2013,,3664,,5536,,,121
+RENAULT,MEGANE,"X32, 5D Hatch, Petrol",2010 to 2013,,3664,,5536,,,121
+--- page 121 row count: 29 (photo verified top-to-bottom; p120 tail row visible above binding: RENAULT FUEGO All variants 1982-1987 = 2501/2541) ---
+
+=== PAGE 120 ===
+RENAULT,15,All variants,1973 to 1976,,,2134,,,,120
+RENAULT,16,All variants,1968 to 1977,,,2134,,,,120
+RENAULT,17,All variants,1973 to 1976,,,2134,,,,120
+RENAULT,18,All variants,1980 to 1983,,,2134,,,,120
+RENAULT,19,All variants,1991 to 1996,,3372,3552,,,,120
+RENAULT,20,All variants,1979 to 1983,,5344,,,,,120
+RENAULT,21,All variants,1988 to 1991,,3554 3664,,5526 5536,,,120
+RENAULT,25,All variants,1990 to 1991,,2501,2541,,,,120
+RENAULT,ARKANA,All variants,2021 onward,,,,4026,,,120
+RENAULT,CAPTUR,"X87, J87, All variants",2015 to 2018,,,,4036,Must use EFB.,,120
+RENAULT,CAPTUR,"XJB, All variants",2020 onward,,3554,,,,,120
+RENAULT,CARAVELLE,All variants,1962 to 1967,,2501,2541,,,,120
+RENAULT,CLIO,"1.4L, 1.6L, Petrol",2001 to 2013,,3372,3552,,,,120
+RENAULT,CLIO,"Sport, RS, 2.0L, Petrol",2001 to 2013,,,3552,,,,120
+RENAULT,CLIO,"X98, 0.9 L, Man Trans, Authentique, Stop Start",2013 to 2016,,,,4026,"Stop Start, must use EFB.",,120
+RENAULT,CLIO,"X98, 0.9 L, Man Trans, Expression, Stop Start",2013 to 2016,,,,4026,"Stop Start, must use EFB.",,120
+RENAULT,CLIO,"X98, 1.2L, Auto Trans, Dynamique",2013 to 2016,,,,5536,Must use AGM.,,120
+RENAULT,CLIO,"X98, 1.2L, Auto Trans, Expression",2013 to 2016,,,,4036,Must use EFB.,,120
+RENAULT,CLIO,"X98, 1.2L, Auto Trans, GT",2013 to 2016,,,,4036,Must use EFB.,,120
+RENAULT,CLIO,"X98, 1.6L, RS",2013 to 2016,,,,5526,Must use AGM.,,120
+RENAULT,CLIO,"B98, 0.9 L, Man Trans, Expression, Stop Start",2017 onward,,,,4026,,,120
+RENAULT,CLIO,"B98, 1.2L, All variants",2017 onward,,,,4036,,,120
+RENAULT,CLIO,"B98, 1.6L, RS",2017 onward,,,,5526,,,120
+RENAULT,DAUPHINE,All variants,1960 to 1964,6603,,,,,,120
+RENAULT,FLORIDE,All variants,1960 to 1962,,2501,2541,,,,120
+RENAULT,FLUENCE,All variants,2010 onward,,3664,,5536,,,120
+RENAULT,FUEGO,All variants,1982 to 1987,,2501,2541,,,,120
+--- page 120 row count: 27 (photo verified top-to-bottom; matches FUEGO tail seen on p121 photo) ---
+
+=== PAGE 119 ===
+RANGE ROVER,RANGE ROVER SPORT,"LW, 2.0L, Petrol",2013 onward,,,,3888,"Battery is a tight fit. DO NOT jump start directly to battery - use jump points. May also have auxiliary battery (8515) - refer to MasterFit.",Yes,119
+RANGE ROVER,RANGE ROVER SPORT,"LW, Diesel",2013 onward,,,,3888,"Battery is a tight fit. DO NOT jump start directly to battery - use jump points. May also have auxiliary battery (8515) - refer to MasterFit.",Yes,119
+RANGE ROVER,RANGE ROVER SPORT,"LW, V6, Petrol",2013 onward,,,3772,5556,"Battery is a tight fit. DO NOT jump start directly to battery - use jump points. May also have auxiliary battery (8515) - refer to MasterFit.",Yes,119
+RANGE ROVER,RANGE ROVER SPORT,"LW, V8, Petrol",2013 onward,,,3884,3888,"Battery is a tight fit. DO NOT jump start directly to battery - use jump points. May also have auxiliary battery (8515) - refer to MasterFit.",Yes,119
+RANGE ROVER,RANGE ROVER VOGUE,All variants,1985 to 1995,,4703,,5593,,,119
+RANGE ROVER,RANGE ROVER VOGUE,All variants,1995 to 2002,,,3884,3888,,,119
+RANGE ROVER,RANGE ROVER VOGUE,All variants,2002 to 2009,,,3884,3888,"Engine hood must be set to service position to access battery, see pdf. DO NOT jump start directly to battery - use jump points.",,119
+RANGE ROVER,RANGE ROVER VOGUE,All variants,2009 to 2013,,,3884,3888,DO NOT jump start directly to battery - use jump points.,Yes,119
+RANGE ROVER,RANGE ROVER VOGUE,"LG, Diesel",2013 onward,,,,3888,"2 Batteries - Starter & Aux. (see pdf). Must use AGM. DO NOT jump start directly to battery - use jump points.",Yes,119
+RANGE ROVER,RANGE ROVER VOGUE,"LG, Petrol",2013 onward,,,3884,3888,"2 Batteries - Starter & Aux. (see pdf). Must use AGM. DO NOT jump start directly to battery - use jump points.",Yes,119
+RANGE ROVER,VELAR,"Diesel, 2.0L",2017 onward,,,,5556,Health and saftey issues. Refer to MasterFit.,Yes,119
+RANGE ROVER,VELAR,"Diesel, V6, 3.0L",2017 onward,,,,3888,Health and saftey issues. Refer to MasterFit.,Yes,119
+RANGE ROVER,VELAR,Petrol,2017 onward,,,,5556,Health and saftey issues. Refer to MasterFit.,Yes,119
+RENAULT,"1,4",All variants,1976 to 1977,,,2134,,,,119
+RENAULT,10,All variants,1966 to 1971,,,2134,,,,119
+RENAULT,12,All variants,1970 to 1976,,,2134,,,,119
+--- page 119 row count: 16 (photo verified; RANGE ROVER kept as make (guide has a RANGE ROVER section band on p118, separate from LAND ROVER); Renault first model printed literally as "1,4") ---
+
+=== PAGE 118 ===
+RANGE ROVER,EVOQUE,Diesel,2011 to 2013,,,,5556,"Must use AGM. CAUTION - refer to MasterFit before Jump Starting. 8515 is auxilary battery adjacent to main battery.",Yes,118
+RANGE ROVER,EVOQUE,Petrol,2011 to 2013,,,3772,5556,"Some variants use AGM. CAUTION - refer to MasterFit before Jump Starting. 8515 is auxilary battery adjacent to main battery.",Yes,118
+RANGE ROVER,EVOQUE,Diesel,2013 to 2018,,,,5556,"Must use AGM. CAUTION - refer to MasterFit before Jump Starting. 8515 is auxilary battery adjacent to main battery.",Yes,118
+RANGE ROVER,EVOQUE,Petrol,2013 to 2018,,,,5556,"Must use AGM. CAUTION - refer to MasterFit before Jump Starting. 8515 is auxilary battery adjacent to main battery.",Yes,118
+RANGE ROVER,HIGHLINE,Carbi,1984 to 1985,,4703,,5593,,,118
+RANGE ROVER,HIGHLINE,EFI,1986 to 1989,,4503,,,,,118
+RANGE ROVER,LAUNCH PACK,All variants,1983 to 1985,,4703,,5593,,,118
+RANGE ROVER,RANGE ROVER,All variants,1972 to 1985,,4703,,5593,,,118
+RANGE ROVER,RANGE ROVER,Diesel,1985 to 1995,,4703,,5593,Requires 2 batteries.,,118
+RANGE ROVER,RANGE ROVER,Petrol,1985 to 1995,,4703,,5593,,,118
+RANGE ROVER,RANGE ROVER,"HSE, Petrol",1995 to 2002,,4703,,5593,,,118
+RANGE ROVER,RANGE ROVER,Petrol,1995 to 2002,,,3884,3888,,,118
+RANGE ROVER,RANGE ROVER,All variants,2002 to 2009,,,3884,3888,"Engine hood must be set to service position to access battery, see pdf. DO NOT jump start directly to battery - use jump points.",,118
+RANGE ROVER,RANGE ROVER,"LG, Diesel",2013 onward,,,3884,3888,"Stop Start, must use AGM. DO NOT jump start directly to battery - use jump points. May also have auxiliary battery (8515).",Yes,118
+RANGE ROVER,RANGE ROVER,"LG, Petrol",2013 onward,,,3884,3888,"Stop Start, must use AGM. DO NOT jump start directly to battery - use jump points. May also have auxiliary battery (8515).",Yes,118
+RANGE ROVER,RANGE ROVER SPORT,Diesel,2002 to 2009,,,3884,3888,"Engine hood must be set to service position to access battery, see pdf. DO NOT jump start directly to battery - use jump points.",,118
+RANGE ROVER,RANGE ROVER SPORT,Petrol,2002 to 2009,,,3884,3888,"Engine hood must be set to service position to access battery, see pdf. DO NOT jump start directly to battery - use jump points.",,118
+RANGE ROVER,RANGE ROVER SPORT,Diesel,2009 to 2013,,,3884,3888,DO NOT jump start directly to battery - use jump points.,Yes,118
+RANGE ROVER,RANGE ROVER SPORT,"Diesel, Autobiography",2009 to 2013,,,,3888,"Stop Start, must use AGM. DO NOT jump start directly to battery - use jump points.",Yes,118
+RANGE ROVER,RANGE ROVER SPORT,Petrol,2009 to 2013,,,3882,,DO NOT jump start directly to battery - use jump points.,Yes,118
+RANGE ROVER,RANGE ROVER SPORT,"Petrol, Autobiography",2009 to 2013,,,,3888,"Stop Start, must use AGM. DO NOT jump start directly to battery - use jump points.",Yes,118
+--- page 118 row count: 21 (photo verified top-to-bottom; matches earlier Drive OCR snippet of this page) ---
+
+=== PAGE 117 ===
+PROTON,EXORA,All variants,2013 onward,,,2544,,,,117
+PROTON,EXORA,FZ,2013 onward,,,2544,,,,117
+PROTON,GEN.2,All variants,2004 onward,,,3551,,,,117
+PROTON,JUMBUCK,All variants,2003 to 2010,,,2543,,,,117
+PROTON,JUMBUCK,All variants,2010 onward,,,2135,,Do not install larger battery - Engine Hood interference.,,117
+PROTON,M21,All variants,1997 to 2000,,2501 5375,2541,,,,117
+PROTON,PERSONA,All variants,1996 onward,,,3551,,,,117
+PROTON,PREVE,All variants,2013 onward,,,2544,,,,117
+PROTON,S16,All variants,2009 to 2012,,,2135,,,,117
+PROTON,S16 FLX,All variants,2012 onward,,,2135,,,,117
+PROTON,SATRIA,All variants,1997 to 2010,,,3551,,2541 fits on modified bracket versions.,,117
+PROTON,SATRIA-NEO,All variants,2010 to 2012,,,3551,,2541 fits on modified bracket versions.,,117
+PROTON,SAVVY,All variants,2006 to 2012,,,2136,,,,117
+PROTON,SUPRIMA S,All variants,2014 onward,,,2544,,,,117
+PROTON,WAJA,All variants,2001 to 2006,,,2544,,,,117
+PROTON,WIRA,1.5L,1995 to 1996,,,2543,,,,117
+PROTON,WIRA,1.6L,1995 to 1996,,,3551,,,,117
+RAM,1500,All variants,2018 onward,,,3772,,,,117
+RAMBLER,AMBASSADOR,All variants,1961 to 1978,,4703,,5593,,,117
+RAMBLER,AMERICAN,All variants,1961 to 1978,,4703,,5593,,,117
+RAMBLER,CLASSIC,All variants,1961 to 1978,,4703,,5593,,,117
+RAMBLER,JAVELIN,All variants,1961 to 1978,,4703,,5593,,,117
+RAMBLER,MATADOR,All variants,1961 to 1978,,4703,,5593,,,117
+RAMBLER,REBEL,All variants,1961 to 1978,,4703,,5593,,,117
+--- page 117 row count: 24 (photo verified top-to-bottom; p116 tail rows visible above binding: PORSCHE PANAMERA All variants 2009-2013 = premium 3772 3884 / agm 5556 3888 "Requires female torx socket."; PANAMERA Facelift 2013-2016 = agm 5566 "Requires female torx socket.") ---
+
+=== PAGE 116 ===
+PORSCHE,911,991,2012 to 2015,,3664,,5536,Battery under front hood plenum cover.,,116
+PORSCHE,911,991 upgrade,2015 onward,,,,5536 3888,"Must use an AGM battery. Some fit 5536, some fit 3888.",,116
+PORSCHE,912,All variants,1965 to 1969,,3372,,,,,116
+PORSCHE,924,All variants,1977 to 1982,,3372,,,,,116
+PORSCHE,928,All variants,1978 to 1985,,3664,3882,5536,,,116
+PORSCHE,928,All variants,1984 to 1995,,3664,,5536,,,116
+PORSCHE,930,All variants,1975 to 1977,,,3662,,,,116
+PORSCHE,944,All variants,1982 to 1991,,3664,3552,5536,,,116
+PORSCHE,944,S,1982 to 1991,,3664,,5536,,,116
+PORSCHE,968,All variants,1992 to 1995,,,3552,,,,116
+PORSCHE,BOXSTER,986,1996 to 2005,,3664,,5536,Battery in front storage compartment.,,116
+PORSCHE,BOXSTER,"987, 2.7L, 2.9L",2005 to 2012,,3664,,5536,Battery in front storage compartment.,,116
+PORSCHE,BOXSTER,"987, S, 3.2L, 3.4L",2005 to 2012,,,3884,3888,Battery in front storage compartment.,,116
+PORSCHE,BOXSTER,981,2012 to 2015,,3664,,5536,Battery in front storage compartment.,,116
+PORSCHE,BOXSTER,981 upgrade,2015 to 2016,,,,5536,Must use an AGM battery. Battery in front storage compartment.,,116
+PORSCHE,CAYENNE,All variants,2003 to 2007,,,,3888 5566,"AGM battery under passenger seat, some use 3888, some use 5566. Workshop fitment.",,116
+PORSCHE,CAYENNE,All variants,2007 to 2010,,,,3888 5566,"AGM battery under passenger seat, some use 3888, some use 5566. Workshop fitment.",,116
+PORSCHE,CAYENNE,Series 2,2010 to 2017,,,,3888 5566,"AGM battery under passenger seat, some use 3888, some use 5566. Workshop fitment.",,116
+PORSCHE,CAYMAN,987,2006 to 2013,,,3772,5556,,,116
+PORSCHE,CAYMAN,981,2013 onward,,,3884,3888,,,116
+PORSCHE,MACAN,"4Cyl, Petrol",2014 to 2018,,,,5536,Must use an AGM battery.,,116
+PORSCHE,MACAN,Diesel,2014 to 2018,,,,5566,Must use an AGM battery.,,116
+PORSCHE,MACAN,"V6, Petrol",2014 to 2018,,,,3888,Must use an AGM battery.,,116
+PORSCHE,PANAMERA,All variants,2009 to 2013,,,3772 3884,5556 3888,Requires female torx socket.,,116
+PORSCHE,PANAMERA,Facelift,2013 to 2016,,,,5566,Requires female torx socket.,,116
+--- page 116 row count: 25 (photo verified top-to-bottom; 5566 confirmed as a real AGM part here, corroborating the Renault Master 5566 reading) ---
+
+=== PAGE 115 ===
+PEUGEOT,3008,Diesel,2010 to 2015,,3664,,5536,,,115
+PEUGEOT,3008,Petrol,2010 to 2015,,3554,,5526,,,115
+PEUGEOT,3008,All other variants,2017 onward,,,,4026,,,115
+PEUGEOT,3008,GT,2017 onward,,,,4036,,,115
+PEUGEOT,3008,GT LINE,2017 onward,,,,4026,,,115
+PEUGEOT,4007,All variants,2009 onward,,4704,,5594,,,115
+PEUGEOT,4008,All variants,2012 onward,,,2544,,,,115
+PEUGEOT,5008,Diesel,2013 to 2015,,3554,,5526,,Yes,115
+PEUGEOT,5008,Petrol,2013 to 2015,,3554,,5526,,Yes,115
+PEUGEOT,5008,"P87, Diesel",2018 onward,,,,5536,,Yes,115
+PEUGEOT,5008,"P87, Petrol",2018 onward,,,,5526,,Yes,115
+PEUGEOT,EXPERT,All variants,2008 onward,,3664,,5536,Battery under drivers floor.,,115
+PEUGEOT,PARTNER,Diesel,2008 onward,,3664,,5536,Battery under drivers floor.,,115
+PEUGEOT,PARTNER,Petrol,2008 onward,,3664,,5536,Battery under drivers floor.,,115
+PEUGEOT,RCZ,Diesel,2010 onward,,3664,,5536,,Yes,115
+PEUGEOT,RCZ,Petrol,2010 onward,,3554,,5526,,Yes,115
+PONTIAC,FIREBIRD,All variants,1969 to 1978,,4503,3551,,3551 can replace 2581.,,115
+PONTIAC,LAURENTIAN,All variants,1960 to 1963,,4503,,,,,115
+PONTIAC,PARISIENNE,All variants,1962 to 1969,,4503,,,,,115
+PORSCHE,356,All variants,1960 to 1965,6603,,,,,,115
+PORSCHE,718,All variants,2016 onward,,,,5556,,,115
+PORSCHE,911,All variants,1964 to 1973,,3372,,,Requires 2 batteries.,,115
+PORSCHE,911,All variants,1973 to 1989,,3664,,5536,,,115
+PORSCHE,911,964,1989 to 1993,,3664,,5536,,,115
+PORSCHE,911,993,1994 to 1998,,3664,,5536,,,115
+PORSCHE,911,996,1998 to 2005,,,3772,5556,,,115
+PORSCHE,911,997,2004 to 2012,,,3772,5556,,,115
+--- page 115 row count: 27 (photo verified top-to-bottom; p114 tail rows above binding: PEUGEOT 605 1994-1996 = 3554/5526; 607 2001-2008 = 3664/5536; 2008 Diesel 2013-2016 = 5536 "Stop Start, must use AGM."; 2008 Petrol 2013-2016 = 3554/5526; 2008 All variants 2017-2019 = 4036; 2008 All variants 2020 onward = 4026) ---
+
+=== PAGE 114 ===
+PEUGEOT,308,"T9, Diesel",2014 onward,,,,5536,Must use an AGM battery.,Yes,114
+PEUGEOT,308,"T9, Petrol",2014 onward,,,,5536,Must use an AGM battery.,Yes,114
+PEUGEOT,403,All variants,1960 to 1967,,,3552,,3552 can replace 2582.,,114
+PEUGEOT,404,All variants,1962 to 1970,,3664,,5536,,,114
+PEUGEOT,405,Petrol,1989 to 1998,,5344,,,,,114
+PEUGEOT,405,"SRDT, Diesel",1989 to 1998,,3554,,5526,,,114
+PEUGEOT,406,"2D Coupe, Petrol",1996 to 2004,,3554,3552,5526,"Some fit 3552, some use 3554.",,114
+PEUGEOT,406,Diesel,1996 to 2004,,3554,3552,5526,"Some fit 3552, some use 3554.",,114
+PEUGEOT,406,Petrol,1996 to 2004,,3554,3552,,"Some fit 3552, some use 3554.",,114
+PEUGEOT,407,"Diesel, 4cyl",2004 to 2011,,,,5536,AGM required to meet Peugeot CCA specification.,Yes,114
+PEUGEOT,407,"Diesel, V6",2004 to 2011,,,3884,,,Yes,114
+PEUGEOT,407,Petrol,2004 to 2011,,,,5536,AGM required to meet Peugeot CCA specification.,Yes,114
+PEUGEOT,504,Petrol,1970 to 1977,,3372 5344,,,,,114
+PEUGEOT,504,Petrol,1973 to 1975,,3372 5344,,,,,114
+PEUGEOT,504,Diesel,1977 to 1983,,3664,,5536,,,114
+PEUGEOT,504,Petrol,1977 to 1983,,3372 5344,,,,,114
+PEUGEOT,505,Diesel,1980 to 1993,,3554 3664,,5526 5536,,,114
+PEUGEOT,505,Petrol,1980 to 1993,,3554,,5526,,,114
+PEUGEOT,508,1.6L Petrol,2011 to 2015,,1060,,5526,1060 is OEM battery from Peugeot.,Yes,114
+PEUGEOT,508,HDI Diesel,2011 to 2015,,,,5536,Stop Start variant must use an AGM battery. Non Stop Start needs 5536 for 760CCA.,Yes,114
+PEUGEOT,508,1.6L Petrol,2015 onward,,,,5536,Stop Start variant must use an AGM battery. Non Stop Start needs 5536 for 760CCA.,Yes,114
+PEUGEOT,508,HDI Diesel,2015 onward,,,,5536,Stop Start variant must use an AGM battery. Non Stop Start needs 5536 for 760CCA.,Yes,114
+PEUGEOT,604,All variants,1978 to 1982,,3554,,5526,,,114
+PEUGEOT,605,All variants,1994 to 1996,,3554,,5526,,,114
+PEUGEOT,607,All variants,2001 to 2008,,3664,,5536,,,114
+PEUGEOT,2008,Diesel,2013 to 2016,,,,5536,"Stop Start, must use an AGM battery.",,114
+PEUGEOT,2008,Petrol,2013 to 2016,,3554,,5526,,,114
+PEUGEOT,2008,All variants,2017 to 2019,,,,4036,,,114
+PEUGEOT,2008,All variants,2020 onward,,,,4026,,,114
+--- page 114 row count: 29 (photo verified top-to-bottom; matches tail rows noted on p115 photo) ---
+
+=== PAGE 113 ===
+OPEL,ASTRA,"PJ, Grey Import",2009 to 2012,,3664,,5536,Top hold down bracket.,Yes,113
+OPEL,ASTRA,"PJ, Diesel",2012 to 2013,,5372,,,,Yes,113
+OPEL,ASTRA,"PJ, OPC, Petrol",2012 to 2013,,,,5556,,Yes,113
+OPEL,ASTRA,"PJ, Petrol",2012 to 2013,,,3662,,,Yes,113
+OPEL,CORSA,All variants,2012 to 2013,,3664,,5536,,,113
+OPEL,INSIGNIA,Diesel,2012 to 2013,,5372,,,,,113
+OPEL,INSIGNIA,Petrol,2012 to 2013,,,,5536,Must use an AGM battery.,,113
+OPEL,ZAFIRA,Diesel,2012 to 2013,,5372,,,,,113
+PANTHER,KALLISTA,All variants,1989 to 1991,,,3552,,,,113
+PEUGEOT,205,All variants,1987 to 1994,,3372,3552,,,,113
+PEUGEOT,206,"1.4L, 1.6L",1999 to 2007,,3372,,,,,113
+PEUGEOT,206,2.0L,1999 to 2007,,,3552,,,,113
+PEUGEOT,206,2D Cabriolet,1999 to 2007,,3554,,5526,,,113
+PEUGEOT,207,All variants,2007 onward,,3554,,5526,,Yes,113
+PEUGEOT,208,All other variants,2012 onward,,,,4026,,Yes,113
+PEUGEOT,208,"GTi, 1.6L, Turbo, Petrol",2012 onward,,,,5536,,Yes,113
+PEUGEOT,306,Diesel,1994 to 2002,,3554,,5526,,,113
+PEUGEOT,306,Petrol,1994 to 2002,,3554,,5526,,,113
+PEUGEOT,307,"CC, Petrol",2001 to 2009,,1060 3554,,5526,1060 is OEM battery from Peugeot.,,113
+PEUGEOT,307,Diesel,2001 to 2009,,3664,,5536,,,113
+PEUGEOT,307,Petrol,2001 to 2009,,1060,,5526,"3554 is under specification. 3664 can fit some vehicles by adjusting 'tangs' on battery tray. 1060 is OEM battery from Peugeot.",,113
+PEUGEOT,308,All variants,2008 to 2011,,3554 3664,,5526 5536,Check battery specifications. Some variants use an AGM battery. Some variants do not require registration.,Yes,113
+PEUGEOT,308,Diesel,2011 to 2014,,3664,,5536,Stop Start and eHDI variants must use an AGM battery.,Yes,113
+PEUGEOT,308,Petrol,2011 to 2014,,3664 1060,,5536,Stop Start and eHDI variants must use an AGM battery. 1060 is OEM battery from Peugeot.,Yes,113
+--- page 113 row count: 24 (photo verified top-to-bottom; p112 tail row above binding: NISSAN SKYLINE All variants 1988-1991 = 2501 5375 / 2541) ---
+
+=== PAGE 112 ===
+NISSAN,SERENA,All variants,1992 to 1995,,4503,,,,,112
+NISSAN,SILVIA,Grey Import,1989 to 2002,,,2383,,,,112
+NISSAN,SKYLINE,All variants,1978 to 1990,,2501 5375,2541,,,,112
+NISSAN,SKYLINE,Grey Import,1994 to 2008,,,2138 2137,,Under bonnet plenum cover.,,112
+NISSAN,SKYLINE GTR/GTS,Grey Import,1994 to 2008,,,2138 2137,,Under bonnet plenum cover.,,112
+NISSAN,STAGEA,Grey Import,1996 to 2007,,,2383,,,,112
+NISSAN,STANZA,All variants,1978 to 1983,,2501 5375,2541,,,,112
+NISSAN,SUNNY,All variants,1979 to 1983,,,2381,,,,112
+NISSAN,TERRANO II,Diesel,1997 to 2000,,4503 4703,,5593,,,112
+NISSAN,TERRANO II,Petrol,1997 to 2000,,2501 5375,2541,,,,112
+NISSAN,THE UTE,All variants,1982 to 1992,,2502,2542,,,,112
+NISSAN,TIIDA,C11,2005 to 2007,,,2138,,,,112
+NISSAN,TIIDA,C11 Upgrade,2007 to 2013,,,2138,,,,112
+NISSAN,URVAN,Diesel,1980 to 1993,,4703,,5593,,,112
+NISSAN,URVAN,Petrol,1980 to 1993,,2501 5375,2541,,,,112
+NISSAN,V30,All variants,1986 to 1988,,4703,,5593,,,112
+NISSAN,VANETTE,All variants,1982 to 1993,,,2383,,,,112
+NISSAN,X-TRAIL,T30,2001 to 2007,,,2544,,,,112
+NISSAN,X-TRAIL,"T31, Diesel",2007 to 2014,,4504,,5582,,,112
+NISSAN,X-TRAIL,"T31, Petrol",2007 to 2014,,,2544,4032,2544 ledges can cause fitment problems. 4032 doesn't have ledges.,,112
+NISSAN,X-TRAIL,"T32, Diesel",2014 to 2016,,,,4082,"Stop Start, must use EFB.",,112
+NISSAN,X-TRAIL,"T32, Petrol",2014 to 2016,,,2544,4032,4032 is alternate fitment option.,,112
+NISSAN,X-TRAIL,"T32 series 2, Diesel",2017 onward,,,,4082,,,112
+NISSAN,X-TRAIL,"T32 series 2, Petrol",2017 onward,,,2544,,,,112
+NISSAN SPECIAL VEHICLE,SKYLINE,All variants,1988 to 1991,,2501 5375,2541,,,,112
+--- page 112 row count: 25 (photo verified top-to-bottom) ---
+
+=== PAGE 111 ===
+NISSAN,PATHFINDER,"R51, Petrol",2005 to 2013,,3664,,5536,,,111
+NISSAN,PATHFINDER,"R51, Ti 550, 3.0L, Diesel",2005 to 2013,,,3884,3888,,,111
+NISSAN,PATHFINDER,"R52, Hybrid",2013 onward,,,2136,,,,111
+NISSAN,PATHFINDER,"R52, V6, Petrol",2013 onward,,3554,2544,,"Some fit 3554, some fit 2544.",,111
+NISSAN,PATROL,"160 (MQ, MK), Diesel",1980 to 1987,,4703,,5593,Some variants require 2 batteries.,,111
+NISSAN,PATROL,"160 (MQ, MK), Petrol",1980 to 1987,,,2543,,,,111
+NISSAN,PATROL,"Y60 (GQ), Diesel",1988 to 1998,,4704,,5594,,,111
+NISSAN,PATROL,"Y60 (GQ), Petrol",1988 to 1998,,,2544,4032,4032 is alternate fitment option.,,111
+NISSAN,PATROL,"Y61 (GU), 4.5L, Petrol",1997 to 2001,,4504,,5582,,,111
+NISSAN,PATROL,"Y61 (GU), Diesel",1997 to 2001,,4704,,5594,,,111
+NISSAN,PATROL,"Y61 (GU), 4.8L, Petrol, ST",2001 to 2013,,4504,,,,,111
+NISSAN,PATROL,"Y61 (GU), 4.8L, Petrol, Ti",2001 to 2013,,4704,,5594,,,111
+NISSAN,PATROL,"Y61 (GU), Diesel",2001 to 2013,,4704,,5594,,,111
+NISSAN,PATROL,"Y61 (GU), Diesel",2013 onward,,4704,,5594,,,111
+NISSAN,PATROL,"Y62, Petrol",2013 onward,,4703,,5593,,,111
+NISSAN,PINTARA,All variants,1986 to 1992,,2501 5375,2541,,,,111
+NISSAN,PRAIRIE,All variants,1982 to 1985,,,2383,,,,111
+NISSAN,PULSAR,N12,1980 to 1989,,,2382,,,,111
+NISSAN,PULSAR,"N12, EXA, ET, Turbo",1980 to 1989,,,2384,,,,111
+NISSAN,PULSAR,N13,1987 to 1991,,,2382,,,,111
+NISSAN,PULSAR,"N14, Hatch",1990 to 1995,,,2384,,,,111
+NISSAN,PULSAR,"N14, Sedan",1990 to 1995,,,2382,,,,111
+NISSAN,PULSAR,N15,1995 to 2000,,,2384,,,,111
+NISSAN,PULSAR,"N16, 1.6L, LX",2000 to 2006,,,2384,,,,111
+NISSAN,PULSAR,"N16, 1.8L, Hatch, ST, Q",2000 to 2006,,,3552,,,,111
+NISSAN,PULSAR,"N16, 1.8L, Sedan, ST, Q, Ti",2000 to 2006,,,2384,,,,111
+NISSAN,PULSAR,"B17, Sedan",2013 onward,,,2544,,,,111
+NISSAN,PULSAR,"C12, Hatch",2013 onward,,,2544,,,,111
+NISSAN,QASHQAI,"ST, Ti, Petrol",2014 onward,,3554,,5526,Caution fragile clips - refer to MasterFit.,Yes,111
+NISSAN,QASHQAI,"TS, TL, Diesel",2014 onward,,,,4036,"Stop Start, must use EFB. Caution fragile clips - refer to MasterFit.",Yes,111
+--- page 111 row count: 30 (photo verified top-to-bottom; p110 tail rows above binding: PATHFINDER All variants 1987-1992 = 2543; PATHFINDER All variants 1992-2005 = 2543; PATHFINDER R51 2.5L Diesel 2005-2013 = 3664/5536) ---
+
+=== PAGE 110 ===
+NISSAN,MICRA,K11,1995 to 1997,,,2136,,,,110
+NISSAN,MICRA,K12,2007 to 2010,,,2138,,,,110
+NISSAN,MICRA,K13,2010 to 2013,,,2138,,,,110
+NISSAN,MICRA,K13 Upgrade,2013 to 2015,,5344,,,Can fit 3554.,,110
+NISSAN,MURANO,Z50,2005 to 2009,,,2544,4032,4032 is alternate fitment option.,,110
+NISSAN,MURANO,Z51,2009 onward,,4504,2544,5582,,,110
+NISSAN,NAVARA,"D21, Diesel",1986 to 1997,,4703,,5593,,,110
+NISSAN,NAVARA,"D21, Petrol",1986 to 1997,,,2543,,,,110
+NISSAN,NAVARA,"D22, 2.7L 4 Cyl, Diesel",1997 to 2001,,4703,,5593,,,110
+NISSAN,NAVARA,"D22, 3.0L 4 Cyl, Diesel",1997 to 2001,,4703,,5593,,,110
+NISSAN,NAVARA,"D22, 3.2L 4 Cyl, Diesel",1997 to 2001,,4703,,5593,,,110
+NISSAN,NAVARA,"D22, Petrol",1997 to 2001,,,2543,,,,110
+NISSAN,NAVARA,"D22, 3.0L 4 Cyl, Diesel",2001 to 2005,,4703,,5593,,,110
+NISSAN,NAVARA,"D22, Petrol",2001 to 2005,,,2543,,,,110
+NISSAN,NAVARA,"D22, 3.0L 4 Cyl, Diesel",2005 to 2008,,4703,,5593,,,110
+NISSAN,NAVARA,"D40, 2.5L 4 Cyl, Diesel",2005 to 2008,,3664,,5536,,,110
+NISSAN,NAVARA,"D40, 4.0L V6, Petrol",2005 to 2008,,3664,,5536,,,110
+NISSAN,NAVARA,"D22, 2.5L, Diesel",2008 to 2011,,4503,,,"Some Thailand built variants had 2 batteries, 2543 and 2544.",,110
+NISSAN,NAVARA,"D40, 2.5L 4 Cyl, Diesel",2008 to 2011,,4704 3664,,5536 5594,"VIN starting with MNT use 4704, VIN starting with VSK use 3664.",,110
+NISSAN,NAVARA,"D40, 4.0L V6, Petrol",2008 to 2011,,3664,,5536,,,110
+NISSAN,NAVARA,"D22, 2.5L, Diesel",2011 to 2015,,4503 4504,,,Requires 2 batteries.,,110
+NISSAN,NAVARA,"D40, 2.5L 4 Cyl, Diesel",2011 to 2015,,4704 3664,,5536 5594,"VIN starting with MNT = 4704 (or 5594), VSK = 3664 (or 5536).",,110
+NISSAN,NAVARA,"D40, 3.0L V6, Diesel",2011 to 2015,,,3884,3888,,,110
+NISSAN,NAVARA,NP300 D23,2015 to 2017,,3664,,5536,,,110
+NISSAN,NAVARA,"D23, Diesel",2017 onward,,3664,,,,,110
+NISSAN,NOMAD,All variants,1987 to 1992,,,2382,,,,110
+NISSAN,NX,All variants,1991 to 1995,,,2384 2382,,Some use large terminals.,,110
+NISSAN,NX-R,All variants,1991 to 1996,,,2384 2382,,Some use large terminals.,,110
+NISSAN,PATHFINDER,All variants,1987 to 1992,,,2543,,,,110
+NISSAN,PATHFINDER,All variants,1992 to 2005,,,2543,,,,110
+NISSAN,PATHFINDER,"R51, 2.5L, Diesel",2005 to 2013,,3664,,5536,,,110
+--- page 110 row count: 31 (photo verified top-to-bottom; matches Pathfinder tail seen on p111 photo) ---
+
+=== PAGE 109 ===
+NISSAN,BLUEBIRD,All variants,1993 to 1997,,2502,2542,,,,109
+NISSAN,C20,Van,1980 to 1982,,,2134,,,,109
+NISSAN,CABSTAR,All variants,1984 to 1992,4901,,,,,,109
+NISSAN,CIVILIAN,3 Tonne,1996 onward,,4703,,5593,,,109
+NISSAN,CIVILIAN,Bus (24 Volt system),1996 onward,,4503 4504,,,Requires 2 batteries.,,109
+NISSAN,CUBE,Grey Import,1998 to 2007,,,2384,,,,109
+NISSAN,CUBE,Grey Import,2008 onward,,4504,,,,,109
+NISSAN,DUALIS,"J10, Petrol",2007 to 2013,,3554,,5526,,,109
+NISSAN,DUALIS,"J10 upgrade, Diesel",2013 onward,,,,4082,"Stop Start, must use EFB.",,109
+NISSAN,DUALIS,"J10 upgrade, Petrol",2013 onward,,3554,,5526,,,109
+NISSAN,E20,All variants,1974 to 1980,,2501 5375,2541,,2 batteries required.,,109
+NISSAN,ELGRAND,Grey Import,1997 onward,,,2543,,,,109
+NISSAN,EXA,All variants,1987 to 1990,,,2382,,,,109
+NISSAN,GAZELLE,All variants,1984 to 1988,,,2381,,,,109
+NISSAN,GT-R,HR 32,1991 to 1993,,,2138,,,,109
+NISSAN,GT-R,R35,2009 onward,,,2136,,,,109
+NISSAN,INFINITI,All variants,1993 to 1996,,,2544,4032,4032 is alternate fitment option.,,109
+NISSAN,JUKE,"F15, ST",2013 to 2015,,,,4026,Must use EFB.,,109
+NISSAN,JUKE,"F15, ST-S",2013 to 2015,,,2544,,,,109
+NISSAN,JUKE,"F15, Ti-S AWD",2013 to 2015,,,2544,,,,109
+NISSAN,JUKE,"F15 Series 2, 1.6L, Turbo",2015 to 2019,,,,4026,"Stop Start, must use EFB.",,109
+NISSAN,JUKE,"F15 Series 2, ST, 1.2L, Turbo",2015 to 2019,,,,4036,"Stop Start, must use EFB.",,109
+NISSAN,JUKE,"F15 Series 2, ST, 1.6L, NA",2015 to 2019,,,,4026,"Stop Start, must use EFB.",,109
+NISSAN,JUKE,"F16, All variants",2020 onward,,,,4026,,,109
+NISSAN,LEAF,ZE0,2012 to 2017,,,2136,,Aux. battery for Electric vehicle.,,109
+NISSAN,LEAF,ZE1,2019 onward,,5344,,,5344 is Auxiliary battery for EV.,,109
+NISSAN,MAXIMA,A30,1990 to 1995,,,2544,4032,4032 is alternate fitment option.,,109
+NISSAN,MAXIMA,"A31, A32, A33",1993 to 2004,,,2544,,,,109
+NISSAN,MAXIMA,J31,2003 to 2009,,,2544,,,,109
+NISSAN,MAXIMA,J32,2009 to 2014,,,2544,4032,4032 is alternate fitment option.,,109
+--- page 109 row count: 30 (photo verified top-to-bottom; p108 tail rows above binding: 200SX S15 2000-2003 = 2135; 350Z 2003-2009 = 2544; 370Z Z34 2009 onward = 2544/4032 alt; ALMERA 2012 onward = 2138; ALTIMA L33 2013 onward = 2544/4032 alt; BLUEBIRD 1981-1986 = 2501 5375/2541) ---
+
+=== PAGE 108 ===
+MORRIS,850,All variants,1961 to 1972,,,2134,,,,108
+MORRIS,1100,All variants,1961 to 1972,,,2134,,,,108
+MORRIS,1300,All variants,1961 to 1972,,,2134,,,,108
+MORRIS,1500,All variants,1961 to 1972,,,2134,,,,108
+MORRIS,ELITE,All variants,1962 to 1964,,,2134,,,,108
+MORRIS,MAJOR,All variants,1960 to 1962,,,2134,,,,108
+MORRIS,MARSHALL,All variants,1960,,,2134,,,,108
+MORRIS,MINI,All variants,1965 to 1973,,2501 5375,2541,,,,108
+MORRIS,MINOR,All variants,1960 to 1961,,,2134,,,,108
+MORRIS,OXFORD,All variants,1960 to 1962,,,2134,,,,108
+N.S.U.,PRINZ,All variants,1960 to 1966,4052,,,,,,108
+N.S.U.,Ro 80,All variants,1969 to 1973,4052,,,,,,108
+NISSAN,280,All variants,1978 to 1984,,2501,2541,,,,108
+NISSAN,300,C,1984 to 1986,,2501,2541,,,,108
+NISSAN,300,ZX,1984 to 1997,,2502,2542,,,,108
+NISSAN,300,"ZX, Turbo",1984 to 1997,,,2544,4032,4032 is alternate fitment option.,,108
+NISSAN,720,Diesel,1980 to 1985,,4703,,5593,,,108
+NISSAN,720,Petrol,1980 to 1985,,2501,2541,,,,108
+NISSAN,120Y,All variants,1977 to 1978,,,2134,,,,108
+NISSAN,180SX,Grey Import,1989 to 2002,,,2384,,,,108
+NISSAN,200SX,S14,1994 to 2000,,,2543,,,,108
+NISSAN,200SX,S15,2000 to 2003,,,2135,,,,108
+NISSAN,350Z,All variants,2003 to 2009,,,2544,,,,108
+NISSAN,370Z,Z34,2009 onward,,,2544,4032,4032 is alternate fitment option.,,108
+NISSAN,ALMERA,All variants,2012 onward,,,2138,,,,108
+NISSAN,ALTIMA,L33,2013 onward,,,2544,4032,4032 is alternate fitment option.,,108
+NISSAN,BLUEBIRD,All variants,1981 to 1986,,2501 5375,2541,,,,108
+--- page 108 row count: 27 (photo verified top-to-bottom; matches tail rows noted on p109 photo) ---
+
+=== PAGE 107 ===
+MITSUBISHI,TRITON,"ME, MF, MG, MH, MJ, Petrol",1986 to 1996,,,2543,,,,107
+MITSUBISHI,TRITON,"MK, 3.0L V6, Petrol",1996 to 2006,,4503 4703,,5593,,,107
+MITSUBISHI,TRITON,"MK, Diesel",1996 to 2006,,4503,,,,,107
+MITSUBISHI,TRITON,"MK, Petrol",1996 to 2006,,,2543,,,,107
+MITSUBISHI,TRITON,"ML, 2.4L 4Cyl, Petrol",2006 to 2009,,,2543,,,,107
+MITSUBISHI,TRITON,"ML, 3.0L V6, Petrol",2006 to 2009,,4504 4704,,5594,,,107
+MITSUBISHI,TRITON,"ML, Diesel",2006 to 2009,,4704,,5594,,,107
+MITSUBISHI,TRITON,"MN, Diesel",2009 to 2015,,4704,,5594,,,107
+MITSUBISHI,TRITON,"MN, Petrol",2009 to 2015,,,2544,,,,107
+MITSUBISHI,TRITON,"MQ, Diesel",2015 to 2018,,4704,,5594,,,107
+MITSUBISHI,TRITON,"MQ, Petrol",2015 to 2018,,,2544,,,,107
+MITSUBISHI,TRITON,"MR, Diesel",2018 onward,,4704,,5594,,,107
+MITSUBISHI,TRITON,"MR, Petrol",2018 onward,,,2544,4032,4032 is alternate fitment option.,,107
+MITSUBISHI,VERADA,All variants,1990 to 2005,,2501,2541,,,,107
+MORGAN,3 WHEELER,All variants,2002 onward,,,2135,,,,107
+MORGAN,4/Four,All variants,1961 to 1979,,2501,2541,,,,107
+MORGAN,4/Four,All variants,1988 to 1992,,2501,2541,,,,107
+MORGAN,4/Four,All variants,2002 onward,,,2135,,,,107
+MORGAN,AERO COUPE,All variants,2013 onward,,,2135,,,,107
+MORGAN,AERO SUPERSPORTS,All variants,2013 onward,,,2135,,,,107
+MORGAN,PLUS,All variants,1960 to 1979,,2501,2541,,,,107
+MORGAN,PLUS,All variants,1988 to 1997,,2501,2541,,,,107
+MORGAN,PLUS,8,2002 to 2004,,,2382,,,,107
+MORGAN,PLUS,4,2013 onward,,,2135,,,,107
+MORGAN,PLUS,8,2013 onward,,,2382,,,,107
+MORGAN,ROADSTER,All variants,2013 onward,,,2382,,,,107
+--- page 107 row count: 26 (photo verified top-to-bottom; p106 tail rows above binding: MITSUBISHI STARWAGON GLS 3.0L V6 1986-2004 = 4503; TRITON ME/MF/MG/MH/MJ Diesel 1986-1996 = 4503) ---
+
+=== PAGE 106 ===
+MITSUBISHI,OUTLANDER,"ZJ (GF), Diesel",2012 to 2015,,4704,,5594,,,106
+MITSUBISHI,OUTLANDER,"ZJ (GF), Petrol",2012 to 2015,,,2544,4032,4032 is alternate fitment option.,,106
+MITSUBISHI,OUTLANDER,"ZJ, PHEV Hybrid",2014 to 2017,,,,5512,Must use an AGM battery.,,106
+MITSUBISHI,OUTLANDER,"ZK, Diesel",2014 to 2017,,4704,,,,,106
+MITSUBISHI,OUTLANDER,"ZK, Petrol",2014 to 2017,,,2544,4032,4032 is alternate fitment option.,,106
+MITSUBISHI,OUTLANDER,"ZK, ZL, PHEV Hybrid",2017 onward,,,,5512,Must use an AGM battery.,,106
+MITSUBISHI,OUTLANDER,"ZL, Diesel",2017 onward,,4704,,,,,106
+MITSUBISHI,OUTLANDER,"ZL, Petrol",2017 onward,,,2544,4032,4032 is alternate fitment option.,,106
+MITSUBISHI,PAJERO,"NA - NG, Diesel",1982 to 1991,,4703,,5593,,,106
+MITSUBISHI,PAJERO,"NA - NG, Petrol",1982 to 1991,,4503,,,,,106
+MITSUBISHI,PAJERO,"NA - NG, V6 3000, Petrol",1982 to 1991,,4503 4703,,5593,,,106
+MITSUBISHI,PAJERO,"NH - NL, Diesel",1991 to 2000,,4703,,5593,,,106
+MITSUBISHI,PAJERO,"NH - NL, V6 3000, Petrol",1991 to 2000,,4503 4703,,5593,,,106
+MITSUBISHI,PAJERO,"NH - NL, V6 3500, Petrol",1991 to 2000,,,2543,,,,106
+MITSUBISHI,PAJERO,"NH, NL, Petrol",1991 to 2000,,,2543,,,,106
+MITSUBISHI,PAJERO,"NM, NP, Diesel",1999 to 2006,,4704,,5594,,,106
+MITSUBISHI,PAJERO,"NM, NP, Petrol",1999 to 2006,,,2544,4032,4032 is alternate fitment option.,,106
+MITSUBISHI,PAJERO,"QA, iO, Petrol",1999 to 2006,,,2544,,,,106
+MITSUBISHI,PAJERO,"NS, Diesel",2006 to 2009,,4704,,5594,,,106
+MITSUBISHI,PAJERO,"NS, Petrol",2006 to 2009,,,2544,4032,4032 is alternate fitment option.,,106
+MITSUBISHI,PAJERO,"NT, Diesel",2009 to 2012,,4704,,5594,,,106
+MITSUBISHI,PAJERO,"NT, Petrol",2009 to 2012,,,2544,4032,4032 is alternate fitment option.,,106
+MITSUBISHI,PAJERO,"NW, Diesel",2011 to 2014,,4504,,5582,,,106
+MITSUBISHI,PAJERO,"NW, Petrol",2011 to 2014,,,2544,4032,4032 is alternate fitment option.,,106
+MITSUBISHI,PAJERO,"NX, Diesel",2014 onward,,4504,,5582,,,106
+MITSUBISHI,PAJERO SPORT,"QE, Diesel",2015 onward,,4704,,5594,,,106
+MITSUBISHI,SIGMA,All variants,1977 to 1987,,2502,2542,,,,106
+MITSUBISHI,STARION,All variants,1982 to 1987,,5375 2501,2541,,,,106
+MITSUBISHI,STARWAGON,All variants,1986 to 2004,,,2382,,,,106
+MITSUBISHI,STARWAGON,"GLS, 3.0L V6",1986 to 2004,,4503,,,,,106
+MITSUBISHI,TRITON,"ME, MF, MG, MH, MJ, Diesel",1986 to 1996,,4503,,,,,106
+--- page 106 row count: 31 (photo verified top-to-bottom) ---
+
+=== PAGE 105 ===
+MITSUBISHI,EXPRESS,"SN, Diesel",2020 onward,,,,4036,,,105
+MITSUBISHI,FTO,Grey Import,1994 to 2000,,,2544,,,,105
+MITSUBISHI,GALANT,All variants,1988 to 1996,,5375 2501,2541,,,,105
+MITSUBISHI,GRANDIS,All variants,2003 to 2010,,,2544,4032,4032 is alternate fitment option.,,105
+MITSUBISHI,i-MiEV,All variants,2011 onward,,,2384,,,,105
+MITSUBISHI,L200,All variants,1979 to 1986,,5375 2501,2541,,,,105
+MITSUBISHI,L300,Express,1979 to 1986,,,2381,,,,105
+MITSUBISHI,LANCER,CA to CC,1988 to 1996,,,2381,,,,105
+MITSUBISHI,LANCER,CE,1996 to 2003,,,2382,,Check hold down bracket.,,105
+MITSUBISHI,LANCER,"CG, 2.0L",1996 to 2003,,,2382,,,,105
+MITSUBISHI,LANCER,"CG, 2.0L",2003 to 2008,,,2382,,,,105
+MITSUBISHI,LANCER,"CH, 2.0L",2003 to 2008,,,2382,,,,105
+MITSUBISHI,LANCER,"CH, 2.4L",2003 to 2008,,,2544,,,,105
+MITSUBISHI,LANCER,"CY, Evolution",2003 to 2008,,2502,2542,,Check hold down bracket.,,105
+MITSUBISHI,LANCER,CZ,2003 to 2008,,,2382,,Check hold down bracket.,,105
+MITSUBISHI,LANCER,CJ,2007 to 2015,,,2544,4032,4032 is alternate fitment option.,,105
+MITSUBISHI,LANCER,CJ Evolution,2007 to 2015,,,,5582,Must use an AGM battery. Battery in boot.,,105
+MITSUBISHI,LANCER,"CF, All variants",2015 to 2017,,,2544,4032,4032 is alternate fitment option.,,105
+MITSUBISHI,MAGNA,"TM, TN, TP",1985 to 1992,,,2381,,,,105
+MITSUBISHI,MAGNA,"TR, TS",1991 to 1997,,2501,2541,,,,105
+MITSUBISHI,MAGNA,"TE, TF, TH, TJ, TL, TW",1996 to 2005,,5375,2541,,,,105
+MITSUBISHI,MIRAGE,CE,1995 to 1997,,,2382,,,,105
+MITSUBISHI,MIRAGE,CE Upgrade,1997 to 2004,,,2136,,Check hold down bracket.,,105
+MITSUBISHI,MIRAGE,"LA, LB, All variants",2012 onward,,,2544,,,,105
+MITSUBISHI,NIMBUS,"UA, UB, UC",1983 to 1991,,,2381,,,,105
+MITSUBISHI,NIMBUS,"UF, UG",1991 to 2004,,,2135,,,,105
+MITSUBISHI,OUTLANDER,"ZE, ZF",2003 to 2006,,,2544,,,,105
+MITSUBISHI,OUTLANDER,"ZG, 2.4L, 4 Cyl",2006 to 2009,,,2544,,,,105
+MITSUBISHI,OUTLANDER,"ZG, 3.0L V6, VR",2006 to 2009,,4504,,5582,,,105
+MITSUBISHI,OUTLANDER,"HG, 3.0L V6, VR, Petrol",2009 to 2012,,4504,,5582,,,105
+MITSUBISHI,OUTLANDER,"ZH, 2.4L, 4 Cyl, Petrol",2009 to 2012,,,2544,4032,4032 is alternate fitment option.,,105
+--- page 105 row count: 31 (photo verified top-to-bottom; p104 tail rows above binding: EXPRESS SJ Petrol 1994-2006 = 2381; EXPRESS WA Walkthrough 1994-2006 = 2384 "Walk through variant."; EXPRESS SJ Petrol 2006-2012 = 2381) ---
+
+=== PAGE 104 ===
+MITSUBISHI,380,All variants,2005 to 2008,,,2543,,,,104
+MITSUBISHI,3000,All variants,1992 to 1998,,4503 4703,,5593,,,104
+MITSUBISHI,ASX,"XA (GA), Diesel",2009 to 2012,,4704,,5594,,,104
+MITSUBISHI,ASX,"XA, Petrol",2009 to 2012,,,2544,4032,4032 is alternate fitment option.,,104
+MITSUBISHI,ASX,"XB, Diesel",2012 to 2016,,4704,,5594,,,104
+MITSUBISHI,ASX,"XB, Petrol",2012 to 2016,,,2544,4032,4032 is alternate fitment option.,,104
+MITSUBISHI,ASX,"XC, Diesel",2016 to 2019,,4704,,5594,,,104
+MITSUBISHI,ASX,"XC, Petrol",2016 to 2019,,,2544,4032,4032 is alternate fitment option.,,104
+MITSUBISHI,ASX,"XD, Petrol",2019 onward,,,2544,4032,4032 is alternate fitment option.,,104
+MITSUBISHI,CANTER,Diesel,1980 to 1990,,4503,,,Requires 2 batteries.,,104
+MITSUBISHI,CANTER,Petrol,1980 to 1990,,4503,,,,,104
+MITSUBISHI,CANTER,Diesel,1990 onward,,4703 4704,,5593 5594,Requires 2 batteries.,,104
+MITSUBISHI,CANTER,Petrol,1990 onward,,4503,,,,,104
+MITSUBISHI,CHALLENGER,PA,1998 to 2007,,4503 4703,,5593,,,104
+MITSUBISHI,CHALLENGER,PB,2008 to 2013,,4704,,5594,,,104
+MITSUBISHI,CHALLENGER,PC,2013 onward,,4704,,5594,,,104
+MITSUBISHI,COLT,"RA, RB, RC, RD, RE",1980 to 1990,,,2382,,,,104
+MITSUBISHI,COLT,"RG, 5D Hatch",2004 to 2013,,,2544,4032,4032 is alternate fitment option.,,104
+MITSUBISHI,COLT,"RZ, 2D Cabriolet",2004 to 2013,,3554,3552,5526,,,104
+MITSUBISHI,CORDIA,All variants,1982 to 1989,,,2382,,,,104
+MITSUBISHI,CORDIA,Turbo,1982 to 1989,,5375 2501,2541,,,,104
+MITSUBISHI,D50,All variants,1978 to 1979,,4862,,,,,104
+MITSUBISHI,DELICA,Grey Import,1968 to 2007,,4703,,5593,,,104
+MITSUBISHI,Eclipse Cross,All variants,2017 to 2019,,,2544,4032,4032 is alternate fitment option.,,104
+MITSUBISHI,Eclipse Cross,"1.5L, Petrol",2020 onward,,,2544,4032,4032 is alternate fitment option.,,104
+MITSUBISHI,Eclipse Cross,"PHEV, 2.4L, Petrol",2020 onward,,3554,,,,,104
+MITSUBISHI,EXPRESS,"SF, SG, SH, Diesel",1985 to 1994,,4703,,5593,,,104
+MITSUBISHI,EXPRESS,"SF, SG, SH, Petrol",1985 to 1994,,,2381,,,,104
+MITSUBISHI,EXPRESS,"SJ, Diesel",1994 to 2006,,4503,,,,,104
+MITSUBISHI,EXPRESS,"SJ, Petrol",1994 to 2006,,,2381,,,,104
+MITSUBISHI,EXPRESS,"WA, Walkthrough",1994 to 2006,,,2384,,Walk through variant.,,104
+MITSUBISHI,EXPRESS,"SJ, Petrol",2006 to 2012,,,2381,,,,104
+--- page 104 row count: 32 (photo verified top-to-bottom) ---
+
+=== PAGE 103 ===
+MINI,COOPER,"F54, 4D Wagon, S, 2.0L Petrol",2014 onward,,,,5556,Module Alert - refer to MasterFit.,Yes,103
+MINI,COOPER,"F55, 5D Hatch, 1.5L, Petrol",2014 onward,,3554 3664,,5526 5536,Module Alert - refer to MasterFit.,,103
+MINI,COOPER,"F55, 5D Hatch, D, Diesel",2014 onward,,3664,,5536,Module Alert - refer to MasterFit.,,103
+MINI,COOPER,"F55, 5D Hatch, S, 2.0L, Petrol",2014 onward,,,3772,5556,Module Alert - refer to MasterFit.,,103
+MINI,COOPER,"F56, 3D Hatch, 1.5L Petrol",2014 onward,,3664,3772,5536 5556,Module Alert - refer to MasterFit.,Yes,103
+MINI,COOPER,"F56, 3D Hatch, 2.0L Petrol",2014 onward,,,,5556,Module Alert - refer to MasterFit.,Yes,103
+MINI,COOPER,"F56, 3D Hatch, D, Diesel",2014 onward,,3664,3772,5536 5556,Module Alert - refer to MasterFit.,Yes,103
+MINI,COOPER,"R55, 3D Wagon, S, Clubman, Petrol",2014 onward,,3554 3664,,5526 5536,Module Alert - refer to MasterFit.,,103
+MINI,COOPER,"R57, 2D Convertible, Petrol",2014 onward,,3554 3664,,5526 5536,Module Alert - refer to MasterFit.,,103
+MINI,COOPER,"R58, 2D Coupe, Petrol",2014 onward,,3554 3664,,5526 5536,Module Alert - refer to MasterFit.,Yes,103
+MINI,COOPER,"R59, 2D Roadster, Petrol",2014 onward,,3554 3664,,5526 5536,Module Alert - refer to MasterFit.,,103
+MINI,COOPER,"R60, 4D Wagon, Countryman, D, Diesel",2014 onward,,3664,,5536,Module Alert - refer to MasterFit.,,103
+MINI,COOPER,"R60, 4D Wagon, Countryman, Petrol",2014 onward,,3554 3664,,5526 5536,Module Alert - refer to MasterFit.,Yes,103
+MINI,COOPER,"R61, 3D Hatch, Paceman, Petrol",2014 onward,,3554,,5526,Module Alert. Workshop fitment (remove plenum cover & wipers).,Yes,103
+MINI,COUNTRYMAN,"F60, 2.0L Diesel",2017 onward,,,,5556,,Yes,103
+MINI,COUNTRYMAN,"F60, 3cyl, 1.5L Petrol",2017 onward,,,,5536,,Yes,103
+MINI,COUNTRYMAN,"F60, 4cyl, 2.0L Petrol",2017 onward,,,,5556,,Yes,103
+MINI,ONE,"F55, 5D Hatch, Petrol",2014 onward,,3554 3664,,5526 5536,Module Alert - refer to MasterFit.,Yes,103
+MINI,ONE,"F56, 3D Hatch, Petrol",2014 onward,,3554 3664,,5526 5536,Module Alert - refer to MasterFit.,Yes,103
+MINI,RAY,"F55, 5D Hatch, Petrol",2016 onward,,3554 3664,,5526 5536,Module Alert - refer to MasterFit.,,103
+MINI,RAY,"F56, 3D Hatch, Petrol",2016 onward,,3554 3664,,5526 5536,Module Alert - refer to MasterFit.,Yes,103
+--- page 103 row count: 21 (photo verified top-to-bottom; p102 tail row above binding: MINI COOPER Petrol 2007-2014 = 3554/5526 "Module Alert. Workshop fitment (remove plenum cover & wipers)" Yes) ---
+
+=== PAGE 102 ===
+MG,ZT+,All variants,2002 to 2004,,,3552 3662,,,,102
+MG,ZT-T,All variants,2002 to 2004,,,3552 3662,,,,102
+MG,ZT-T,All variants,2002 to 2005,,,3552 3662,,,,102
+MG,ZT-T+,All variants,2002 to 2005,,,3552 3662,,,,102
+MINI,CLUBMAN,"F54, 3cyl, 1.5L Petrol",2017 onward,,,,5536,Refer to Workshop.,Yes,102
+MINI,CLUBMAN,"F54, 4cyl, 2.0L Petrol",2017 onward,,,,5556,Refer to Workshop.,Yes,102
+MINI,CONVERTIBLE,"F57, 3cyl, 1.5L Petrol",2017 onward,,,,5536,,Yes,102
+MINI,CONVERTIBLE,"F57, 4cyl, 2.0L Petrol",2017 onward,,,,5556,,Yes,102
+MINI,COOPER,"R50, 2D Hatch, Petrol",2002 to 2007,,3554 3664,,5526 5536,Module Alert - refer to MasterFit.,,102
+MINI,COOPER,"R52, Cabrio, Petrol",2002 to 2007,,3554 3664,,5526 5536,Module Alert - refer to MasterFit.,,102
+MINI,COOPER,"R53, 2D Hatch, S, Petrol",2002 to 2007,,3554 3664,,5526 5536,Module Alert - refer to MasterFit.,,102
+MINI,COOPER,"R52, Cabrio, Petrol",2007 to 2014,,3554 3664,,5526 5536,Module Alert - refer to MasterFit.,,102
+MINI,COOPER,"R55, 3D Wagon, Clubman, Petrol",2007 to 2014,,3554 3664,,5526 5536,Module Alert - refer to MasterFit.,Yes,102
+MINI,COOPER,"R55, 3D Wagon, S, Clubman, Petrol",2007 to 2014,,3554 3664,,5526 5536,Module Alert - refer to MasterFit.,Yes,102
+MINI,COOPER,"R56, 2D Hatch, D, Diesel",2007 to 2014,,3664,,5536,Module Alert - refer to MasterFit. Remove plenum cover to access battery.,Yes,102
+MINI,COOPER,"R56, 2D Hatch, Petrol",2007 to 2014,,3664,,5536,Module Alert - refer to MasterFit. Remove plenum cover to access battery.,Yes,102
+MINI,COOPER,"R57, 2D Convertible, Petrol",2007 to 2014,,3554 3664,,5526 5536,Module Alert - refer to MasterFit.,Yes,102
+MINI,COOPER,"R58, 2D Coupe, Petrol",2007 to 2014,,3554 3664,,5526 5536,Module Alert - refer to MasterFit.,Yes,102
+MINI,COOPER,"R59, Roadster, Petrol",2007 to 2014,,3554 3664,,5526 5536,Module Alert - refer to MasterFit.,Yes,102
+MINI,COOPER,"R60, 4D Wagon, Countryman, D, Diesel",2007 to 2014,,3664,,5536,Module Alert - refer to MasterFit.,Yes,102
+MINI,COOPER,"R60, 4D Wagon, Countryman, Petrol",2007 to 2014,,3554 3664,,5526 5536,Module Alert - refer to MasterFit.,Yes,102
+MINI,COOPER,"R61, 3D Hatch, Paceman, Petrol",2007 to 2014,,3554,,5526,Module Alert. Workshop fitment (remove plenum cover & wipers).,Yes,102
+--- page 102 row count: 22 (photo verified top-to-bottom) ---
+
+=== PAGE 101 ===
+MERCEDES-BENZ,VITO,"D, Diesel",1998 to 2004,,,3884,3888,,,101
+MERCEDES-BENZ,VITO,Petrol,1998 to 2004,,3664,,5536,,,101
+MERCEDES-BENZ,VITO,"CDI, Diesel",2004 to 2007,,3664,3884,3888,"Some fit 3664, some fit 3884. Bucket seat variant uses 3882.",,101
+MERCEDES-BENZ,VITO,Petrol,2004 to 2007,,3664,,5536,Bucket seat variant uses 3882.,,101
+MERCEDES-BENZ,VITO,All Variants,2007 to 2015,,,3884,3888,Variants with Blue Efficiency must use AGM battery. Battery under passenger floor.,,101
+MERCEDES-BENZ,VITO,All Variants,2015 onward,,,,3888,Must use AGM battery. Battery under drivers seat.,,101
+MERCEDES-BENZ,X Class,All variants,2017 onward,,,,4036,,,101
+MG,GS,"1.5L, Petrol",2017 onward,,,3552,,,,101
+MG,GS,"2.0L, Petrol",2017 onward,,3554,,,,,101
+MG,HS,1.5L Petrol,2020 onward,,3554,,,,,101
+MG,HS,"2.0L, Petrol",2020 onward,,,,5536,,,101
+MG,HS,PHEV,2020 onward,,3554,,,,,101
+MG,MAGNETTE,All variants,1960 to 1962,,2501,2541,,,,101
+MG,MG3,"1.5L, Petrol",2016 to 2018,,3554,,,,,101
+MG,MG3,"1.5L, Petrol",2018 onward,,,3552,,,,101
+MG,MG6,All variants,2013 to 2015,,3554,,5526,,,101
+MG,MGA,All variants,1960 to 1961,6603,,,,2 batteries required.,,101
+MG,MGB,All variants,1963 to 1972,6603,,,,Use 2 x 6603 (6V) or 1 x 8308 (12V).,,101
+MG,MGF,All variants,1997 to 2002,,,3552,,,,101
+MG,MIDGET,All variants,1968 to 1972,,,2134,,,,101
+MG,TF,All variants,2002 to 2005,,3554,,5526,,,101
+MG,ZR,All variants,2004 to 2005,,,3552,,,,101
+MG,ZS,All variants,2004 to 2005,,,3552,,,,101
+MG,ZS,"1.0L, Turbo, Petrol",2017 onward,,,,5526,,,101
+MG,ZS,"1.5L, NA, Petrol",2017 onward,,3554,,,,,101
+MG,ZS EV,All variants,2020 onward,,3554,,,,,101
+MG,ZST,All variants,2020 onward,,3664,,,,,101
+MG,ZT,All variants,2002 to 2005,,,3552 3662,,,,101
+--- page 101 row count: 28 (photo verified top-to-bottom) ---
+
+=== PAGE 100 ===
+MERCEDES-BENZ,SL400,All Variants,2012 onward,,,,3888,Must use AGM battery.,,100
+MERCEDES-BENZ,SL500,All Variants,1993 to 2002,,,3884,3888,,,100
+MERCEDES-BENZ,SL500,All Variants,2002 to 2006,,3664 8308,,5536,Engine bay has starter battery 8308. Main battery in boot.,,100
+MERCEDES-BENZ,SL500,All variants,2006 to 2012,,,3884,,Starter battery (8308) in Engine Bay. Main battery in boot.,,100
+MERCEDES-BENZ,SL500,All Variants,2016 onward,,,,3888,Must use AGM battery.,,100
+MERCEDES-BENZ,SL600,All Variants,1993 to 2002,,,3884,3888,,,100
+MERCEDES-BENZ,SL600,All Variants,2002 to 2006,,,3884,3888,,,100
+MERCEDES-BENZ,SL600,All variants,2006 to 2012,,,3884,,Starter battery (8308) in Engine Bay. Main battery in boot.,,100
+MERCEDES-BENZ,SL63,AMG,2006 to 2012,,,,5536,Engine bay has starter battery 8308. Main battery in boot.,,100
+MERCEDES-BENZ,SL65,AMG R230,2002 to 2006,,3664,,5536,,,100
+MERCEDES-BENZ,SL65,AMG R230 upgrade,2006 to 2012,,,,5536,Engine bay has starter battery 8308. Main battery in boot.,,100
+MERCEDES-BENZ,SLC Class,"W172, All variants",2016 onward,,,,5536,,,100
+MERCEDES-BENZ,SLK200,KOMPRESSOR,1997 to 2004,,3664,,5536,,,100
+MERCEDES-BENZ,SLK200,Other,1997 to 2004,,3554 3664,,5526 5536,,,100
+MERCEDES-BENZ,SLK200,All Variants,2004 to 2011,,3664,,5536,,,100
+MERCEDES-BENZ,SLK200,All Variants,2011 onward,,,,5536,Must use AGM battery.,,100
+MERCEDES-BENZ,SLK230,All Variants,1997 to 2004,,3664,,5536,,,100
+MERCEDES-BENZ,SLK250,All Variants,2011 onward,,,,5536,Must use AGM battery.,,100
+MERCEDES-BENZ,SLK280,All Variants,2004 to 2011,,3664,,5536,,,100
+MERCEDES-BENZ,SLK300,All Variants,2004 to 2011,,3664,,5536,,,100
+MERCEDES-BENZ,SLK320,All Variants,1997 to 2004,,3554 3664,,5526 5536,,,100
+MERCEDES-BENZ,SLK350,All Variants,2004 to 2011,,3664,,5536,,,100
+MERCEDES-BENZ,SLK350,All Variants,2011 onward,,,,5536,Must use AGM battery.,,100
+MERCEDES-BENZ,SPRINTER,Diesel,1998 onward,,,3884,3888,,,100
+MERCEDES-BENZ,SPRINTER,Petrol,1998 onward,,3664,,5536,,,100
+MERCEDES-BENZ,SPRINTER TRANSFER,Diesel,2007 onward,,,3884,3888,,,100
+MERCEDES-BENZ,VALENTE,All Variants,2012 to 2015,,,,3888,Must use AGM battery. Battery under passenger floor.,,100
+MERCEDES-BENZ,VALENTE,All Variants,2015 onward,,,,3888,Must use AGM battery. Battery under passenger floor.,,100
+MERCEDES-BENZ,VIANO,All Variants,2005 onward,,,3884,3888,,,100
+MERCEDES-BENZ,VITO,CDI,1998 to 2004,,,3884,3888,,,100
+--- page 100 row count: 30 (photo verified top-to-bottom) ---
+
+END OF ATTACHED PAGES
