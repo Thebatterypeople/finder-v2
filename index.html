@@ -127,6 +127,10 @@ h1{font-size:clamp(24px,5.5vw,34px);font-weight:800;letter-spacing:-.02em;line-h
 .callbar p{font-size:12px;color:var(--slate);line-height:1.35}
 .callbar p b{color:var(--ice);font-size:13px;display:block}
 .foot{margin-top:26px;color:var(--slate);font-size:11.5px;line-height:1.6}
+.yrbar{grid-column:1/-1;display:flex;align-items:center;gap:10px;margin:2px 0 10px}
+.yrbar label{font-size:.85rem;opacity:.75}
+.yrbar select{background:#12151c;color:#fff;border:1px solid #2a2f3a;border-radius:8px;padding:8px 12px;font-size:.95rem}
+.noyr{grid-column:1/-1;opacity:.75;font-size:.92rem;padding:6px 2px}
 </style>
 </head>
 <body>
@@ -162,7 +166,7 @@ h1{font-size:clamp(24px,5.5vw,34px);font-weight:800;letter-spacing:-.02em;line-h
 (function(){
   const DATA = (window.BATTERY_FINDER_DATA && window.BATTERY_FINDER_DATA.fitments) || [];
   const $ = id => document.getElementById(id);
-  const state = {make:null, model:null, variant:null, q:''};
+  const state = {make:null, model:null, variant:null, q:'', year:''};
 
   const uniq = a => [...new Set(a)];
   const byMake = m => DATA.filter(f => f.make === m);
@@ -181,8 +185,8 @@ h1{font-size:clamp(24px,5.5vw,34px);font-weight:800;letter-spacing:-.02em;line-h
     }).join('');
     $('steps').querySelectorAll('.step').forEach(el=>{
       el.onclick = () => { const i = +el.dataset.i;
-        if(i===0){state.make=null;state.model=null;state.variant=null;}
-        if(i===1){state.model=null;state.variant=null;}
+        if(i===0){state.make=null;state.model=null;state.variant=null;state.year='';}
+        if(i===1){state.model=null;state.variant=null;state.year='';}
         if(i===2){state.variant=null;}
         state.q=''; $('q').value=''; render(); };
     });
@@ -204,7 +208,7 @@ h1{font-size:clamp(24px,5.5vw,34px);font-weight:800;letter-spacing:-.02em;line-h
         <div class="pf"><b>Years</b><span>${f.yearRange}</span></div>
         ${f.fuel?`<div class="pf"><b>Fuel</b><span>${f.fuel}</span></div>`:''}
       </div></div>`;
-    $('resetBtn').onclick = ()=>{ state.make=state.model=state.variant=null; render(); };
+    $('resetBtn').onclick = ()=>{ state.make=state.model=state.variant=null; state.year=''; render(); };
   }
 
   function renderOptions(){
@@ -231,9 +235,16 @@ h1{font-size:clamp(24px,5.5vw,34px);font-weight:800;letter-spacing:-.02em;line-h
         `<button class="opt" data-v="${esc(m)}">${m}</button>`).join('');
       bind(o, v=>{state.model=v; autoVariant();});
     } else {
-      const vs = byModel(state.make,state.model);
-      o.innerHTML = vs.map((f,i)=>
-        `<button class="opt" data-v="${i}">${f.engineTrim||f.series||'All variants'}<small>${f.yearRange}${f.fuel?' · '+f.fuel:''}</small></button>`).join('');
+      const vs0 = byModel(state.make,state.model);
+      const vs = state.year ? vs0.filter(f=>(f.yearFrom||0)<=+state.year && +state.year<=(f.yearTo||9999)) : vs0;
+      const nowY = new Date().getFullYear();
+      let yopts='<option value="">All years</option>';
+      for(let y=nowY;y>=1960;y--) yopts+=`<option value="${y}"${state.year==y?' selected':''}>${y}</option>`;
+      o.innerHTML = `<div class="yrbar"><label for="yr">Year of manufacture</label><select id="yr">${yopts}</select></div>`
+        + (vs.length ? vs.map((f,i)=>
+        `<button class="opt" data-v="${i}">${f.engineTrim||f.series||'All variants'}<small>${f.yearRange}${f.fuel?' · '+f.fuel:''}</small></button>`).join('')
+        : `<p class="noyr">No fitment listed for that year — try "All years" or give us a call.</p>`);
+      $('yr').onchange = e=>{ state.year=e.target.value; render(); };
       o.querySelectorAll('.opt').forEach(el=>el.onclick=()=>{state.variant=vs[+el.dataset.v]; render();});
     }
   }
