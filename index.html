@@ -2,7 +2,17 @@
 <html lang="en-AU">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" id="vp">
+<script>
+/* Phones get a denser 460px layout, auto-fitted to the screen — the same
+   view previously reached by pinch-zooming out. Tablets/desktop unchanged. */
+(function(){
+  var w = Math.min(screen.width, screen.height);
+  if (w > 0 && w < 500) {
+    document.getElementById('vp').setAttribute('content', 'width=460');
+  }
+})();
+</script>
 <title>The Battery People — Battery Finder</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -29,7 +39,7 @@ h1{font-size:clamp(24px,5.5vw,34px);font-weight:800;letter-spacing:-.02em;line-h
 .search{position:relative;margin:22px 0 14px}
 .search input{
   width:100%;background:var(--panel);border:1px solid var(--line);border-radius:12px;
-  color:var(--ice);font:600 15px 'Inter',sans-serif;padding:14px 16px 14px 44px;outline:none;
+  color:var(--ice);font:600 16px 'Inter',sans-serif;padding:14px 16px 14px 44px;outline:none;
   transition:border-color .15s;
 }
 .search input::placeholder{color:var(--slate);font-weight:500}
@@ -129,7 +139,7 @@ h1{font-size:clamp(24px,5.5vw,34px);font-weight:800;letter-spacing:-.02em;line-h
 .foot{margin-top:26px;color:var(--slate);font-size:11.5px;line-height:1.6}
 .yrbar{grid-column:1/-1;display:flex;align-items:center;gap:10px;margin:2px 0 10px}
 .yrbar label{font-size:.85rem;opacity:.75}
-.yrbar select{background:#12151c;color:#fff;border:1px solid #2a2f3a;border-radius:8px;padding:8px 12px;font-size:.95rem}
+.yrbar select{background:#12151c;color:#fff;border:1px solid #2a2f3a;border-radius:8px;padding:8px 12px;font-size:16px}
 .noyr{grid-column:1/-1;opacity:.75;font-size:.92rem;padding:6px 2px}
 </style>
 </head>
