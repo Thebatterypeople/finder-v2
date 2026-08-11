@@ -1,6 +1,6 @@
 /* The Battery People — Neuton second-line overlay.
    Adds a Neuton Power alternative alongside the Power Crank option on matched fitments.
-   Prices = Neuton RRP inc GST from TBP_Neuton_YHI_3Tier_Pricing (11 Aug 2026).
+   Images = Wix Media (imported from YHI 11 Aug 2026). Prices = Neuton RRP inc GST from TBP_Neuton_YHI_3Tier_Pricing (11 Aug 2026).
    Load AFTER battery-finder-data.js and rrp-overrides.js.
    To change a price/mapping, edit the entry below. PC SKUs with no safe Neuton
    equivalent (EFBDIN35H, EFBNS40ZL-K42) are deliberately absent.
@@ -18,7 +18,8 @@
   "dimensions": "187x127x226",
   "warranty": "36 Months",
   "matchConfidence": "High",
-  "url": null
+  "url": null,
+  "imageUrl": "https://static.wixstatic.com/media/e98477_a29b42ed017542738e61bef2044feb91~mv2.jpg"
  },
  "NS40ZALSMF": {
   "brand": "Neuton Power",
@@ -31,7 +32,8 @@
   "dimensions": "187x127x226",
   "warranty": "36 Months",
   "matchConfidence": "High",
-  "url": null
+  "url": null,
+  "imageUrl": "https://static.wixstatic.com/media/e98477_05abf7efaaae4c739e6b3b1c6689880d~mv2.jpg"
  },
  "NS40ZSMF": {
   "brand": "Neuton Power",
@@ -44,7 +46,8 @@
   "dimensions": "187x127x226",
   "warranty": "36 Months",
   "matchConfidence": "High",
-  "url": null
+  "url": null,
+  "imageUrl": "https://static.wixstatic.com/media/e98477_3d48b627194b40529512d21c1bdca9b7~mv2.jpg"
  },
  "NS40ZASMF": {
   "brand": "Neuton Power",
@@ -57,7 +60,8 @@
   "dimensions": "187x127x226",
   "warranty": "36 Months",
   "matchConfidence": "High",
-  "url": null
+  "url": null,
+  "imageUrl": "https://static.wixstatic.com/media/e98477_ccb9c485f5b34bd6bb4ccb0e2bc7afd0~mv2.jpg"
  },
  "NS60LSMF": {
   "brand": "Neuton Power",
@@ -70,7 +74,8 @@
   "dimensions": "237x128x222",
   "warranty": "36 Months",
   "matchConfidence": "High",
-  "url": null
+  "url": null,
+  "imageUrl": "https://static.wixstatic.com/media/e98477_689942c3d8f6414699748a4b936f5ad6~mv2.jpg"
  },
  "NS60SNLSMF": {
   "brand": "Neuton Power",
@@ -83,7 +88,8 @@
   "dimensions": "237x128x222",
   "warranty": "36 Months",
   "matchConfidence": "High",
-  "url": null
+  "url": null,
+  "imageUrl": "https://static.wixstatic.com/media/e98477_689942c3d8f6414699748a4b936f5ad6~mv2.jpg"
  },
  "NS60ALSMF": {
   "brand": "Neuton Power",
@@ -96,7 +102,8 @@
   "dimensions": "237x128x222",
   "warranty": "36 Months",
   "matchConfidence": "High",
-  "url": null
+  "url": null,
+  "imageUrl": "https://static.wixstatic.com/media/e98477_db9207b823ba4f9da91d662ca3726711~mv2.jpg"
  },
  "NS60SMF": {
   "brand": "Neuton Power",
@@ -109,7 +116,8 @@
   "dimensions": "237x128x222",
   "warranty": "36 Months",
   "matchConfidence": "High",
-  "url": null
+  "url": null,
+  "imageUrl": "https://static.wixstatic.com/media/e98477_341bd258232847539080bc7d044e002b~mv2.jpg"
  },
  "NS60ASMF": {
   "brand": "Neuton Power",
@@ -122,7 +130,8 @@
   "dimensions": "237x128x222",
   "warranty": "36 Months",
   "matchConfidence": "High",
-  "url": null
+  "url": null,
+  "imageUrl": "https://static.wixstatic.com/media/e98477_874fb7345a9c461e9cc22d10c91c8033~mv2.jpg"
  },
  "NS50SMF": {
   "brand": "Neuton Power",
@@ -135,7 +144,8 @@
   "dimensions": "238x171x203",
   "warranty": "36 Months",
   "matchConfidence": "High",
-  "url": null
+  "url": null,
+  "imageUrl": "https://static.wixstatic.com/media/e98477_08fe11bd9dda4b189822060656257796~mv2.jpg"
  },
  "NS50LASMF": {
   "brand": "Neuton Power",
@@ -148,7 +158,8 @@
   "dimensions": "238x171x203",
   "warranty": "36 Months",
   "matchConfidence": "High",
-  "url": null
+  "url": null,
+  "imageUrl": "https://static.wixstatic.com/media/e98477_990a4bd965ab47fa815972cf3897b4a8~mv2.jpg"
  },
  "NS50ZSMF": {
   "brand": "Neuton Power",
@@ -161,7 +172,8 @@
   "dimensions": "238x171x203",
   "warranty": "36 Months",
   "matchConfidence": "High",
-  "url": null
+  "url": null,
+  "imageUrl": "https://static.wixstatic.com/media/e98477_08fe11bd9dda4b189822060656257796~mv2.jpg"
  },
  "NS50ZLASMF": {
   "brand": "Neuton Power",
@@ -174,7 +186,8 @@
   "dimensions": "238x171x203",
   "warranty": "36 Months",
   "matchConfidence": "High",
-  "url": null
+  "url": null,
+  "imageUrl": "https://static.wixstatic.com/media/e98477_990a4bd965ab47fa815972cf3897b4a8~mv2.jpg"
  },
  "55D23LSMF": {
   "brand": "Neuton Power",
@@ -187,7 +200,8 @@
   "dimensions": "229x175x222",
   "warranty": "36 Months",
   "matchConfidence": "High",
-  "url": null
+  "url": null,
+  "imageUrl": "https://static.wixstatic.com/media/e98477_021ca64b73c7409794c002cf7518ec71~mv2.jpg"
  },
  "55D23RSMF": {
   "brand": "Neuton Power",
@@ -200,7 +214,8 @@
   "dimensions": "229x171x222",
   "warranty": "36 Months",
   "matchConfidence": "High",
-  "url": null
+  "url": null,
+  "imageUrl": "https://static.wixstatic.com/media/e98477_8a33119a4a90427996dbd464ae779498~mv2.jpg"
  },
  "55D23LXSMF": {
   "brand": "Neuton Power",
@@ -213,7 +228,8 @@
   "dimensions": "229x175x223",
   "warranty": "36 Months",
   "matchConfidence": "High",
-  "url": null
+  "url": null,
+  "imageUrl": "https://static.wixstatic.com/media/e98477_021ca64b73c7409794c002cf7518ec71~mv2.jpg"
  },
  "DIN44SMF": {
   "brand": "Neuton Power",
@@ -226,7 +242,8 @@
   "dimensions": "207x175x175",
   "warranty": "36 Months",
   "matchConfidence": "High",
-  "url": null
+  "url": null,
+  "imageUrl": "https://static.wixstatic.com/media/e98477_6757fe2102dd424d99ecd77be664b254~mv2.jpg"
  },
  "DIN44HSMF": {
   "brand": "Neuton Power",
@@ -239,7 +256,8 @@
   "dimensions": "207x175x190",
   "warranty": "36 Months",
   "matchConfidence": "High",
-  "url": null
+  "url": null,
+  "imageUrl": "https://static.wixstatic.com/media/e98477_bdd55d8352af49b8ba54eb0a3a8cb69c~mv2.jpg"
  },
  "DIN55SMF": {
   "brand": "Neuton Power",
@@ -252,7 +270,8 @@
   "dimensions": "242x175x175",
   "warranty": "36 Months",
   "matchConfidence": "High",
-  "url": null
+  "url": null,
+  "imageUrl": "https://static.wixstatic.com/media/e98477_17c664aa3a2f4e65b9b9d796b00f0391~mv2.jpg"
  },
  "DIN55H": {
   "brand": "Neuton Power",
@@ -265,7 +284,8 @@
   "dimensions": "242x175x190",
   "warranty": "36 Months",
   "matchConfidence": "High",
-  "url": null
+  "url": null,
+  "imageUrl": "https://static.wixstatic.com/media/e98477_a2695c3121c14312adf268ad92c99432~mv2.jpg"
  },
  "DIN66SMF": {
   "brand": "Neuton Power",
@@ -278,7 +298,8 @@
   "dimensions": "278x175x175",
   "warranty": "36 Months",
   "matchConfidence": "High",
-  "url": null
+  "url": null,
+  "imageUrl": "https://static.wixstatic.com/media/e98477_0913cf1c60b24c5c9f95ac0e3e901182~mv2.jpg"
  },
  "DIN66H": {
   "brand": "Neuton Power",
@@ -291,7 +312,8 @@
   "dimensions": "278x175x190",
   "warranty": "36 Months",
   "matchConfidence": "High",
-  "url": null
+  "url": null,
+  "imageUrl": "https://static.wixstatic.com/media/e98477_7155fd4e25894aa38547f5f578811241~mv2.jpg"
  },
  "DIN77SMF": {
   "brand": "Neuton Power",
@@ -304,7 +326,8 @@
   "dimensions": "315x175x175",
   "warranty": "36 Months",
   "matchConfidence": "High",
-  "url": null
+  "url": null,
+  "imageUrl": "https://static.wixstatic.com/media/e98477_356a517560e141f98f4d09db67a037d3~mv2.jpg"
  },
  "DIN77HSMF": {
   "brand": "Neuton Power",
@@ -317,7 +340,8 @@
   "dimensions": "315x175x190",
   "warranty": "36 Months",
   "matchConfidence": "High",
-  "url": null
+  "url": null,
+  "imageUrl": "https://static.wixstatic.com/media/e98477_b5f8d7c02ba144969d4922190990cfef~mv2.jpg"
  },
  "DIN88SMF": {
   "brand": "Neuton Power",
@@ -330,7 +354,8 @@
   "dimensions": "353x175x175",
   "warranty": "36 Months",
   "matchConfidence": "High",
-  "url": null
+  "url": null,
+  "imageUrl": "https://static.wixstatic.com/media/e98477_e86e42ed9469421eb11cf9a91e4efa10~mv2.jpg"
  },
  "DIN100SMF": {
   "brand": "Neuton Power",
@@ -343,7 +368,8 @@
   "dimensions": "353x175x190",
   "warranty": "36 Months",
   "matchConfidence": "High",
-  "url": null
+  "url": null,
+  "imageUrl": "https://static.wixstatic.com/media/e98477_83da9b634a0d46858480e06bae9307bb~mv2.jpg"
  },
  "EFBDIN55H": {
   "brand": "Neuton Power",
@@ -356,7 +382,8 @@
   "dimensions": "242x175x190",
   "warranty": "24 Months",
   "matchConfidence": "High",
-  "url": null
+  "url": null,
+  "imageUrl": "https://static.wixstatic.com/media/e98477_4eca4aa89e19455e8f4f299233f92ce6~mv2.jpg"
  },
  "EFBDIN66H": {
   "brand": "Neuton Power",
@@ -369,7 +396,8 @@
   "dimensions": "278x175x190",
   "warranty": "24 Months",
   "matchConfidence": "High",
-  "url": null
+  "url": null,
+  "imageUrl": "https://static.wixstatic.com/media/e98477_b69dff2fcf6749e2b7095de97a49c69a~mv2.jpg"
  },
  "EFBDIN77H": {
   "brand": "Neuton Power",
@@ -382,7 +410,8 @@
   "dimensions": "315x175x190",
   "warranty": "24 Months",
   "matchConfidence": "High",
-  "url": null
+  "url": null,
+  "imageUrl": "https://static.wixstatic.com/media/e98477_c2f71ef881654cecafe29b0a4b69c3d0~mv2.jpg"
  },
  "EFBDIN100H": {
   "brand": "Neuton Power",
@@ -395,7 +424,8 @@
   "dimensions": "353x175x190",
   "warranty": "24 Months",
   "matchConfidence": "High",
-  "url": null
+  "url": null,
+  "imageUrl": "https://static.wixstatic.com/media/e98477_c5764e6decd947929a3d1fdbc5e6643d~mv2.jpg"
  },
  "NPCISS55H": {
   "brand": "Neuton Power",
@@ -408,7 +438,8 @@
   "dimensions": "242x175x190",
   "warranty": "24 Months",
   "matchConfidence": "High",
-  "url": null
+  "url": null,
+  "imageUrl": "https://static.wixstatic.com/media/e98477_127b958a5f934caca857cf6beea31317~mv2.jpg"
  },
  "NPCISS66H": {
   "brand": "Neuton Power",
@@ -421,7 +452,8 @@
   "dimensions": "278x175x190",
   "warranty": "24 Months",
   "matchConfidence": "High",
-  "url": null
+  "url": null,
+  "imageUrl": "https://static.wixstatic.com/media/e98477_2e2030a2e77a4728af20c9f75100bcb8~mv2.jpg"
  },
  "NPCISS77H": {
   "brand": "Neuton Power",
@@ -434,7 +466,8 @@
   "dimensions": "315x175x190",
   "warranty": "24 Months",
   "matchConfidence": "High",
-  "url": null
+  "url": null,
+  "imageUrl": "https://static.wixstatic.com/media/e98477_0d5f65fc76984eff8e088151cf6bfb53~mv2.jpg"
  },
  "NPCISS100H": {
   "brand": "Neuton Power",
@@ -447,7 +480,8 @@
   "dimensions": "353x175x190",
   "warranty": "24 Months",
   "matchConfidence": "High",
-  "url": null
+  "url": null,
+  "imageUrl": "https://static.wixstatic.com/media/e98477_7ac93ef7505a47c5bd3fca99d963805b~mv2.jpg"
  },
  "NPCISS110H": {
   "brand": "Neuton Power",
@@ -460,7 +494,8 @@
   "dimensions": "394x175x190",
   "warranty": "24 Months",
   "matchConfidence": "High",
-  "url": null
+  "url": null,
+  "imageUrl": "https://static.wixstatic.com/media/e98477_e480791256794eddb78f8aa1d9c217d5~mv2.jpg"
  },
  "EXSNS70SMF": {
   "brand": "Neuton Power",
@@ -473,7 +508,8 @@
   "dimensions": "260x172x221",
   "warranty": "24 Months",
   "matchConfidence": "High",
-  "url": null
+  "url": null,
+  "imageUrl": "https://static.wixstatic.com/media/e98477_560ba22bc43d41f28c65c15a0a2e1861~mv2.jpg"
  },
  "EXSNS70LSMF": {
   "brand": "Neuton Power",
@@ -486,7 +522,8 @@
   "dimensions": "260x172x221",
   "warranty": "24 Months",
   "matchConfidence": "High",
-  "url": null
+  "url": null,
+  "imageUrl": "https://static.wixstatic.com/media/e98477_b7027236cd284eec8f5a7459a14c4eb8~mv2.jpg"
  },
  "EFBNS70L-S95": {
   "brand": "Neuton Power",
@@ -499,7 +536,8 @@
   "dimensions": "260x172x221",
   "warranty": "24 Months",
   "matchConfidence": "High",
-  "url": null
+  "url": null,
+  "imageUrl": "https://static.wixstatic.com/media/e98477_87e15eb6c10146e6b1b9589e3551c1b6~mv2.jpg"
  },
  "NX120-7SMF": {
   "brand": "Neuton Power",
@@ -512,7 +550,8 @@
   "dimensions": "305x171x226",
   "warranty": "24 Months",
   "matchConfidence": "High",
-  "url": null
+  "url": null,
+  "imageUrl": "https://static.wixstatic.com/media/e98477_4ff634a708e14b0190300bf3d9b40fb9~mv2.jpg"
  },
  "NX120-7LSMF": {
   "brand": "Neuton Power",
@@ -525,7 +564,8 @@
   "dimensions": "305x171x226",
   "warranty": "24 Months",
   "matchConfidence": "High",
-  "url": null
+  "url": null,
+  "imageUrl": "https://static.wixstatic.com/media/e98477_8bdc55e7b4c64e92a4e00396ed3673c4~mv2.jpg"
  },
  "N70ZZSMF": {
   "brand": "Neuton Power",
@@ -538,7 +578,8 @@
   "dimensions": "305x171x226",
   "warranty": "24 Months",
   "matchConfidence": "High",
-  "url": null
+  "url": null,
+  "imageUrl": "https://static.wixstatic.com/media/e98477_4ff634a708e14b0190300bf3d9b40fb9~mv2.jpg"
  },
  "EXSNX120-7SMF": {
   "brand": "Neuton Power",
@@ -551,7 +592,8 @@
   "dimensions": "305x171x226",
   "warranty": "36 Months",
   "matchConfidence": "High",
-  "url": null
+  "url": null,
+  "imageUrl": "https://static.wixstatic.com/media/e98477_d0dcc5923ffe42e6b414d7282bf61bf8~mv2.jpg"
  },
  "EXSNX120-7LSMF": {
   "brand": "Neuton Power",
@@ -564,7 +606,8 @@
   "dimensions": "305x171x226",
   "warranty": "36 Months",
   "matchConfidence": "High",
-  "url": null
+  "url": null,
+  "imageUrl": "https://static.wixstatic.com/media/e98477_d0dcc5923ffe42e6b414d7282bf61bf8~mv2.jpg"
  },
  "EFB55D23L-Q85": {
   "brand": "Neuton Power",
@@ -577,7 +620,8 @@
   "dimensions": "229x175x222",
   "warranty": "24 Months",
   "matchConfidence": "High",
-  "url": null
+  "url": null,
+  "imageUrl": "https://static.wixstatic.com/media/e98477_99adadd426e443c9abf1203e8b0dfeb2~mv2.jpg"
  },
  "EFB55D23R-Q85": {
   "brand": "Neuton Power",
@@ -590,7 +634,8 @@
   "dimensions": "229x175x222",
   "warranty": "24 Months",
   "matchConfidence": "High",
-  "url": null
+  "url": null,
+  "imageUrl": "https://static.wixstatic.com/media/e98477_99adadd426e443c9abf1203e8b0dfeb2~mv2.jpg"
  },
  "EFBNX120-7L-T110L": {
   "brand": "Neuton Power",
@@ -603,7 +648,8 @@
   "dimensions": "305x171x226",
   "warranty": "24 Months",
   "matchConfidence": "High",
-  "url": null
+  "url": null,
+  "imageUrl": "https://static.wixstatic.com/media/e98477_138461c880aa4b7681ae9714b267a947~mv2.jpg"
  },
  "NPCDP12VNS70L": {
   "brand": "Neuton Power",
@@ -616,7 +662,8 @@
   "dimensions": "260x172x226",
   "warranty": "18 Months",
   "matchConfidence": "High",
-  "url": null
+  "url": null,
+  "imageUrl": "https://static.wixstatic.com/media/e98477_5d359d58c7a64cd6a7753fdb18af71ab~mv2.jpg"
  },
  "NPCDP12VNX120-7": {
   "brand": "Neuton Power",
@@ -629,7 +676,8 @@
   "dimensions": "305x171x231",
   "warranty": "18 Months",
   "matchConfidence": "High",
-  "url": null
+  "url": null,
+  "imageUrl": "https://static.wixstatic.com/media/e98477_d064711fc0554d1d8e2a93ffbee00747~mv2.jpg"
  },
  "NPCDP12VNX120-7L": {
   "brand": "Neuton Power",
@@ -642,7 +690,8 @@
   "dimensions": "305x171x231",
   "warranty": "18 Months",
   "matchConfidence": "High",
-  "url": null
+  "url": null,
+  "imageUrl": "https://static.wixstatic.com/media/e98477_d064711fc0554d1d8e2a93ffbee00747~mv2.jpg"
  },
  "N100SMF": {
   "brand": "Neuton Power",
@@ -655,7 +704,8 @@
   "dimensions": "409x170x234",
   "warranty": "18 Months",
   "matchConfidence": "High",
-  "url": null
+  "url": null,
+  "imageUrl": "https://static.wixstatic.com/media/e98477_0233dff86a13414d88641aa05fe43cf3~mv2.jpg"
  },
  "31ASMF": {
   "brand": "Neuton Power",
@@ -668,7 +718,8 @@
   "dimensions": "330x174x241",
   "warranty": "18 Months",
   "matchConfidence": "High",
-  "url": null
+  "url": null,
+  "imageUrl": "https://static.wixstatic.com/media/e98477_c5805e7137144ff586a7c699c3f482cd~mv2.jpg"
  },
  "78DSMF": {
   "brand": "Neuton Power",
@@ -681,7 +732,8 @@
   "dimensions": "260x182x183",
   "warranty": "24 Months",
   "matchConfidence": "High",
-  "url": null
+  "url": null,
+  "imageUrl": "https://static.wixstatic.com/media/e98477_c2293f4b26c54468ab3cb16d4b9ac926~mv2.jpg"
  },
  "78DTSMF": {
   "brand": "Neuton Power",
@@ -694,7 +746,8 @@
   "dimensions": "260x182x183",
   "warranty": "24 Months",
   "matchConfidence": "High",
-  "url": null
+  "url": null,
+  "imageUrl": "https://static.wixstatic.com/media/e98477_c2293f4b26c54468ab3cb16d4b9ac926~mv2.jpg"
  },
  "65DSMF": {
   "brand": "Neuton Power",
@@ -707,7 +760,8 @@
   "dimensions": "293x186x190",
   "warranty": "36 Months",
   "matchConfidence": "High",
-  "url": null
+  "url": null,
+  "imageUrl": "https://static.wixstatic.com/media/e98477_622022cb777045b982c45a0667cdf719~mv2.jpg"
  },
  "EFBNS60L-N55": {
   "brand": "Neuton Power K",
@@ -720,7 +774,8 @@
   "dimensions": "235x127x222",
   "warranty": "24 Months",
   "matchConfidence": "High",
-  "url": null
+  "url": null,
+  "imageUrl": "https://static.wixstatic.com/media/e98477_058043f755254411b396a046b5ce0def~mv2.jpg"
  }
 };
   var D = (window.BATTERY_FINDER_DATA && window.BATTERY_FINDER_DATA.fitments) || [];
