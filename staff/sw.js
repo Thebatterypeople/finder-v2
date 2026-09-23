@@ -3,7 +3,7 @@
    cache-first with a background refresh (stale-while-revalidate).
    Works fully offline after the first online visit. */
 
-const CACHE = 'tbp-staff-v2';
+const CACHE = 'tbp-staff-v3';
 
 const PRECACHE = [
   './',
