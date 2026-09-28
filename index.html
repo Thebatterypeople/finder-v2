@@ -2,325 +2,260 @@
 <html lang="en-AU">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0" id="vp">
-<script>
-/* Phones get a denser 460px layout, auto-fitted to the screen — the same
-   view previously reached by pinch-zooming out. Tablets/desktop unchanged. */
-(function(){
-  var w = Math.min(screen.width, screen.height);
-  if (w > 0 && w < 500) {
-    document.getElementById('vp').setAttribute('content', 'width=460');
-  }
-})();
-</script>
-<title>The Battery People — Battery Finder</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Battery People | Battery Finder</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
 :root{
-  --night:#07090D; --panel:#10141D; --panel2:#141a26;
-  --blue:#2E8BFF; --cyan:#57C8EA; --ice:#EAF2FA; --slate:#8A97A8;
+  --night:#07090D; --panel:#10141D; --field:#0B0F16; --line:#2A3244; --line2:#3D4860;
+  --blue:#2E8BFF; --blue-dark:#1F6FD6; --cyan:#57C8EA; --ice:#EAF2FA; --slate:#8A97A8;
   --amber:#FFB547; --green:#3ADB8F;
-  --line:rgba(87,200,234,.14); --line2:rgba(87,200,234,.28);
 }
 *{margin:0;padding:0;box-sizing:border-box}
 html{color-scheme:dark}
-body{
-  background:var(--night); color:var(--ice);
-  font-family:'Inter',system-ui,sans-serif; font-size:15px; line-height:1.5;
-  -webkit-font-smoothing:antialiased; padding:20px 14px 96px;
-}
-.wrap{max-width:720px;margin:0 auto}
-/* ---------- eyebrow / headings ---------- */
-.eyebrow{font-size:11px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--cyan)}
-h1{font-size:clamp(24px,5.5vw,34px);font-weight:800;letter-spacing:-.02em;line-height:1.12;margin:8px 0 6px}
-.sub{color:var(--slate);font-size:14px;max-width:46ch}
-/* ---------- search ---------- */
-.search{position:relative;margin:22px 0 14px}
-.search input{
-  width:100%;background:var(--panel);border:1px solid var(--line);border-radius:12px;
-  color:var(--ice);font:600 16px 'Inter',sans-serif;padding:14px 16px 14px 44px;outline:none;
-  transition:border-color .15s;
-}
-.search input::placeholder{color:var(--slate);font-weight:500}
-.search input:focus{border-color:var(--blue)}
-.search svg{position:absolute;left:15px;top:50%;transform:translateY(-50%);width:17px;height:17px;stroke:var(--slate)}
-/* ---------- step pills ---------- */
-.steps{display:flex;gap:8px;margin-bottom:14px;flex-wrap:wrap}
-.step{
-  font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;
-  padding:6px 12px;border-radius:999px;border:1px solid var(--line);color:var(--slate);
-}
-.step.active{border-color:var(--blue);color:var(--ice);background:rgba(46,139,255,.12)}
-.step.done{border-color:var(--line2);color:var(--cyan);cursor:pointer}
-/* ---------- option grid ---------- */
-.options{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px;margin-bottom:20px}
-.opt{
-  background:var(--panel);border:1px solid var(--line);border-radius:10px;
-  color:var(--ice);font:600 13.5px 'Inter',sans-serif;padding:13px 12px;text-align:left;
-  cursor:pointer;transition:border-color .12s,transform .12s;
-}
-.opt small{display:block;color:var(--slate);font-weight:500;font-size:11.5px;margin-top:2px}
-.opt:hover{border-color:var(--blue)}
-.opt:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
-@media(prefers-reduced-motion:no-preference){.opt:active{transform:scale(.98)}}
-/* ---------- fitment plate (signature) ---------- */
-.plate{
-  background:linear-gradient(180deg,var(--panel2),var(--panel));
-  border:1px solid var(--line2);border-radius:14px;padding:16px 18px;margin:6px 0 22px;
-  position:relative;overflow:hidden;
-}
-.plate::before{content:"";position:absolute;inset:0;
-  background:repeating-linear-gradient(90deg,transparent 0 6px,rgba(87,200,234,.03) 6px 7px);pointer-events:none}
-.plate .eyebrow{color:var(--slate)}
-.plate-row{display:flex;flex-wrap:wrap;gap:6px 26px;margin-top:8px}
-.pf{min-width:110px}
-.pf b{display:block;font-size:10px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--cyan);margin-bottom:2px}
-.pf span{font-size:16px;font-weight:800;letter-spacing:.02em;text-transform:uppercase}
-.plate .reset{position:absolute;top:14px;right:14px;background:none;border:1px solid var(--line);
-  color:var(--slate);font:600 11px 'Inter';letter-spacing:.1em;text-transform:uppercase;
-  border-radius:999px;padding:5px 12px;cursor:pointer}
-.plate .reset:hover{color:var(--ice);border-color:var(--line2)}
-@media(prefers-reduced-motion:no-preference){
-  .plate.stamp{animation:stamp .32s cubic-bezier(.2,.9,.3,1.2)}
-  @keyframes stamp{0%{opacity:0;transform:scale(1.03)}100%{opacity:1;transform:scale(1)}}
-}
-/* ---------- flags ---------- */
-.flag{display:inline-flex;align-items:center;gap:7px;font-size:12.5px;font-weight:600;
-  border-radius:8px;padding:8px 12px;margin-bottom:16px}
-.flag.ss{background:rgba(255,181,71,.1);border:1px solid rgba(255,181,71,.35);color:var(--amber)}
-/* ---------- result cards: battery label ---------- */
-.card{
-  background:var(--panel);border:1px solid var(--line);border-radius:14px;
-  margin-bottom:14px;overflow:hidden;
-}
-.card-top{display:flex;gap:14px;padding:16px 16px 12px;align-items:center}
-.pimg{width:76px;height:76px;flex:none;border-radius:10px;background:var(--panel2);
-  border:1px solid var(--line);display:flex;align-items:center;justify-content:center;overflow:hidden}
-.pimg img{width:100%;height:100%;object-fit:contain;padding:4px}
-.pimg svg{width:34px;height:34px;stroke:var(--slate)}
-.pname{font-size:16px;font-weight:800;letter-spacing:-.01em;line-height:1.25}
-.pfit{color:var(--green);font-size:12px;font-weight:600;margin-top:3px;display:flex;align-items:center;gap:5px}
-.pfit svg{width:13px;height:13px;stroke:var(--green)}
-/* spec strip — stamped battery-label data */
-.spec{display:flex;border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:var(--panel2)}
-.spec div{flex:1;padding:9px 6px;text-align:center;border-right:1px solid var(--line)}
-.spec div:last-child{border-right:none}
-.spec b{display:block;font-size:9.5px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--slate)}
-.spec span{font-size:14.5px;font-weight:800;font-variant-numeric:tabular-nums;color:var(--cyan)}
-.card-bottom{display:flex;align-items:center;gap:12px;padding:13px 16px}
-.price{font-variant-numeric:tabular-nums}
-.price b{font-size:21px;font-weight:800}
-.price small{display:block;color:var(--slate);font-size:11px;font-weight:500}
+body{background:var(--night);color:var(--ice);font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;font-size:15px;line-height:1.5;-webkit-font-smoothing:antialiased;padding:22px 14px 40px}
+.wrap{max-width:760px;margin:0 auto}
+h1{font-size:clamp(26px,5.5vw,36px);font-weight:800;letter-spacing:-.02em;line-height:1.1;margin:0 0 8px}
+.sub{color:var(--slate);max-width:60ch;margin:0 0 22px}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:22px}
+.tabs{display:flex;gap:6px;margin:0 0 18px;background:var(--field);border:1px solid var(--line);border-radius:12px;padding:4px}
+.tab{flex:1;border:0;background:transparent;color:var(--slate);font:600 14px/1 Inter,sans-serif;padding:12px 10px;border-radius:9px;cursor:pointer}
+.tab[aria-selected="true"]{background:var(--blue);color:#fff}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:560px){.grid{grid-template-columns:1fr}}
+.field label{display:block;font-size:13px;font-weight:600;color:var(--slate);margin:0 0 7px}
+select,input[type=text]{width:100%;height:50px;border-radius:10px;border:1px solid var(--line);background:var(--field);color:var(--ice);font:500 16px Inter,sans-serif;padding:0 14px;outline:none}
+select{appearance:none;-webkit-appearance:none;padding-right:40px;cursor:pointer;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='9' viewBox='0 0 14 9'%3E%3Cpath d='M1 1l6 6 6-6' stroke='%238A97A8' stroke-width='2' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 15px center}
+select:disabled{opacity:.45;cursor:not-allowed}
+select:focus,input:focus{border-color:var(--blue);box-shadow:0 0 0 3px rgba(46,139,255,.25)}
+.hidden{display:none!important}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;height:50px;padding:0 20px;border-radius:12px;border:0;font:700 16px Inter,sans-serif;text-decoration:none;cursor:pointer}
+.btn-blue{background:var(--blue);color:#fff}.btn-blue:hover{background:var(--blue-dark)}
+.btn-line{background:transparent;color:var(--ice);border:1px solid var(--line2)}.btn-line:hover{border-color:var(--cyan)}
+.btn:disabled{opacity:.4;cursor:not-allowed}
+.btn:focus-visible,.tab:focus-visible{outline:2px solid var(--cyan);outline-offset:2px}
+.search-row{margin-top:16px}
+.search-row .btn{width:100%}
+.partrow{display:flex;gap:10px}
+.partrow input{flex:1;text-transform:uppercase}
+.partrow .btn{flex:0 0 auto}
+.hint{color:var(--slate);font-size:13px;margin-top:8px}
+#results{margin-top:22px}
+.rhead{display:flex;justify-content:space-between;align-items:baseline;gap:12px;margin:0 0 12px}
+.rhead h2{font-size:20px;font-weight:800;letter-spacing:-.01em}
+.rhead span{color:var(--slate);font-size:13px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:20px;margin:0 0 14px}
+.card.pick{border-color:var(--blue);box-shadow:0 0 0 1px var(--blue) inset}
+.pickline{font-size:13px;font-weight:700;color:var(--cyan);margin:0 0 12px}
+.ctop{display:flex;gap:16px;align-items:flex-start}
+.pimg{flex:0 0 88px;height:88px;border-radius:12px;background:var(--field);border:1px solid var(--line);display:flex;align-items:center;justify-content:center;overflow:hidden}
+.pimg img{width:100%;height:100%;object-fit:contain}
+.pname{font-size:21px;font-weight:800;letter-spacing:-.01em;line-height:1.15}
+.ptype{color:var(--slate);font-size:14px;margin-top:3px}
+.fits{color:var(--green);font-size:14px;font-weight:600;margin-top:6px}
+.spec{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:12px;overflow:hidden;margin:16px 0}
+@media(max-width:560px){.spec{grid-template-columns:repeat(2,1fr)}}
+.spec div{background:var(--field);padding:10px 12px}
+.spec b{display:block;font-size:12px;font-weight:600;color:var(--slate)}
+.spec span{font-size:15px;font-weight:700}
+.notes{list-style:none;margin:0 0 16px;padding:0}
+.notes li{position:relative;padding-left:18px;margin:0 0 6px;font-size:14px;color:var(--ice)}
+.notes li::before{content:"";position:absolute;left:0;top:8px;width:7px;height:7px;border-radius:50%;background:var(--cyan)}
+.notes li.warn::before{background:var(--amber)}
+.pnote{font-size:13.5px;color:var(--slate);line-height:1.5;margin:0 0 14px;padding:12px 14px;background:var(--field);border:1px solid var(--line);border-radius:10px}
+.pnote b{color:var(--ice)}
+.cbottom{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.price b{font-size:30px;font-weight:800;letter-spacing:-.02em;line-height:1}
+.price small{display:block;color:var(--slate);font-size:12.5px;margin-top:4px}
 .spacer{flex:1}
-.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border-radius:10px;
-  font:700 13.5px 'Inter';padding:11px 16px;text-decoration:none;cursor:pointer;border:none;white-space:nowrap}
-.btn-blue{background:var(--blue);color:#fff}
-.btn-blue:hover{background:#4499ff}
-.btn-ghost{background:none;border:1px solid var(--line2);color:var(--cyan)}
-.btn-ghost:hover{border-color:var(--cyan)}
-/* call-us card */
-.callus{background:var(--panel);border:1px dashed var(--line2);border-radius:14px;padding:22px 18px;text-align:center}
-.callus h3{font-size:17px;font-weight:800;margin-bottom:6px}
-.callus p{color:var(--slate);font-size:13.5px;max-width:42ch;margin:0 auto 14px}
-/* results heading */
-.rhead{display:flex;align-items:baseline;gap:10px;margin:0 0 12px}
-.rhead h2{font-size:14px;font-weight:800;letter-spacing:.02em}
-.rhead span{color:var(--slate);font-size:12px}
-/* ---------- sticky call bar ---------- */
-.callbar{
-  position:fixed;left:0;right:0;bottom:0;z-index:50;
-  background:rgba(7,9,13,.92);backdrop-filter:blur(10px);
-  border-top:1px solid var(--line);padding:12px 14px calc(12px + env(safe-area-inset-bottom));
-}
-.callbar-in{max-width:720px;margin:0 auto;display:flex;align-items:center;gap:12px}
-.callbar p{font-size:12px;color:var(--slate);line-height:1.35}
-.callbar p b{color:var(--ice);font-size:13px;display:block}
-.foot{margin-top:26px;color:var(--slate);font-size:11.5px;line-height:1.6}
-.yrbar{grid-column:1/-1;display:flex;align-items:center;gap:10px;margin:2px 0 10px}
-.yrbar label{font-size:.85rem;opacity:.75}
-.yrbar select{background:#12151c;color:#fff;border:1px solid #2a2f3a;border-radius:8px;padding:8px 12px;font-size:16px}
-.noyr{grid-column:1/-1;opacity:.75;font-size:.92rem;padding:6px 2px}
+@media(max-width:560px){.cbottom .btn{flex:1 1 100%}}
+.alts{margin:4px 0 14px}
+.alts p{color:var(--slate);font-size:13px;margin:0 0 8px}
+.chip{display:inline-block;border:1px solid var(--line2);background:var(--field);color:var(--ice);border-radius:999px;padding:7px 13px;margin:0 6px 8px 0;font:600 13px Inter,sans-serif;cursor:pointer}
+.chip:hover{border-color:var(--cyan)}
+.callus{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--amber);border-radius:16px;padding:20px}
+.callus h3{font-size:18px;font-weight:800;margin:0 0 6px}
+.callus p{color:var(--slate);margin:0 0 14px}
+.foot{color:var(--slate);font-size:12.5px;margin-top:22px;line-height:1.6}
+.loading{color:var(--slate);font-size:14px;margin-top:10px}
+@media (prefers-reduced-motion:no-preference){.card{animation:rise .25s ease-out}@keyframes rise{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}}
 </style>
 </head>
 <body>
 <div class="wrap">
-  <p class="eyebrow">Battery Finder</p>
-  <h1>Find the right battery,<br>delivered &amp; fitted.</h1>
-  <p class="sub">Pick your vehicle below. Every result is stocked by The Battery People and fitted at your driveway or workplace, across Melbourne's south-east.</p>
+  <h1>Find the right battery for your car</h1>
+  <p class="sub">Choose your vehicle and press Search, or look up a battery by part number. Every battery shown is in stock at our Hallam store and can be fitted at your home or work.</p>
 
-  <div class="search">
-    <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
-    <input id="q" type="search" placeholder="Search make or model — e.g. Ranger, Jolion, Atto 3" autocomplete="off">
+  <div class="panel">
+    <div class="tabs" role="tablist">
+      <button class="tab" role="tab" id="tab-veh" aria-selected="true">Search by vehicle</button>
+      <button class="tab" role="tab" id="tab-part" aria-selected="false">Search by part number</button>
+    </div>
+
+    <div id="pane-veh">
+      <div class="grid">
+        <div class="field"><label for="make">Make</label><select id="make" disabled><option value="">Loading makes…</option></select></div>
+        <div class="field"><label for="model">Model</label><select id="model" disabled><option value="">Model</option></select></div>
+        <div class="field"><label for="year">Year</label><select id="year"><option value="">Year (optional)</option></select></div>
+        <div class="field"><label for="fuel">Fuel type</label><select id="fuel"><option value="">Fuel type (optional)</option></select></div>
+      </div>
+      <div class="field hidden search-row" id="variantWrap"><label for="variant">Engine / variant</label><select id="variant"></select></div>
+      <div class="search-row"><button class="btn btn-blue" id="goVeh" disabled>Search</button></div>
+    </div>
+
+    <div id="pane-part" class="hidden">
+      <div class="field"><label for="part">Part number</label>
+        <div class="partrow"><input type="text" id="part" placeholder="e.g. NS60, DIN66H, 55D23" autocomplete="off" spellcheck="false"><button class="btn btn-blue" id="goPart">Search</button></div>
+      </div>
+      <p class="hint">Type all or part of the battery code from your current battery's label.</p>
+    </div>
   </div>
 
-  <div class="steps" id="steps"></div>
-  <div id="plate"></div>
-  <div id="flags"></div>
-  <div class="options" id="opts"></div>
-  <div id="results"></div>
+  <div id="results" aria-live="polite"></div>
 
-  <p class="foot">Prices shown are battery-only, inc. GST. Delivery &amp; fitting quoted on booking — most jobs same-day within 50&nbsp;km of Hallam. Private passenger warranty 24&nbsp;months; commercial and specialty terms differ. If your vehicle isn't listed or shows no match, call us — we cross-reference on the spot.</p>
+  <p class="foot">Prices shown are delivered and fitted prices including GST, within 35 km of our Hallam store. Request a quote and we’ll confirm your price, often lower than shown. Fitting in store at Hallam is free. Battery registration is always included where your car needs it. Warranty for car and truck batteries is 24 months private use; commercial use terms differ. If your car isn't listed, call us on 0468 047 774 and we'll match it from your rego.</p>
 </div>
 
-<div class="callbar"><div class="callbar-in">
-  <p><b>Not sure? We'll match it by rego.</b>Mon–Sat · Hallam VIC</p>
-  <span class="spacer"></span>
-  <a class="btn btn-blue" href="tel:0422105545">
-    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.13.97.36 1.9.7 2.8a2 2 0 0 1-.45 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.25a2 2 0 0 1 2.1-.45c.9.34 1.83.57 2.8.7A2 2 0 0 1 22 16.9z"/></svg>
-    Call 0422 105 545</a>
-</div></div>
-
-<script src="battery-finder-data.js?v=2026-07-15-4"></script>
-<script src="rrp-overrides.js?v=2026-07-16-1"></script>
-<script src="neuton-second-line.js?v=2026-08-11-2"></script>
+<script src="battery-finder-data.js?v=2026-09-28"></script>
+<script src="tbp-core.js?v=2026-09-28"></script>
 <script>
 (function(){
-  const DATA = (window.BATTERY_FINDER_DATA && window.BATTERY_FINDER_DATA.fitments) || [];
-  const $ = id => document.getElementById(id);
-  const state = {make:null, model:null, variant:null, q:'', year:''};
-  // Cross-page handoff: home-page compact mode -> Battery Finder page (same-origin iframes share localStorage)
-  const P=new URLSearchParams(location.search);
-  const HOME=P.get('home')==='1', TARGET=P.get('target')||'';
-  if(P.get('make')) state.make=P.get('make').toUpperCase();
-  if(P.get('model')) state.model=P.get('model').toUpperCase();
-  if(!HOME){ try{ const h=JSON.parse(localStorage.getItem('bf_handoff')||'null');
-    if(h && Date.now()-h.t<60000){ state.make=h.m; state.model=h.o; }
-    localStorage.removeItem('bf_handoff'); }catch(e){} }
+  /* Where "Get a price and book" sends people: the quote form on the website. */
+  var QUOTE_URL = 'https://www.thebatterypeople.com.au/#quote';
+  var PHONE = '0468 047 774', TEL = 'tel:0468047774';
 
-  const uniq = a => [...new Set(a)];
-  const byMake = m => DATA.filter(f => f.make === m);
-  const byModel = (m,mo) => byMake(m).filter(f => f.model === mo);
-  const vlabel = f => [f.engineTrim, f.series, f.yearRange].filter(Boolean).join(' · ') || f.yearRange;
+  var $ = function(id){ return document.getElementById(id); };
+  var D = TBP.normalize((window.BATTERY_FINDER_DATA && window.BATTERY_FINDER_DATA.fitments) || []);
+  var CORE = TBP.CORE;
+  var uniq = function(a){ return a.filter(function(v,i){ return v && a.indexOf(v)===i; }); };
+  var esc = function(s){ return String(s==null?'':s).replace(/[&<>"]/g,function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); };
+  function title(s){ return String(s).toLowerCase().replace(/\b\w/g,function(c){ return c.toUpperCase(); }); }
+  function fill(sel, items, ph){ sel.innerHTML = '<option value="">'+ph+'</option>' + items.map(function(v){ var val=typeof v==='string'?v:v.v, t=typeof v==='string'?v:v.t; return '<option value="'+esc(val)+'">'+esc(t)+'</option>'; }).join(''); }
 
-  function render(){
-    if(HOME && TARGET && state.make && state.model){
-      try{ localStorage.setItem('bf_handoff', JSON.stringify({m:state.make,o:state.model,t:Date.now()})); }catch(e){}
-      window.top.location.href = TARGET; return;
-    }
-    renderSteps(); renderPlate(); renderOptions(); renderResults();
+  /* ---------- tabs ---------- */
+  function tab(which){
+    var veh = which==='veh';
+    $('tab-veh').setAttribute('aria-selected', veh); $('tab-part').setAttribute('aria-selected', !veh);
+    $('pane-veh').classList.toggle('hidden', !veh); $('pane-part').classList.toggle('hidden', veh);
+    $('results').innerHTML='';
+    if(!veh) $('part').focus();
+  }
+  $('tab-veh').onclick = function(){ tab('veh'); };
+  $('tab-part').onclick = function(){ tab('part'); };
+
+  /* ---------- vehicle dropdowns (same filtering as the quote tool) ---------- */
+  var FUELS = ['Petrol','Diesel','Hybrid','Plug-in hybrid','Electric','Not sure'];
+  function fuelOf(f){
+    var t=(f.fuel||'')+' '+(f.engineTrim||'');
+    if(/PHEV|plug-?in/i.test(t)) return 'Plug-in hybrid';
+    if(/\bEV\b|electric/i.test(t)) return 'Electric';
+    if(/hybrid/i.test(t)) return 'Hybrid';
+    if(/diesel|\bTDI\b|\bCRD\b|\bdCi\b|\bHDi\b/i.test(t)) return 'Diesel';
+    if(/petrol|\bTSI\b|\bTFSI\b|\bMPI\b|\bGDI\b/i.test(t)) return 'Petrol';
+    return '';
+  }
+  function vlabel(f){ return [f.engineTrim||f.series||'All variants', f.yearRange, f.fuel].filter(Boolean).join(' - '); }
+  var years=[]; for(var y=new Date().getFullYear()+1;y>=1960;y--) years.push(String(y));
+  fill($('year'), years, 'Year (optional)');
+  fill($('fuel'), FUELS, 'Fuel type (optional)');
+  var makes = uniq(D.filter(function(f){ return /[A-Z]/i.test(f.make) && !/^\d/.test(f.make); }).map(function(f){ return f.make; })).sort();
+  fill($('make'), makes.map(function(m){ return {v:m,t:title(m)}; }), 'Make'); $('make').disabled=false;
+
+  function candidates(){
+    var mk=$('make').value, mo=$('model').value, yr=+$('year').value, fu=$('fuel').value;
+    var c = D.filter(function(f){ return f.make===mk && f.model===mo; });
+    if(yr){ var cy=c.filter(function(f){ return (f.yearFrom||0)<=yr && yr<=(f.yearTo||9999); }); if(cy.length) c=cy; }
+    if(fu && fu!=='Not sure'){ var cf=c.filter(function(f){ var x=fuelOf(f); return !x || x===fu; }); if(cf.length) c=cf; }
+    return TBP.prefer(c);
+  }
+  function refreshVariant(){
+    var c = ($('make').value && $('model').value) ? candidates() : [];
+    var labels = uniq(c.map(vlabel));
+    if(labels.length>1){ fill($('variant'), labels, 'Not sure, show the most common fit'); $('variantWrap').classList.remove('hidden'); }
+    else { $('variantWrap').classList.add('hidden'); $('variant').innerHTML=''; }
+    $('goVeh').disabled = !($('make').value && $('model').value);
+    $('results').innerHTML='';
+  }
+  $('make').onchange = function(){
+    var mk=this.value;
+    fill($('model'), uniq(D.filter(function(f){ return f.make===mk; }).map(function(f){ return f.model; })).sort().map(function(m){ return {v:m,t:title(m)}; }), 'Model');
+    $('model').disabled = !mk; refreshVariant();
+  };
+  ['model','year','fuel'].forEach(function(id){ $(id).onchange = refreshVariant; });
+  $('variant').onchange = function(){ $('results').innerHTML=''; };
+
+  /* ---------- result card ---------- */
+  var TYPE = {SMF:'Standard sealed battery (SMF)', EFB:'EFB stop-start battery', AGM:'AGM stop-start battery'};
+  var GLYPH = '<svg viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="#8A97A8" stroke-width="1.6" aria-hidden="true"><rect x="3" y="7" width="18" height="12" rx="2"/><path d="M7 7V5h3v2M14 7V5h3v2M8 13h3M15 11.5v3M13.5 13h3"/></svg>';
+  function card(sku, o){
+    o = o || {};
+    var p = CORE[sku], dims = (p.dims||'').replace(/\s*x\s*/g,' × ');
+    var notes = [];
+    if(p.type!=='SMF') notes.push({t:'Built for stop-start engines. Never replace with a standard battery.'});
+    if(p.type!=='SMF' || o.stopStart) notes.push({t:'Battery registration to your car is included free when needed.'});
+    if(o.stopStart && p.type==='SMF') notes.push({t:'Your car may have stop-start. We will confirm the right battery when we call.', warn:1});
+        var img = p.img ? '<img src="'+esc(p.img)+'" alt="" loading="lazy" onerror="this.parentNode.innerHTML=window.TBP_GLYPH">' : GLYPH;
+    return '<div class="card'+(o.pick?' pick':'')+'">'
+      + (o.pick ? '<p class="pickline">Our recommended battery for your '+esc(o.vehicle)+'</p>' : '')
+      + '<div class="ctop"><div class="pimg">'+img+'</div><div>'
+      +   '<p class="pname">Power Crank '+esc(sku)+'</p>'
+      +   '<p class="ptype">'+TYPE[p.type]+(p.seg==='Truck'?', heavy duty':'')+'</p>'
+      +   (o.vehicle && !o.pick ? '<p class="fits">Fits your '+esc(o.vehicle)+'</p>' : '')
+      + '</div></div>'
+      + '<div class="spec">'
+      +   '<div><b>Cold cranking amps</b><span>'+(p.cca?esc(p.cca)+' CCA':'On request')+'</span></div>'
+      +   '<div><b>Reserve capacity</b><span>'+(p.rc?esc(p.rc)+' min':'On request')+'</span></div>'
+      +   '<div><b>Size (L × W × H)</b><span>'+(dims?esc(dims)+' mm':'On request')+'</span></div>'
+      +   '<div><b>Warranty</b><span>'+(p.w?esc(p.w.replace(/\s*\(conditions apply\)/,'')):'24 months')+'</span></div>'
+      + '</div>'
+      + '<ul class="notes">'+notes.map(function(n){ return '<li'+(n.warn?' class="warn"':'')+'>'+n.t+'</li>'; }).join('')+'</ul>'
+      + '<p class="pnote"><b>Delivered and fitted price, inc GST.</b> Includes delivery within 35 km of Hallam, fitting, testing and taking your old battery away. Request a quote and we\u2019ll confirm your price, often lower than shown. Fitting at our Hallam store is free.</p>'
+      + '<div class="cbottom"><div class="price"><b>$'+TBP.shown(sku)+'</b><small>Delivered and fitted, inc GST</small></div><span class="spacer"></span>'
+      +   '<a class="btn btn-line" href="'+TEL+'">Call '+PHONE+'</a>'
+      +   '<a class="btn btn-blue" href="'+QUOTE_URL+'" target="_top">Get a price and book</a>'
+      + '</div></div>';
+  }
+  window.TBP_GLYPH = GLYPH;
+  function callUs(h, p){
+    return '<div class="callus"><h3>'+h+'</h3><p>'+p+'</p><a class="btn btn-blue" href="'+TEL+'">Call '+PHONE+'</a></div>';
   }
 
-  function renderSteps(){
-    const s = [['Make',state.make],['Model',state.model],['Variant',state.variant?vshort(state.variant):null]];
-    $('steps').innerHTML = s.map(([label,val],i)=>{
-      const cls = val ? 'done' : (isCurrent(i) ? 'active' : '');
-      return `<button class="step ${cls}" data-i="${i}">${val?val:label}</button>`;
-    }).join('');
-    $('steps').querySelectorAll('.step').forEach(el=>{
-      el.onclick = () => { const i = +el.dataset.i;
-        if(i===0){state.make=null;state.model=null;state.variant=null;state.year='';}
-        if(i===1){state.model=null;state.variant=null;state.year='';}
-        if(i===2){state.variant=null;}
-        state.q=''; $('q').value=''; render(); };
-    });
-  }
-  const isCurrent = i => (i===0&&!state.make)||(i===1&&state.make&&!state.model)||(i===2&&state.model&&!state.variant);
-  const vshort = f => (f.engineTrim||f.series||f.yearRange).toString().slice(0,22);
-
-  function renderPlate(){
-    const p = $('plate');
-    if(!state.variant){ p.innerHTML=''; return; }
-    const f = state.variant;
-    p.innerHTML = `<div class="plate stamp">
-      <p class="eyebrow">Fitment plate</p>
-      <button class="reset" id="resetBtn">Change vehicle</button>
-      <div class="plate-row">
-        <div class="pf"><b>Make</b><span>${f.make}</span></div>
-        <div class="pf"><b>Model</b><span>${f.model}</span></div>
-        ${f.engineTrim?`<div class="pf"><b>Engine</b><span>${f.engineTrim}</span></div>`:''}
-        <div class="pf"><b>Years</b><span>${f.yearRange}</span></div>
-        ${f.fuel?`<div class="pf"><b>Fuel</b><span>${f.fuel}</span></div>`:''}
-      </div></div>`;
-    $('resetBtn').onclick = ()=>{ state.make=state.model=state.variant=null; state.year=''; render(); };
-  }
-
-  function renderOptions(){
-    const o = $('opts'); const q = state.q.trim().toLowerCase();
-    if(state.variant){ o.innerHTML=''; return; }
-
-    if(q){ // global type-ahead across make+model
-      const hits = uniq(DATA.filter(f => (f.make+' '+f.model).toLowerCase().includes(q))
-        .map(f => f.make+'||'+f.model)).slice(0,24);
-      o.innerHTML = hits.map(h=>{const [mk,mo]=h.split('||');
-        return `<button class="opt" data-mk="${esc(mk)}" data-mo="${esc(mo)}">${mo}<small>${mk}</small></button>`;}).join('')
-        || `<button class="opt" disabled>No match — try the call button below</button>`;
-      o.querySelectorAll('.opt[data-mk]').forEach(el=>el.onclick=()=>{
-        state.make=el.dataset.mk; state.model=el.dataset.mo; state.q=''; $('q').value='';
-        autoVariant(); render();});
+  /* ---------- vehicle search ---------- */
+  $('goVeh').onclick = function(){
+    var c = candidates();
+    var v = $('variant').value; if(v) c = c.filter(function(f){ return vlabel(f)===v; });
+    var vehicle = [$('year').value, title($('make').value), title($('model').value)].filter(Boolean).join(' ');
+    var yr = +$('year').value || 0;
+    var r = v ? TBP.best(c, yr) : TBP.bestMixed(c, vlabel, yr);
+    if(!r.best){
+      $('results').innerHTML = callUs('We fit this vehicle. Let\u2019s confirm the exact battery.', 'This one needs a quick check against your rego. Call us and we\u2019ll match it on the spot, or send a quote request and we\u2019ll call you back.');
       return;
     }
-    if(!state.make){
-      o.innerHTML = uniq(DATA.map(f=>f.make)).sort().map(m=>
-        `<button class="opt" data-v="${esc(m)}">${m}</button>`).join('');
-      bind(o, v=>{state.make=v;});
-    } else if(!state.model){
-      o.innerHTML = uniq(byMake(state.make).map(f=>f.model)).sort().map(m=>
-        `<button class="opt" data-v="${esc(m)}">${m}</button>`).join('');
-      bind(o, v=>{state.model=v; autoVariant();});
-    } else {
-      const vs0 = byModel(state.make,state.model);
-      const vs = state.year ? vs0.filter(f=>(f.yearFrom||0)<=+state.year && +state.year<=(f.yearTo||9999)) : vs0;
-      const nowY = new Date().getFullYear();
-      let yopts='<option value="">All years</option>';
-      for(let y=nowY;y>=1960;y--) yopts+=`<option value="${y}"${state.year==y?' selected':''}>${y}</option>`;
-      o.innerHTML = `<div class="yrbar"><label for="yr">Year of manufacture</label><select id="yr">${yopts}</select></div>`
-        + (vs.length ? vs.map((f,i)=>
-        `<button class="opt" data-v="${i}">${f.engineTrim||f.series||'All variants'}<small>${f.yearRange}${f.fuel?' · '+f.fuel:''}</small></button>`).join('')
-        : `<p class="noyr">No fitment listed for that year — try "All years" or give us a call.</p>`);
-      $('yr').onchange = e=>{ state.year=e.target.value; render(); };
-      o.querySelectorAll('.opt').forEach(el=>el.onclick=()=>{state.variant=vs[+el.dataset.v]; render();});
+    var html = '<div class="rhead"><h2>Your battery</h2><span>'+esc(vehicle)+'</span></div>' + card(r.best.sku, {pick:1, vehicle:vehicle, stopStart:r.stopStart});
+    if(r.alts.length){
+      html += '<div class="alts"><p>Other batteries that also fit</p>' + r.alts.map(function(a){ return '<button class="chip" data-sku="'+esc(a.sku)+'">'+esc(a.sku)+'  $'+TBP.shown(a.sku)+'</button>'; }).join('') + '</div><div id="altcard"></div>';
     }
+    $('results').innerHTML = html;
+    [].forEach.call($('results').querySelectorAll('.chip'), function(b){ b.onclick = function(){ $('altcard').innerHTML = card(b.dataset.sku, {vehicle:vehicle, stopStart:r.stopStart}); }; });
+    $('results').scrollIntoView({behavior:'smooth', block:'start'});
+  };
+
+  /* ---------- part number search ---------- */
+  function norm(s){ return String(s||'').toUpperCase().replace(/[^A-Z0-9]/g,''); }
+  function partSearch(){
+    var q = norm($('part').value);
+    if(!q){ $('results').innerHTML=''; return; }
+    var hits = Object.keys(CORE).filter(function(k){ return norm(k).indexOf(q)>=0; });
+    var sw = TBP.SWAP[$('part').value.toUpperCase().trim()];
+    if(sw && hits.indexOf(sw)<0) hits.unshift(sw);
+    hits.sort(function(a,b){ return TBP.shown(a)-TBP.shown(b); });
+    $('results').innerHTML = hits.length
+      ? '<div class="rhead"><h2>'+hits.length+' battery'+(hits.length>1?' matches':' match')+'</h2><span>Searched "'+esc($('part').value)+'"</span></div>' + hits.map(function(k){ return card(k); }).join('')
+      : callUs('No battery with that part number', 'Check the code on your battery\u2019s label, try fewer characters (for example NS60), or call us and we\u2019ll find it for you.');
   }
-  function bind(o, set){ o.querySelectorAll('.opt').forEach(el=>el.onclick=()=>{set(el.dataset.v); render();}); }
-  function autoVariant(){ const vs=byModel(state.make,state.model); if(vs.length===1) state.variant=vs[0]; }
-  const esc = s => String(s).replace(/"/g,'&quot;');
-
-  function renderResults(){
-    const r = $('results'); const fl = $('flags');
-    if(!state.variant){ r.innerHTML=''; fl.innerHTML=''; return; }
-    const f = state.variant;
-    const needsSS = f.stopStart==='Y' || /EFB|AGM/i.test(f.batteryType||'');
-    fl.innerHTML = needsSS ? `<div class="flag ss">⚡ Stop-start / auxiliary system — this vehicle needs ${/AGM/i.test(f.batteryType)?'an AGM':'an EFB or better'} battery. Never downgrade to a standard battery.</div>` : '';
-
-    const opts = (f.brandOptions||[]);
-    if(!opts.length){
-      r.innerHTML = `<div class="callus">
-        <h3>We fit this vehicle — let's confirm the exact battery</h3>
-        <p>This fitment needs a quick cross-check${/Li-ion/i.test(f.batteryType||'')?' (factory lithium auxiliary — dealer-supplied item)':''}. Call with your rego and we'll match it on the spot.</p>
-        <a class="btn btn-blue" href="tel:0422105545">Call 0422 105 545</a></div>`;
-      return;
-    }
-    const brands = [...new Set(opts.map(b=>b.brand||'Power Crank'))].join(' · ');
-    r.innerHTML = `<div class="rhead"><h2>Matched batteries</h2><span>${opts.length} in range · ${brands}</span></div>` +
-      opts.map(b=>{
-        const img = b.imageUrl ? `<img src="${b.imageUrl}" alt="" loading="lazy" onerror="this.parentNode.innerHTML=glyph()">`
-                              : `<svg viewBox="0 0 24 24" fill="none" stroke-width="1.6"><rect x="3" y="7" width="18" height="12" rx="2"/><path d="M7 7V5h3v2M14 7V5h3v2M12 10v6M9 13h6"/></svg>`;
-        const dims = (b.dimensions||'').split('x').join('×');
-        return `<div class="card">
-          <div class="card-top">
-            <div class="pimg">${img}</div>
-            <div><p class="pname">${b.name||b.sku}</p>
-              <p class="pfit"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg>Fits your ${f.model}${b.brand&&b.brand!=='Power Crank'?' · '+b.brand:''}</p></div>
-          </div>
-          <div class="spec">
-            ${b.cca?`<div><b>CCA</b><span>${b.cca}</span></div>`:''}
-            ${b.ah?`<div><b>Ah</b><span>${b.ah}</span></div>`:''}
-            <div><b>Size</b><span>${b.sku}</span></div>
-            ${dims?`<div><b>L×W×H</b><span style="font-size:11.5px">${dims}</span></div>`:''}
-          </div>
-          <div class="card-bottom">
-            <div class="price"><b>$${b.price?Number(b.price).toFixed(0):'—'}</b><small>battery inc. GST</small></div>
-            <span class="spacer"></span>
-            ${b.url?`<a class="btn btn-ghost" href="${b.url}" target="_top">Shop</a>`:`<a class="btn btn-ghost" href="tel:0422105545">Call to order</a>`}
-            <a class="btn btn-blue" href="tel:0422105545">Book fitting</a>
-          </div></div>`;
-      }).join('');
-  }
-  window.glyph = () => `<svg viewBox="0 0 24 24" fill="none" stroke="#8A97A8" stroke-width="1.6" style="width:34px;height:34px"><rect x="3" y="7" width="18" height="12" rx="2"/><path d="M7 7V5h3v2M14 7V5h3v2M12 10v6M9 13h6"/></svg>`;
-
-  $('q').addEventListener('input', e=>{ state.q=e.target.value; if(state.q){state.make=state.model=state.variant=null;} render(); });
-  render();
+  $('goPart').onclick = partSearch;
+  $('part').addEventListener('keydown', function(e){ if(e.key==='Enter') partSearch(); });
 })();
 </script>
 </body>
